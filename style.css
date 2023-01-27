@@ -1,0 +1,205 @@
+.navbar {
+	background-color: black;
+	height: 75px;
+}
+
+.navbar-nav {
+	align-items: center;
+}
+
+.navbar__logo {
+	display: block;
+	max-width: 90px;
+	width: 100%;
+}
+
+.navbar__logoImg {
+	display: block;
+	width: 100%;
+}
+
+.navbar-brand {
+	position: absolute;
+	left: 50px;
+	top: 16px;
+	font-size:15px;
+	font-weight:bold;
+}
+
+.navbar__wrapper {
+	position: fixed;
+	display: flex;
+	width: 100%;
+	padding: 0 3rem !important;
+	background-color: black;
+	z-index: 1000;
+}
+
+.navbar-nav .socialIcons {
+	display: flex;
+	align-items: center;
+	padding: 0;
+}
+
+.navbar-nav .socialIcons__icon {
+	color: white;
+}
+
+.navbar-toggle {
+	z-index:3;
+}
+.nadpis {
+	padding-left:100px;
+	padding-bottom:10px;
+}
+.nadpis2 {
+	padding-left:100px;
+}
+.text-kontakt {
+	font-size:10px;
+	text-align:left;
+}
+.ikona {
+	padding-right:10px;
+	color:white;
+}
+.menu {
+	padding-right:20px;
+	font-weight:bold;
+	font-size:13px;
+	padding-top: 7px;
+	padding-bottom: 10px;
+}
+.image-fixed {
+	position: relative;
+	bottom: 1050px;
+	width:100%;
+}
+a {
+	z-index:9999;
+	color: black;
+	text-decoration: none;
+}
+a:hover {
+	color: black;
+	text-decoration: none;
+}
+.fonter {
+	z-index:9999;
+	color: white;
+	text-decoration: none;
+}
+
+/* ------- RFC ------- */
+
+/* Parners */
+.partners {
+	padding: 3rem 0;
+	background-color: #FFFF00;
+}
+
+.partners__wrapper {
+	max-width: 1500px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.partners__wrapper h2 {
+	margin-bottom: 3rem;
+	text-align: center;
+	color: black;
+	font-size: 1.5rem;
+}
+
+.partners__row {
+	display: flex;
+	justify-content: flex-start;
+	flex-flow: row wrap;
+	margin-bottom: 3rem;
+}
+
+.partners__row.partners__row--center {
+	align-items: center;
+}
+
+.partners__col {
+	margin: 1rem 2rem;
+}
+
+.partners__logos {
+	display: flex;
+	align-items: center;
+	flex-flow: row wrap;
+}
+
+.partners__logos .logo--flag {
+	max-width: 200px;
+}
+
+.partners__logos a {
+	margin-right: 2rem;
+}
+
+@media screen and (max-width: 1500px) {
+	.partners__logos a {
+		margin-bottom: 1rem;
+	}
+}
+
+.partners__subheadline {
+	width: 100%;
+	display: block;
+	color: black;
+	font-weight: bold;
+	margin-bottom: 1rem;
+	min-height: 24px;
+}
+
+.logo {
+	display: block;
+}
+
+/* Footer social icons */
+.socialIcons {
+	padding: 20px 0;
+	background-color: black;
+}
+
+.socialIcons .socialIcons__icon {
+	color: white;
+	margin: 0 0.5rem;
+}
+
+.socialIcons .socialIcons__icon:hover {
+	color: white;
+}
+
+/* Footer contacts */
+.contact {
+	padding: 2rem;
+}
+
+.contact .contact__block {
+	font-weight: bold;
+}
+
+.footer {
+	padding: 0;
+}
+
+.footer .footer__wrapper {
+	position: relative;
+	padding: 0 3rem;
+}
+
+.footer .footer__copyright {
+	position: absolute;
+	color: white;
+	font-size: 0.8rem;
+	top: 50%; left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.text-left {
+    text-align: left;
+}
