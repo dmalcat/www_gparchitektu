@@ -1,0 +1,14 @@
+node_modules/
+grandprix/
+admin
+
+assets/dist/*
+assets/video/*
+assets/documents/
+assets/images/
+
+uploads/*
+files/
+img/
+loga/
+
