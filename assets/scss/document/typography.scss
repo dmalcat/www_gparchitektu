@@ -1,0 +1,65 @@
+@import '../config';
+@import '../core/breakpoints.scss';
+
+body {
+	font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+	font-size: 40px;
+	font-weight: bold;
+	margin-bottom: 3rem;
+	@include max940px {
+		margin-bottom: 1.5rem;	
+	}
+
+	@include max640px {
+		font-size: 32px;	
+	}
+}
+
+h2 {
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 1.5rem;
+	@include max640px {
+		font-size: 24px;
+	}
+}
+
+.subheader {
+	padding: 0;
+}
+
+.perex {
+	font-size: 1.1rem;
+}
+
+.link {
+	text-decoration: underline;
+}
+
+p {
+	font-family: 'Raleway', sans-serif;
+	@include max640px {
+		font-size: 14px;
+	}
+}
+
+a {
+	z-index: 9999;
+	color: #000;
+	text-decoration: none;
+    &:hover {
+        color: #000;
+	    text-decoration: none;
+    }
+}
+
+ul {
+	li {
+		@include max640px {
+			font-size: 14px;
+		}
+	}
+}

@@ -1,0 +1,38 @@
+.about {
+    .about__image {
+        display: block;
+        max-width: 1000px;
+        width: 100%;
+    }
+
+    .about__row {
+        display: flex;
+        @include max768px {
+            flex-direction: column;
+        }
+    }
+    
+    .about__col--img {
+        width: 60%;
+        padding-left: 5rem;
+        @include max768px {
+            width: 100%;
+            padding-left: 0;
+        }
+    }
+
+    .about__col--copy {
+        width: 40%;
+        @include max768px {
+            width: 100%;
+        }
+    }
+
+    .about__img {
+        width: 100%;
+        margin-top: 5rem;
+        @include max768px {
+            margin-top: 0;
+        }
+    }
+}

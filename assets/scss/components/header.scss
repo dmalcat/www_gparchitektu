@@ -1,0 +1,38 @@
+@import '../core/breakpoints';
+
+.header {
+    background-color: black;
+	height: 75px;
+    .header__logo {
+        display: block;
+        max-width: 90px;
+        width: 100%;
+    }
+    
+    .header__logoImg {
+        display: block;
+        width: 100%;
+    }
+    
+    .header__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1920px;
+        width: 100%;
+        padding: 0 3rem;
+        background-color: black;
+        @media screen and (max-width: 1400px) {
+            padding: 0 1rem;
+        }
+    }
+
+    .header__menu {
+        display: flex;
+        .socialIcons {
+            @include max480px {
+               display: none;
+            }
+        }
+    }
+}

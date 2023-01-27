@@ -1,0 +1,80 @@
+.hero {
+	position: relative;
+	padding: 0;
+	color: #FFFFFF;
+	.hero__image {
+		display: block;
+		width: 100%;
+		margin: 0 auto;
+		img {
+			width: 100%;
+		}
+	}
+	
+	.hero__slide {
+		position: relative;
+		display: block;
+		max-width: 1920px;
+		width: 100%;
+		margin: 0 auto;
+	}
+	
+	.hero__inner {
+		position: absolute;
+		display: block;
+		max-width: 1400px;
+		width: 100%;
+		margin: 0 auto;
+		left: 50%; top: 50%;
+		transform: translate(-50%, -50%);
+		padding: 0 1rem;
+		box-sizing: border-box;
+		@include max480px {
+			transform: translate(-50%, -60%);
+		}
+		h1 {
+			font-size: 60px;
+			@media screen and (max-width: 1200px) {
+				font-size: 45px;
+				margin-bottom: 2rem;
+			}
+
+			@include max768px {
+				font-size: 30px;
+			}
+
+			@include max640px {
+				margin-bottom: 1rem;
+			}
+
+			@include max480px {
+				font-size: 24px;
+				margin-bottom: 0.5rem;
+			}
+		}
+
+		p {
+			font-size: 24px;
+			margin-bottom: 40px;
+			br {
+				@include max640px {
+					display: none;
+				}
+			}
+
+			@media screen and (max-width: 1200px) {
+				font-size: 20px;
+				margin-bottom: 30px;
+			}
+
+			@include max640px {
+				font-size: 18px;
+				margin-bottom: 20px;
+			}
+
+			@include max480px {
+				font-size: 15px;
+			}
+		}
+	}
+}

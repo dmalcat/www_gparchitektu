@@ -1,0 +1,51 @@
+.articles {
+
+    .articles__item {
+        display: flex;
+        @include max940px {
+            flex-direction: column;
+        }
+
+    }
+
+    .articles__col {}
+
+    .articles__col--copy {
+        width: 40%;
+        padding-right: 2.5rem;
+        @include max940px {
+            width: 100%;    
+            margin-bottom: 2rem;
+            max-width: 640px;
+            width: 100%;
+            margin: 0 auto;
+        }
+    }
+
+    .articles__col--img {
+        width: 60%;
+        @include max940px {
+            width: 100%;
+        }
+    }
+
+    .articles__img {
+        display: block;
+        width: 100%;
+    }
+
+    .articles__img--mobile {
+        display: none;
+        margin-bottom: 2rem;
+        @include max940px {
+            display: block;
+        }
+    }
+
+    .articles__img--desktop {
+        display: block;
+        @include max940px {
+            display: none;
+        }
+    }
+}

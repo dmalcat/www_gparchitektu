@@ -1,0 +1,20 @@
+.socialIcons {
+	padding: 0;
+	background-color: black;
+    .socialIcons__list {
+        display: flex;  
+        align-items: center;
+        padding: 0;
+        list-style: none;
+        margin-bottom: 0;
+        height: 100%;
+    }
+    .socialIcons__icon {
+        color: white;
+        margin: 0 0.5rem;
+    }
+
+    .socialIcons__icon:hover {
+        color: white;
+    }
+}

@@ -1,0 +1,78 @@
+// Grid size
+$grid-max-width: 1170px;
+
+
+// Spaces
+$section-gutter: 170px;
+
+
+// Typography
+$base-font-size: 15px;
+$base-line-height: 2;
+
+$base-paragraph-size: 15px;
+
+$hero-font-size: 4.25rem;
+$h1-font-size: 48px;
+$h2-font-size: 36px;
+$h3-font-size: 30px;
+$h4-font-size: 1.6rem;
+
+$underlined-links: false;
+
+
+// Paths
+$fonts-path: '../../fonts/';
+$images-path: '../../images/';
+
+
+// Colors
+$white: #FFF;
+$black: #212121;
+
+$grey: #535353;
+$metal: #607D8B;
+$yellow: #FFC107;
+
+$base-text-color: $white;
+
+
+// Forms
+$form-group-gutter: 2rem;
+
+$form-input-padding-tops: 0.5rem;
+$form-input-padding-sides: 1rem;
+
+$form-input-border-radius: 0.5rem;
+$form-input-border-width: 1px;
+$form-input-border-color: $black;
+
+$form-input-text-size: $base-font-size;
+
+$form-input-background-color: transparent;
+$form-input-text-color: $black;
+
+
+// Common radius
+$base-radius: 0.5rem;
+$button-radius: 0;
+
+// Header
+$header-bg-color: $black;
+
+
+// Hamburger
+$hamburger-breakpoint: 1080px;
+
+$hamburger-label-color: $white;
+$hamburger-line-color: $white;
+
+$hamburger-overlay-color: rgba(0, 0, 0, 0.90);
+$hamburger-overlay-item-color: $white;
+
+$hamburger-line-width: 45px;
+$hamburger-line-height: 3px;
+$hamburger-line-radius: 2.5px;
+$hamburger-line-gap: 7px;
+
+$hamburger-height: ($hamburger-line-height * 3) + $hamburger-line-gap * 2;

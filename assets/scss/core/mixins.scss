@@ -1,0 +1,33 @@
+@import '../config';
+@import '../core/breakpoints';
+
+.separator {
+	background-color: $white;
+	margin: 90px 0 60px;
+	border: 1px;
+	height: 1px;
+}
+
+.list {
+	list-style: none;
+	padding-left: 35px;
+	@include max480px {
+		padding-left: 0;
+	}
+
+	li {
+		position: relative;
+		margin-bottom: 30px;
+		padding-left: 30px;
+
+		&:before {
+			content: '';
+			position: absolute;
+			display: block;
+			top: 15px;
+			left: 0;
+			width: 12px; height: 2px;
+			background-color: $yellow;
+		}
+	}
+}

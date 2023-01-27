@@ -1,0 +1,48 @@
+.contacts {
+	padding: 0 2rem;
+}
+
+.contact {
+	.contact__row {
+		display: flex;
+		justify-content: space-between;
+		gap: 1rem;
+		flex-flow: row wrap;
+		margin-bottom: 2rem;
+	}
+
+	.contact__col {
+		@include max768px {
+			width: 100%;
+		}
+	}
+
+	.contact__map {
+		width: 650px;
+		height: 285px;
+		@include max768px {
+			width: 100%;
+		}
+	}
+
+	.contact__wrap {
+		display: flex;
+		justify-content: space-between;
+		@include max640px {
+			flex-flow: row wrap;
+		}
+	}
+
+	.contact__legal {
+		margin: 2rem 0;
+	}
+	
+	.contact__block {
+		display: block;
+		min-width: 230px;
+		@include max640px {
+			font-size: 0.9rem;
+			min-width: auto;
+		}
+	}
+}

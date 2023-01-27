@@ -1,0 +1,56 @@
+.hp-news {
+	margin-bottom: 3rem;
+}
+
+.news {
+	.news__row {
+		display: flex;
+		justify-content: space-between;
+		flex-flow: row wrap;
+		.news__col {
+			width: 30%;
+			margin-bottom: 3rem;
+			@include max768px {
+				width: 40%;	
+			}
+
+			@include max640px {
+				width: 100%;
+			}
+
+			a {
+				&:hover {
+					.news__overlay {
+						opacity: 1;
+						transition: all ease-in-out .3s;
+					}
+				}
+			}
+		}
+
+		.news__image {
+			position: relative;
+			margin-bottom: 2rem;
+			img {
+				width: 100%;
+			}
+		}
+
+		.news__overlay {
+			position: absolute;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			opacity: 0;
+			background-color: rgba(0, 0, 0, 0.5)
+		}
+
+		h5 {
+			font-weight: bold;
+		}
+	}
+}
