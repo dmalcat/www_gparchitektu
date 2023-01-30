@@ -1,5 +1,8 @@
 <?php include ('config.php');?>
 
+<!DOCTYPE html>
+<html lang="cs">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="description" content="">
@@ -8,8 +11,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 	<title>Galerie | Grand Prix Architektů</title>
+
     <?php include('./components/head.php'); ?>
+</head>
 <body>
+
 <!-- Menu -->
 <?php include ('menu.php');?>
 
@@ -19,7 +25,7 @@
 			Porota v Praze
 		</h1>
 		
-		<a href="/grand-prix-architekt-2022/" class="gallery__back">< Zpět na detail ročníku</a>
+		<a href="<?php echo $baseurl ?>/grand-prix-architekt-2022/" class="gallery__back">< Zpět na detail ročníku</a>
 		
 		<div class="gallery__row">
 			<?php for($counter=1; $counter<28; $counter++) :?>
@@ -29,7 +35,7 @@
 			<?php endfor;?>
 		</div>
 
-		<a href="/grand-prix-architekt-2022/" class="gallery__back">< Zpět na detail ročníku</a>
+		<a href="<?php echo $baseurl ?>/grand-prix-architekt-2022/" class="gallery__back">< Zpět na detail ročníku</a>
 	</div>
 </section>
 
@@ -40,17 +46,8 @@
 
 <?php include('./components/partners/2022.php'); ?>
 
-<section id="kontakt" class="contacts">
-	<!-- kontakty -->
-
-	<?php include('kontakty.php'); ?>
+<section id="footer" class="footer">
+    <?php include('footer.php'); ?>
 </section>
 
-
-<section id="footer">
-	<!-- kontakty -->
-
-	<?php include('footer.php'); ?>
-</section>
-</body>
 

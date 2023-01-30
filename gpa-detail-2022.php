@@ -91,7 +91,7 @@
 				</div>
 			</div>
 			<div class="gpa__col">
-				<img class="gpa__logo" src="<?php echo $assetsPath ?>img/gpa-logo.png" alt="">
+				<img class="gpa__logo" src="<?php echo $baseurl ?>/img/gpa-logo.png" alt="">
 			</div>
 		</div>
 	</div>
@@ -107,7 +107,7 @@
 				<div class="gpa__row gpa__row--projects row">
 					<div class="gpa__col">
 						<div class="gpa__projectImg">
-							<img src="../assets/images/projects/2022/narodni-cena.png" alt="">
+							<img src="<?php echo $baseurl ?>/assets/images/projects/2022/narodni-cena.png" alt="">
 						</div>
 						<h3 class="gpa__projectName">Národní cena za&nbsp;architekturu 2022</h3>
 						<span class="gpa__projectDesc">
@@ -120,7 +120,7 @@
 					</div>
 					<div class="gpa__col">
 						<div class="gpa__projectImg">
-							<img src="../assets/images/projects/2022/celozivotni-dilo.png" alt="">
+							<img src="<?php echo $baseurl ?>/assets/images/projects/2022/celozivotni-dilo.png" alt="">
 						</div>
 						<h3 class="gpa__projectName">Cena za&nbsp;Celoživotní dílo</h3>
 						<span class="gpa__projectDesc">
@@ -131,7 +131,7 @@
 					</div>
 					<div class="gpa__col">
 						<div class="gpa__projectImg">
-							<img src="../assets/images/projects/2022/novostavba-1.png" alt="">
+							<img src="<?php echo $baseurl ?>/assets/images/projects/2022/novostavba-1.png" alt="">
 						</div>
 						<h3 class="gpa__projectName">Novostavba</h3>
 						<span class="gpa__projectDesc">
@@ -144,7 +144,7 @@
 					</div>
 					<div class="gpa__col">
 						<div class="gpa__projectImg">
-							<img src="../assets/images/projects/2022/novostavba-2.png" alt="">
+							<img src="<?php echo $baseurl ?>/assets/images/projects/2022/novostavba-2.png" alt="">
 						</div>
 						<h3 class="gpa__projectName">Novostavba</h3>
 						<span class="gpa__projectDesc">
@@ -157,7 +157,7 @@
 					</div>
 					<div class="gpa__col">
 						<div class="gpa__projectImg">
-							<img src="../assets/images/projects/2022/rekonstrukce.png" alt="">
+							<img src="<?php echo $baseurl ?>/assets/images/projects/2022/rekonstrukce.png" alt="">
 						</div>
 						<h3 class="gpa__projectName">Rekonstrukce</h3>
 						<span class="gpa__projectDesc">
@@ -169,7 +169,7 @@
 					</div>
 					<div class="gpa__col">
 						<div class="gpa__projectImg">
-							<img src="../assets/images/projects/2022/rodinny-dum.png" alt="">
+							<img src="<?php echo $baseurl ?>/assets/images/projects/2022/rodinny-dum.png" alt="">
 						</div>
 						<h3 class="gpa__projectName">Rodinný dům</h3>
 						<span class="gpa__projectDesc">
@@ -182,7 +182,7 @@
 					</div>
 					<div class="gpa__col">
 						<div class="gpa__projectImg">
-							<img src="../assets/images/projects/2022/krajinna-architektura.png" alt="">
+							<img src="<?php echo $baseurl ?>/assets/images/projects/2022/krajinna-architektura.png" alt="">
 						</div>
 						<h3 class="gpa__projectName">Krajinářská architektura</h3>
 						<span class="gpa__projectDesc">
@@ -195,7 +195,7 @@
 					</div>
 					<div class="gpa__col">
 						<div class="gpa__projectImg">
-							<img src="../assets/images/projects/2022/setrna-stavba.png" alt="">
+							<img src="<?php echo $baseurl ?>/assets/images/projects/2022/setrna-stavba.png" alt="">
 						</div>
 						<h3 class="gpa__projectName">Šetrná stavba</h3>
 						<span class="gpa__projectDesc">
@@ -208,7 +208,7 @@
 					</div>
 					<div class="gpa__col">
 						<div class="gpa__projectImg">
-							<img src="../assets/images/projects/2022/interier.png" alt="">
+							<img src="<?php echo $baseurl ?>/assets/images/projects/2022/interier.png" alt="">
 						</div>
 						<h3 class="gpa__projectName">Interiér</h3>
 						<span class="gpa__projectDesc">
@@ -222,7 +222,7 @@
 					</div>
 					<div class="gpa__col">
 						<div class="gpa__projectImg">
-							<img src="../assets/images/projects/2022/urbanismus.png" alt="">
+							<img src="<?php echo $baseurl ?>/assets/images/projects/2022/urbanismus.png" alt="">
 						</div>
 						<h3 class="gpa__projectName">Urbanismus</h3>
 						<span class="gpa__projectDesc">
@@ -235,7 +235,7 @@
 					</div>
 					<div class="gpa__col">
 						<div class="gpa__projectImg">
-							<img src="../assets/images/projects/2022/cestne-uznani-1.png" alt="">
+							<img src="<?php echo $baseurl ?>/assets/images/projects/2022/cestne-uznani-1.png" alt="">
 						</div>
 						<h3 class="gpa__projectName">Čestné uznání</h3>
 						<span class="gpa__projectDesc">
@@ -248,7 +248,7 @@
 					</div>
 					<div class="gpa__col">
 						<div class="gpa__projectImg">
-							<img src="../assets/images/projects/2022/cestne-uznani-2.png" alt="">
+							<img src="<?php echo $baseurl ?>/assets/images/projects/2022/cestne-uznani-2.png" alt="">
 						</div>
 						<h3 class="gpa__projectName">Čestné uznání</h3>
 						<span class="gpa__projectDesc">
@@ -261,7 +261,7 @@
 					</div>
 					<div class="gpa__col">
 						<div class="gpa__projectImg">
-							<img src="../assets/images/projects/2022/cestne-uznani-3.png" alt="">
+							<img src="<?php echo $baseurl ?>/assets/images/projects/2022/cestne-uznani-3.png" alt="">
 						</div>
 						<h3 class="gpa__projectName">Čestné uznání</h3>
 						<span class="gpa__projectDesc">
@@ -274,7 +274,7 @@
 					</div>
 					<div class="gpa__col">
 						<div class="gpa__projectImg">
-							<img src="../assets/images/projects/2022/cestne-uznani-4.png" alt="">
+							<img src="<?php echo $baseurl ?>/assets/images/projects/2022/cestne-uznani-4.png" alt="">
 						</div>
 						<h3 class="gpa__projectName">Čestné uznání</h3>
 						<span class="gpa__projectDesc">
@@ -286,7 +286,7 @@
 					</div>
 					<div class="gpa__col">
 						<div class="gpa__projectImg">
-							<img src="../assets/images/projects/2022/cestne-uznani-5.png" alt="">
+							<img src="<?php echo $baseurl ?>/assets/images/projects/2022/cestne-uznani-5.png" alt="">
 						</div>
 						<h3 class="gpa__projectName">Čestné uznání</h3>
 						<span class="gpa__projectDesc">
@@ -298,7 +298,7 @@
 					</div>
 					<div class="gpa__col">
 						<div class="gpa__projectImg">
-							<img src="../assets/images/projects/2022/cestne-uznani-6.png" alt="">
+							<img src="<?php echo $baseurl ?>/assets/images/projects/2022/cestne-uznani-6.png" alt="">
 						</div>
 						<h3 class="gpa__projectName">Čestné uznání</h3>
 						<span class="gpa__projectDesc">
@@ -311,7 +311,7 @@
 					</div>
 					<div class="gpa__col">
 						<div class="gpa__projectImg">
-							<img src="../assets/images/projects/2022/cestne-uznani-7.png" alt="">
+							<img src="<?php echo $baseurl ?>/assets/images/projects/2022/cestne-uznani-7.png" alt="">
 						</div>
 						<h3 class="gpa__projectName">Čestné uznání</h3>
 						<span class="gpa__projectDesc">
@@ -338,16 +338,16 @@
 		<div class="gpTabs__content">
 			<ul class="downloadList">
 				<li class="downloadList__item">
-					<a href="/vysledky-2022-pdf/">Tisková zpráva 31. 10. 2022 - výsledky (PDF)</a>
+					<a href="<?php echo $baseurl ?>/vysledky-2022-pdf/">Tisková zpráva 31. 10. 2022 - výsledky (PDF)</a>
 				</li>
 				<li class="downloadList__item">
-					<a href="/shortlist-2022-pdf/">Tisková zpráva 14. 9. 2022 - shortlist 50 finalistů (PDF)</a>
+					<a href="<?php echo $baseurl ?>/shortlist-2022-pdf/">Tisková zpráva 14. 9. 2022 - shortlist 50 finalistů (PDF)</a>
 				</li>
 				<li class="downloadList__item">
-					<a href="/vyhlaseni-rocniku-2022/">Tisková zpráva 1. 3. 2022 - vyhlášení ročníku (PDF)</a>
+					<a href="<?php echo $baseurl ?>/vyhlaseni-rocniku-2022/">Tisková zpráva 1. 3. 2022 - vyhlášení ročníku (PDF)</a>
 				</li>
 				<li class="downloadList__item">
-					<a href="/prodlouzeni-terminu-prihlaseni-do-souteze-2022/">Tisková zpráva 13. 7. 2022 - prodloužení termínu přihlášení do&nbsp;soutěže (PDF)</a>
+					<a href="<?php echo $baseurl ?>/prodlouzeni-terminu-prihlaseni-do-souteze-2022/">Tisková zpráva 13. 7. 2022 - prodloužení termínu přihlášení do&nbsp;soutěže (PDF)</a>
 				</li>
 			</ul>
 		</div>
@@ -363,9 +363,9 @@
 		<div class="gpTabs__content">
 			<div class="gallery">
 				<div class="gallery__group">
-					<a class="gallery__link" href="/galerie-galavacer-2022/">
+					<a class="gallery__link" href="<?php echo $baseurl ?>/galerie-galavacer-2022/">
 						<span class="gallery__image">
-							<img src="../assets/images/gallery/2022/galavecer/thumb/default.jpg" alt="">
+							<img src="<?php echo $baseurl ?>/assets/images/gallery/2022/galavecer/thumb/default.jpg" alt="">
 							<span class="gallery__overlay">
 								<span class="button button--yellow">Zobrazit galerii</span>
 							</span>
@@ -375,9 +375,9 @@
 							slavnostní předávání
 						</h2>
 					</a>
-                    <a class="gallery__link" href="/galerie-festival-2022/">
+                    <a class="gallery__link" href="<?php echo $baseurl ?>/galerie-festival-2022/">
 						<span class="gallery__image">
-							<img src="../assets/images/gallery/2022/festival/thumb/festival-2.jpg" alt="">
+							<img src="<?php echo $baseurl ?>/assets/images/gallery/2022/festival/thumb/festival-2.jpg" alt="">
 							<span class="gallery__overlay">
 								<span class="button button--yellow">Zobrazit galerii</span>
 							</span>
@@ -387,9 +387,9 @@
 						</h2>
 					</a>
                 
-                    <a class="gallery__link" href="/galerie-2022-manes-tiskova-konference/">
+                    <a class="gallery__link" href="<?php echo $baseurl ?>/galerie-2022-manes-tiskova-konference/">
 						<span class="gallery__image">
-							<img src="../assets/images/gallery/2022/tiskova-konference-manes/thumb/galerie-1.jpg" alt="">
+							<img src="<?php echo $baseurl ?>/assets/images/gallery/2022/tiskova-konference-manes/thumb/galerie-1.jpg" alt="">
 							<span class="gallery__overlay">
 								<span class="button button--yellow">Zobrazit galerii</span>
 							</span>
@@ -399,9 +399,9 @@
                             Mánes
 						</h2>
 					</a>
-                    <a class="gallery__link" href="/galerie-2022-porota-v-praze/">
+                    <a class="gallery__link" href="<?php echo $baseurl ?>/galerie-2022-porota-v-praze/">
 						<span class="gallery__image">
-							<img src="../assets/images/gallery/2022/porota/thumb/default.jpg" alt="">
+							<img src="<?php echo $baseurl ?>/assets/images/gallery/2022/porota/thumb/default.jpg" alt="">
 							<span class="gallery__overlay">
 								<span class="button button--yellow">Zobrazit galerii</span>
 							</span>
@@ -441,7 +441,7 @@
 
 			<ul class="downloadList">
 				<li class="downloadList__item">
-					 <a href="/katalog-pdf/">Katalog (PDF)</a>
+					 <a href="<?php echo $baseurl ?>/katalog-pdf/">Katalog (PDF)</a>
 					Katalog bude brzy zpřístupněn
 				</li>
 			</ul>

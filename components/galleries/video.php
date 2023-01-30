@@ -1,5 +1,8 @@
 <?php include ('config.php');?>
 
+<!DOCTYPE html>
+<html lang="cs">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="description" content="">
@@ -9,6 +12,7 @@
 
 	<?php include('./components/head/styles.php'); ?>
 	<?php include('./components/head/scripts.php'); ?>
+</head>
 </head>
 
 <body>
@@ -21,12 +25,16 @@
 			Video
 		</h1>
 
-		<a href="/grand-prix-architekt-2021/" class="gallery__back">< Zpět na detail ročníku</a>
+		<a href="<?php echo $baseurl ?>/grand-prix-architekt-2021/" class="gallery__back">< Zpět na detail ročníku</a>
 
 		<div class="gallery__row">
 			<video class="gallery__video" controls>
-				<source src="../assets/video/GPA21-vyhlaseni.mp4" type="video/mp4">
+				<source src="<?php echo $baseurl ?>/assets/video/GPA21-vyhlaseni.mp4" type="video/mp4">
 			</video>
 		</div>
 	</div>
+</section>
+
+<section id="footer" class="footer">
+    <?php include('footer.php'); ?>
 </section>

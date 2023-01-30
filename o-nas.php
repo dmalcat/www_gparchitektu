@@ -62,7 +62,7 @@
 			</div>
 
 			<div class="about__col about__col--img">
-				<img class="about__img" src="<?php echo $assetsPath ?>assets/images/partners/oa-uiamember.jpeg" alt="">
+				<img class="about__img" src="<?php echo $baseurl ?>/assets/images/partners/oa-uiamember.jpeg" alt="">
 			</div>
 		</div>
 	</div>
@@ -301,9 +301,9 @@
 			<div class="gpTabs__content">
                 <div class="gallery">
 				    <div class="gallery__group">
-                        <a class="gallery__link" href="/galerie-galavecer-2022-joze-plecinka-spanelsky-sal/">
+                        <a class="gallery__link" href="<?php echo $baseurl ?>/galerie-galavecer-2022-joze-plecinka-spanelsky-sal/">
                             <span class="gallery__image">
-                                <img src="<?php echo $assetsPath ?>assets/images/gallery/2022/joze-plecinka-spanelsky-sal/thumb/galerie-54.jpg" alt="">
+                                <img src="<?php echo $baseurl ?>/assets/images/gallery/2022/joze-plecinka-spanelsky-sal/thumb/galerie-54.jpg" alt="">
                                 <span class="gallery__overlay">
                                     <span class="button button--yellow">Zobrazit galerii</span>
                                 </span>
@@ -313,9 +313,9 @@
                                 Jože Plečnika - Španělský sál
                             </h2>
                         </a>
-                        <a class="gallery__link" href="/galerie-2022-predavani-cen-joze-plecinka-s-prezidentem/">
+                        <a class="gallery__link" href="<?php echo $baseurl ?>/galerie-2022-predavani-cen-joze-plecinka-s-prezidentem/">
                             <span class="gallery__image">
-                                <img src="<?php echo $assetsPath ?>assets/images/gallery/2022/joze-plecinka-prezident/thumb/default.jpg" alt="">
+                                <img src="<?php echo $baseurl ?>/assets/images/gallery/2022/joze-plecinka-prezident/thumb/default.jpg" alt="">
                                 <span class="gallery__overlay">
                                     <span class="button button--yellow">Zobrazit galerii</span>
                                 </span>
@@ -325,9 +325,9 @@
                                 cen Jože Plečnika s&nbsp;prezidentem
                             </h2>
                         </a>
-                        <a class="gallery__link" href="/galerie-2022-krest-alfabet/">
+                        <a class="gallery__link" href="<?php echo $baseurl ?>/galerie-2022-krest-alfabet/">
                             <span class="gallery__image">
-                                <img src="<?php echo $assetsPath ?>assets/images/gallery/2022/krest-alfabet/thumb/galerie-24.jpg" alt="">
+                                <img src="<?php echo $baseurl ?>/assets/images/gallery/2022/krest-alfabet/thumb/galerie-24.jpg" alt="">
                                 <span class="gallery__overlay">
                                     <span class="button button--yellow">Zobrazit galerii</span>
                                 </span>
@@ -337,9 +337,9 @@
                                 úřad vlády
                             </h2>
                         </a>
-                        <a class="gallery__link" href="/galerie-2022-robert-konieczny-prednaska/">
+                        <a class="gallery__link" href="<?php echo $baseurl ?>/galerie-2022-robert-konieczny-prednaska/">
                             <span class="gallery__image">
-                                <img src="<?php echo $assetsPath ?>assets/images/gallery/2022/robert-prednaska/thumb/galerie-11.jpg" alt="">
+                                <img src="<?php echo $baseurl ?>/assets/images/gallery/2022/robert-prednaska/thumb/galerie-11.jpg" alt="">
                                 <span class="gallery__overlay">
                                     <span class="button button--yellow">Zobrazit galerii</span>
                                 </span>

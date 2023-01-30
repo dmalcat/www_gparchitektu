@@ -22,7 +22,7 @@
 <?php include('head/styles.php'); ?>
 
 <?php include('head/scripts.php'); ?>
-<script defer src="<?php echo $assetsPath ?>assets/cookie-consent/dist/js/cookies.min.js"></script>
-<script src="<?php echo $assetsPath ?>assets/js/main.js"></script>
+<script defer src="<?php echo $baseurl ?>/assets/cookie-consent/dist/js/cookies.min.js"></script>
+<script src="<?php echo $baseurl ?>/assets/js/main.js"></script>
 
 <?php include('ga.php'); ?>
