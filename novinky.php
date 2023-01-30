@@ -1,5 +1,12 @@
 <?php include ('config.php');?>
 
+<?php
+
+$slug = explode('/',$_SERVER['REQUEST_URI']);
+$q = end($slug);
+
+?>
+
 <!DOCTYPE html>
 <html lang="cs">
 
@@ -22,6 +29,12 @@
 <section id="novinky-slide" class="news">
     <div class="news__wrapper wrapper">
         <h1>Novinky</h1>
+
+        <div class="buttonRow buttonRow--left news__filters">
+            <a href="<?php echo $baseurl ?>/novinky/" class="button button--black <?php if($q!='gpa'&&$q!='uia')echo 'active'; ?>">Všechny</a>
+            <a href="<?php echo $baseurl ?>/novinky/gpa" class="button button--black <?php if($q=='gpa')echo 'active'; ?>">Grand Prix Architektů</a>
+            <a href="<?php echo $baseurl ?>/novinky/uia" class="button button--black <?php if($q=='uia')echo 'active'; ?>">UIA</a>
+        </div>
         
         <div class="news__row">
             <?php
@@ -34,7 +47,14 @@
             if ($conn->connect_error) {
                 die("Connection failed: " . $conn->connect_error);
             }
-            $sql = "SELECT * FROM oa_clanky WHERE status='1' ORDER BY id DESC";
+            if ($q == 'uia') {
+                $w = " AND f3=1 ";
+            } elseif ($q == 'gpa') {
+                $w = " AND f2=1 ";
+            } else {
+                $w = "";
+            }
+            $sql = "SELECT * FROM oa_clanky WHERE status='1' ".$w." ORDER BY id DESC";
 
             $result = $conn->query($sql);                            
 
@@ -50,16 +70,20 @@
 
             $cisty_text = strip_tags($content);
 
-            $pole = explode(" ",$cisty_text);
+            if (substr_count($cisty_text, " ") > 30) {
+                $pole = explode(" ",$cisty_text);
 
-            for ($i=0;$i<30;$i++): 
+                for ($i=0;$i<30;$i++):
 
-            $pole2[$i]=$pole[$i];
+                    $pole2[$i]=$pole[$i];
 
 
-            endfor;
+                endfor;
 
-            $text = implode(" ",$pole2);
+                $text = implode(" ",$pole2);
+            } else {
+                $text = $cisty_text;
+            }
             //vytvoření odkazu
             $string = $title;
             $string = str_replace("+", " ", $string);
@@ -81,9 +105,9 @@
 
             echo "               
                 <div class='news__col'>
-                    <a href='../novinka/$id-$odkaz'>
+                    <a href='$baseurl/novinka/$id-$odkaz'>
                         <div class='news__image'>
-                            <img src='../uploads/images/$photo'>
+                            <img src='$baseurl/uploads/images/$photo'>
                             <span class='news__overlay'>
                                 <span class='button button--yellow'>Zobrazit detail</span>
                             </span>

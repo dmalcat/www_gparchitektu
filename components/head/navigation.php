@@ -1,25 +1,25 @@
 <nav class="navigation">
 	<ul class="navigation__list">
 		<li class="navigation__item">
-			<a class="navigation__link" href="../novinky/">Novinky</a>
+			<a class="navigation__link" href="<?php echo $baseurl ?>/novinky/">Novinky</a>
 		</li>
         <li class="navigation__item">
-			<a class="navigation__link" href="../o-nas/">O nás</a>
+			<a class="navigation__link" href="<?php echo $baseurl ?>/o-nas/">O nás</a>
 		</li>
         <li class="navigation__item">
-            <a class="navigation__link" href="../grand-prix-architektu/">Grand Prix Architektů</a>
+            <a class="navigation__link" href="<?php echo $baseurl ?>/grand-prix-architektu/">Grand Prix Architektů</a>
         </li>
         <li class="navigation__item">
             <a class="navigation__link" href="https://www.gpaf.cz/">Festival</a>
         </li>
         <li class="navigation__item">
-            <a class="navigation__link" href="../clenstvi/">Členství</a>
+            <a class="navigation__link" href="<?php echo $baseurl ?>/clenstvi/">Členství</a>
         </li>
         <li class="navigation__item">
-            <a class="navigation__link" href="../kontakty/">Kontakty</a>
+            <a class="navigation__link" href="<?php echo $baseurl ?>/kontakty/">Kontakty</a>
         </li>
         <li class="navigation__item">
-            <a class="navigation__link" href="/uia/"><font color="#ffe100">UIA</font></a>
+            <a class="navigation__link" href="<?php echo $baseurl ?>/uia/"><font color="#ffe100">UIA</font></a>
         </li>
     </ul>
 </nav>

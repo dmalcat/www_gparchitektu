@@ -1,7 +1,7 @@
 <?php
 //hezké URL - funkčnost zajišťuje .htaccess
 
-$route = $_GET['route'];
+$route = str_replace(str_replace("/router.php", "", $_SERVER['PHP_SELF']), "", $_SERVER['REQUEST_URI']);
 
     if (preg_match('/o-nas/', $route)):
     require('o-nas.php');      

@@ -1,5 +1,8 @@
 <?php include ('config.php');?>
 
+<!DOCTYPE html>
+<html lang="cs">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="description" content="">
@@ -9,7 +12,9 @@
 
 	<?php include('./components/head/styles.php'); ?>
 	<?php include('./components/head/scripts.php'); ?>
+</head>
 <body>
+
 <!-- Menu -->
 <?php include ('menu.php');?>
 
@@ -19,17 +24,17 @@
 			Porota v Praze
 		</h1>
 
-		<a href="/grand-prix-architekt-2021/" class="gallery__back">< Zpět na detail ročníku</a>
+		<a href="<?php echo $baseurl ?>/grand-prix-architekt-2021/" class="gallery__back">< Zpět na detail ročníku</a>
 
 		<div class="gallery__row">
 			<?php for($counter=0; $counter<9; $counter++) :?>
-				<a href="../assets/images/gallery/porota/full/porota<?=$counter?>.jpg" class="gallery__item">
-					<img class="gallery__item" src="../assets/images/gallery/porota/thumb/porota<?=$counter?>.jpg" alt="">
+				<a href="<?php echo $baseurl ?>/assets/images/gallery/porota/full/porota<?=$counter?>.jpg" class="gallery__item">
+					<img class="gallery__item" src="<?php echo $baseurl ?>/assets/images/gallery/porota/thumb/porota<?=$counter?>.jpg" alt="">
 				</a>
 			<?php endfor;?>
 		</div>
 
-		<a href="/grand-prix-architekt-2021/" class="gallery__back">< Zpět na detail ročníku</a>
+		<a href="<?php echo $baseurl ?>/grand-prix-architekt-2021/" class="gallery__back">< Zpět na detail ročníku</a>
 	</div>
 </section>
 
@@ -38,14 +43,10 @@
 </script>
 
 
-<?php include('partners.php'); ?>
+<?php include('./components/partners/2022.php'); ?>
 
-<?php include('kontakty.php'); ?>
-
-<section id="footer">
-	<?php include('footer.php'); ?>
+<section id="footer" class="footer">
+    <?php include('footer.php'); ?>
 </section>
 
-
-</body>
 

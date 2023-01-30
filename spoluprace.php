@@ -46,20 +46,20 @@ $id = $r[2];
 
 
             <div class="col-md-4">
-                    <img src="../img/fotka1.jpg" width="100%">
+                    <img src="<?php echo $baseurl ?>/img/fotka1.jpg" width="100%">
                     <br><br>
-                    <img src="../img/foto5.png" width="100%">
+                    <img src="<?php echo $baseurl ?>/img/foto5.png" width="100%">
                     <br><br>
-                    <img src="../img/foto6.png" width="100%">
+                    <img src="<?php echo $baseurl ?>/img/foto6.png" width="100%">
                     <br><br>
             </div>
             
             <div class="col-md-4">
-                    <img src="../img/foto3.png" width="100%">
+                    <img src="<?php echo $baseurl ?>/img/foto3.png" width="100%">
                     <br><br>
-                    <img src="../img/o.png" width="100%">
+                    <img src="<?php echo $baseurl ?>/img/o.png" width="100%">
                     <br><br>
-                    <img src="../img/foto4.png" width="100%">
+                    <img src="<?php echo $baseurl ?>/img/foto4.png" width="100%">
                     <br><br>
             </div> 
         </div>
@@ -69,7 +69,7 @@ $id = $r[2];
 
 
 <h5 class="nadpis"><b>
-<a href="../o-nas/">Zpět</a>
+<a href="<?php echo $baseurl ?>/o-nas/">Zpět</a>
 </h5></b>
 </section>
 

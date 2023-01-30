@@ -33,7 +33,7 @@
             </div>
 
             <div class="about__col about__col--img">
-				<img class="about__img" src="../assets/images/partners/oa-uiamember.jpeg" alt="">
+				<img class="about__img" src="<?php echo $baseurl ?>/assets/images/partners/oa-uiamember.jpeg" alt="">
 			</div>
         </div>
     </div>
@@ -43,7 +43,7 @@
     <div class="article__wrapper wrapper">
         <h2 class="text-center">Registrační formulář</h2>
         
-        <form class="form" action="../odeslat_form.php" method="POST">
+        <form class="form" action="<?php echo $baseurl ?>/odeslat_form.php" method="POST">
             <div class="row">
                 <div class="col-md-6">
                 <label>Jméno</label>

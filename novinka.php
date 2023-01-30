@@ -2,19 +2,9 @@
 
 <?php 
 
-$r = $_SERVER['REQUEST_URI']; 
-$r = explode('/', $r);
-$r = array_filter($r);
-$r = array_merge($r, array()); 
-
-$idecko = $r[1];
-
-$b = $idecko; 
-$b = explode('-', $b);
-$b = array_filter($b);
-$b = array_merge($b, array()); 
-
-$id = $b[0];
+$slug = explode('/',$_SERVER['REQUEST_URI']);
+$q = end($slug);
+$id = explode('-', $q)[0];
 
  ?>
 
@@ -58,11 +48,11 @@ $id = $b[0];
 
             if ($result->num_rows > 0) {                                     
                 // output data of each row   
-                while($row = $result->fetch_assoc()) {
+                $row = $result->fetch_assoc();
             $id = $row['id'];   
             $title = $row['title'];
             $content = $row['content'];
-            $datum= $row['datum'];
+            $datum= $row['date'];
 
 
 
@@ -76,7 +66,6 @@ $id = $b[0];
                             <br><br>
                                 
             ";
-                }
             } else { 
             }
             $conn->close();
@@ -108,7 +97,7 @@ $id = $b[0];
 
             echo "
             <div class='col-md-6'>
-                        <img src='../uploads/images/$url_image' class='img-responsive' data-pop-img='../uploads/images/$url_image' width='100%'><br><br>
+                        <img src='$baseurl/uploads/images/$url_image' class='img-responsive' data-pop-img='$baseurl/uploads/images/$url_image' width='100%'><br><br>
             </div>
             ";
                 }
@@ -141,7 +130,7 @@ $id = $b[0];
 
 
         <p>
-            <a href="../novinky/">Zpět</a>
+            <a href="<?php echo $baseurl ?>/novinky/">Zpět</a>
         </p>
 
         </div>

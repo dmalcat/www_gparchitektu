@@ -14,9 +14,9 @@
 
     <?php include('./components/head.php'); ?>
 
-	<link rel="stylesheet" href="<?php echo $assetsPath ?>assets/cookie-consent/dist/css/cookies.min.css">
+	<link rel="stylesheet" href="<?php echo $baseurl ?>/assets/cookie-consent/dist/css/cookies.min.css">
     
-    <script src="<?php echo $assetsPath ?>assets/js/slick.min.js"></script>
+    <script src="<?php echo $baseurl ?>/assets/js/slick.min.js"></script>
 </head>
 <body>
 
@@ -35,14 +35,14 @@
 					Smyslem naší činnosti je reprezentace ČR na úrovni UIA a V4 <br>
 					a prezentace kvalitní architektury široké laické a odborné veřejnosti.
 				</p>
-				<a href="https://www.grandprixarchitektu.cz/o-nas/#organization" class="button button--yellow">
+				<a href="<?php echo $baseurl ?>/o-nas/#organization" class="button button--yellow">
 					Více informací
 				</a>
 			</div>
 			<picture class="hero__image">
-				<!--<source srcset="<?php echo $assetsPath ?>assets/images/carousel/6.jpg" media="(max-width: 940px)" type="image/jpg">-->
-				<source srcset="<?php echo $assetsPath ?>assets/images/carousel/6.jpg" media="(max-width: 2560px)" type="image/jpg">
-				<img src="<?php echo $assetsPath ?>assets/images/carousel/6.jpg" alt="">
+				<!--<source srcset="<?php echo $baseurl ?>/assets/images/carousel/6.jpg" media="(max-width: 940px)" type="image/jpg">-->
+				<source srcset="<?php echo $baseurl ?>/assets/images/carousel/6.jpg" media="(max-width: 2560px)" type="image/jpg">
+				<img src="<?php echo $baseurl ?>/assets/images/carousel/6.jpg" alt="">
 			</picture>
 		</div>
 		<div class="hero__slide">
@@ -60,9 +60,9 @@
 				</a>
 			</div>
 			<picture class="hero__image">
-				<!--<source srcset="<?php echo $assetsPath ?>assets/images/carousel/4-940.jpg" media="(max-width: 940px)" type="image/jpg">-->
-				<source srcset="<?php echo $assetsPath ?>assets/images/carousel/5.jpg" media="(max-width: 2560px)" type="image/jpg">
-				<img src="<?php echo $assetsPath ?>assets/images/carousel/5.jpg" alt="">
+				<!--<source srcset="<?php echo $baseurl ?>/assets/images/carousel/4-940.jpg" media="(max-width: 940px)" type="image/jpg">-->
+				<source srcset="<?php echo $baseurl ?>/assets/images/carousel/5.jpg" media="(max-width: 2560px)" type="image/jpg">
+				<img src="<?php echo $baseurl ?>/assets/images/carousel/5.jpg" alt="">
 			</picture>
 		</div>
 		
@@ -81,9 +81,9 @@
 				</a>
 			</div>
 			<picture class="hero__image">
-				<source srcset="<?php echo $assetsPath ?>assets/images/carousel/4-940.jpg" media="(max-width: 940px)" type="image/jpg">
-				<source srcset="<?php echo $assetsPath ?>assets/images/carousel/4.jpg" media="(max-width: 2560px)" type="image/jpg">
-				<img src="<?php echo $assetsPath ?>assets/images/carousel/4.jpg" alt="">
+				<source srcset="<?php echo $baseurl ?>/assets/images/carousel/4-940.jpg" media="(max-width: 940px)" type="image/jpg">
+				<source srcset="<?php echo $baseurl ?>/assets/images/carousel/4.jpg" media="(max-width: 2560px)" type="image/jpg">
+				<img src="<?php echo $baseurl ?>/assets/images/carousel/4.jpg" alt="">
 			</picture>
 		</div>
 		<div class="hero__slide">
@@ -98,9 +98,9 @@
 				</a>
 			</div>
 			<picture class="hero__image">
-				<source srcset="<?php echo $assetsPath ?>assets/images/carousel/2-940.jpg" media="(max-width: 940px)" type="image/jpg">
-				<source srcset="<?php echo $assetsPath ?>assets/images/carousel/2.jpg" media="(max-width: 2560px)" type="image/jpg">
-				<img src="<?php echo $assetsPath ?>assets/images/carousel/2.jpg" alt="">
+				<source srcset="<?php echo $baseurl ?>/assets/images/carousel/2-940.jpg" media="(max-width: 940px)" type="image/jpg">
+				<source srcset="<?php echo $baseurl ?>/assets/images/carousel/2.jpg" media="(max-width: 2560px)" type="image/jpg">
+				<img src="<?php echo $baseurl ?>/assets/images/carousel/2.jpg" alt="">
 			</picture>
 		</div>
 	</div>
@@ -175,11 +175,11 @@
 								$text
 							</p>
 
-							<a href='../novinka/$id-$odkaz' class='button button--yellow'>Číst dále</a>
+							<a href='$baseurl/novinka/$id-$odkaz' class='button button--yellow'>Číst dále</a>
 						</div>
 							
 						<div class='articles__col articles__col--img'>
-							<img class='articles__img articles__img--desktop' src='./uploads/images/$photo' alt=''>
+							<img class='articles__img articles__img--desktop' src='$baseurl/uploads/images/$photo' alt=''>
 						</div>
 					";
 				}
@@ -192,9 +192,101 @@
 </section>
 
 
+<section id="novinky-slide" class="news">
+    <div class="news__wrapper wrapper">
+        <h1>Novinky</h1>
+
+        <div class="news__row">
+            <?php
+            include 'conn.php';
+
+            // Create connection
+            $conn = new mysqli($servername, $username, $password, $dbname);
+            $conn->set_charset('utf8');
+            // Check connection
+            if ($conn->connect_error) {
+                die("Connection failed: " . $conn->connect_error);
+            }
+            $sql = "SELECT * FROM oa_clanky WHERE status='1' AND f1=1 ORDER BY id DESC LIMIT 3";
+
+            $result = $conn->query($sql);
+
+            if ($result->num_rows > 0) {
+                // output data of each row
+                while($row = $result->fetch_assoc()) {
+                    $id = $row['id'];
+                    $title = $row['title'];
+                    $content = $row['content'];
+                    $datum= $row['date'];
+                    $photo= $row['main_img'];
+
+
+                    $cisty_text = strip_tags($content);
+
+                    if (substr_count($cisty_text, " ") > 30) {
+                        $pole = explode(" ",$cisty_text);
+
+                        $pole2 = [];
+
+                        for ($i=0;$i<30;$i++):
+
+                            $pole2[$i]=$pole[$i];
+
+
+                        endfor;
+
+                        $text = implode(" ",$pole2);
+                    } else {
+                        $text = $cisty_text;
+                    }
+                    //vytvoření odkazu
+                    $string = $title;
+                    $string = str_replace("+", " ", $string);
+
+                    $slug = \Transliterator::createFromRules(
+                        ':: Any-Latin;'
+                        . ':: NFD;'
+                        . ':: [:Nonspacing Mark:] Remove;'
+                        . ':: NFC;'
+                        . ':: [:Punctuation:] Remove;'
+                        . ':: Lower();'
+                        . '[:Separator:] > \'-\''
+                    )
+                        ->transliterate( $string );
+                    $slug; // namnet-pa-bildtavlingen
+
+
+                    $odkaz = "$slug";
+
+                    echo "               
+                <div class='news__col'>
+                    <a href='$baseurl/novinka/$id-$odkaz'>
+                        <div class='news__image'>
+                            <img src='$baseurl/uploads/images/$photo'>
+                            <span class='news__overlay'>
+                                <span class='button button--yellow'>Zobrazit detail</span>
+                            </span>
+                        </div>
+                        
+                        <h5>$title</h5>
+                        <p>$text</p>
+                    </a> 
+                </div>
+            ";
+                }
+            } else {
+            }
+            $conn->close();
+
+            ?>
+        </div>
+    </div>
+</section>
+
+
 <section class="winningProjects gpTabs">
 	<div class="gpTabs__wrapper gpTabs__wrapper--nav wrapper">
-		<a href="/novinky/" class="gpTabs__navItem">Všechny novinky</a>
+		<a href="<?php echo $baseurl ?>/novinky/" class="gpTabs__navItem">Všechny novinky</a>
 	</div>
 </section>
 
