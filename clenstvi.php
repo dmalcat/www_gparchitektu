@@ -148,8 +148,6 @@
                     <li>Oliver Sadovský (Slovensko)</li>
                 </ul>
             </div>
-        </div>
-        <div class="members__list">
             <div class="members__item">
                 <h3>2018</h3>
                 <ul>
@@ -190,8 +188,6 @@
                     <li>Regina Loukotová (Česká republika)</li>
                 </ul>
             </div>
-        </div>
-        <div class="members__list">
             <div class="members__item">
                 <h3>2014</h3>
                 <ul>
@@ -232,8 +228,6 @@
                     <li>Juraj Hermann (Slovensko)</li>
                 </ul>
             </div>
-        </div>
-        <div class="members__list">
             <div class="members__item">
                 <h3>2010</h3>
                 <ul>
@@ -273,8 +267,6 @@
                     <li>Matej Siebert (Slovensko)</li>
                 </ul>
             </div>
-        </div>
-        <div class="members__list">
             <div class="members__item">
                 <h3>2006</h3>
                 <ul>
@@ -316,8 +308,6 @@
                     <li>Martin Drahovský (Slovensko)</li>
                 </ul>
             </div>
-        </div>
-        <div class="members__list">
             <div class="members__item">
                 <h3>2002</h3>
                 <ul>
@@ -360,8 +350,6 @@
                     <li>Jiří Ševčík (Česká republika)</li>
                 </ul>
             </div>
-        </div>
-        <div class="members__list">
             <div class="members__item">
                 <h3>1998</h3>
                 <ul>
@@ -402,8 +390,6 @@
                     <li>Elias Torres (Španělsko)</li>
                 </ul>
             </div>
-        </div>
-        <div class="members__list">
             <div class="members__item">
                 <h3>1993</h3>
                 <ul>

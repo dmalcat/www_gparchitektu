@@ -46,3 +46,44 @@
 		}
 	}
 }
+
+.contactList {
+	&.contactListIncluded {
+		margin-top: 3rem;
+		.wrapper {
+			margin-left: 0;
+			padding: 0;
+		}
+	}
+	.wrapper {
+		margin-bottom: 3rem;
+	}
+
+	.contactList__row {
+		display: flex;
+		justify-content: flex-start;
+		flex-flow: row wrap;
+	}
+
+	.contactList__item {
+		width: 100%;
+		max-width: 340px;
+		&.contactList__itemlarge {
+			max-width: 500px;
+		}
+		.contact__block {
+			margin-bottom: 2rem;
+			text-align: center;
+		}
+		.avatar {
+			max-width: 200px;
+			width: 100%;
+			margin: 0 auto 1rem auto;
+			border-radius: 100%;
+			overflow: hidden;
+			img {
+				max-width: 100%;
+			}
+		}
+	}
+}

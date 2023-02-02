@@ -126,159 +126,169 @@
 						<p><strong>Dozorč&iacute; rada Obce</strong> je&nbsp;opr&aacute;vněna kontrolovat ve&scaron;kerou činnost Obce a&nbsp;v&scaron;ech jej&iacute;ch org&aacute;nů. Dozorč&iacute; rada Obce je&nbsp;volena na&nbsp;dobu funkčn&iacute;ho obdob&iacute; Rady Obce.</p>
 						<p><strong>Sekretari&aacute;t</strong> <strong>Obce</strong> zaji&scaron;ťuje ve&scaron;kerou agendu spojenou s&nbsp;činnost&iacute; Obce, Rady Obce a&nbsp;ostatn&iacute;ch org&aacute;nů Obce.</p>
 					</div>
-
-
-					<div class="col-md-12" align="left">
-						<br>
-
-						<h5><b>Rada Obce architektů</b></h5>
-					</div>
-					<div class="col-md-12" align="left">
-						<br>
-						<div class="row text-kontakt">
-
-							<div class="col-md-2" align="left">
-								<b>
-									<p>Ing.&nbsp;arch. Oleg Haman<br>
-										President / Předseda<br>
-										oleg.haman@casua.cz<br>
-										+420 603 877 788<br>
-									</p>
-								</b>
-							</div>
-
-							<div class="col-md-2">
-								<b>
-									<p>prof.&nbsp;Ing.&nbsp;arch. Zdeněk Jiran<br>
-										Vice-president / Místopředseda<br>
-										jiran@jparch.cz<br>
-										+420 602 304 497</p>
-								</b>
-							</div>
-
-							<div class="col-md-2">
-								<b>
-									<p>Ing.&nbsp;arch. Vladimíra Leníčková<br>
-										Vice-president / Místopředseda<br>
-										lenickova@len-k.cz<br>
-										+420 602 157 775<br>
-									</p>
-								</b>
-							</div>
-
-							<div class="col-md-2">
-								<b>
-									<p>Ing.&nbsp;arch. Václav Mastný<br>
-										Vice-president / Místopředseda<br>
-										mastny@mastny.cz<br>
-										+420 603 802 892<br>
-									</p>
-								</b>
-							</div>
-
-
-							<div class="col-md-2">
-								<b>
-									<p>Ing.&nbsp;arch. Zorka Krejčí<br>
-										Council member / Členka rady<br>
-										krejci.zorka@seznam.cz</p>
-								</b>
-							</div>
-
-							<div class="col-md-2">
-								<b>
-									<p>Ing.&nbsp;arch. Martina Hovořáková<br>
-										Council member / Členka rady <br>
-										mhovorakova@seznam.cz</p>
-								</b>
-							</div>
-
-							<div class="col-md-2">
-								<b>
-									<p>Ing.&nbsp;arch. Jan Kasl<br>
-										Council member / Člen rad<br>
-										kasl@jkarchitekti.cz</b>
-								</b></p>
-							</div>
-
-							<div class="col-md-2">
-								<b>
-									<p>Ing.&nbsp;arch. David Wittassek<br>
-										Council member / Člen rady<br>
-										wittassek@qarta.cz</b></p>
-							</div>
-
-
-							<div class="col-md-2">
-								<b>
-									<p>Ing.&nbsp;arch. Ondřej Chybík MAS ETH<br>
-										Council member / Člen rady<br>
-										chybik@chkau.com</b></p>
-							</div>
-
-							<div class="col-md-2">
-								<b>
-									<p>MgA Viktorie Součková ARB&nbsp;RIBA<br>
-										Council member / Členka rady<br>
-										vsoucek@boglearchitects.com</b></p>
-							</div>
-
-							<div class="col-md-2">
-								<b>
-									<p>Robert Rössler<br>
-										Council member / Člen rady<br>
-										robertrossler@email.cz</b></p>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-12" align="left">
-						<br>
-						<div class="col-md-10"  align="left">
-							<h5><b>Dozorčí rada Obce architektů:</b></h5>
-						</div>
-					</div>
-
-					<div class="col-md-12" align="left">
-						<div class="col-md-10"  align="center">
-							<div class="row text-kontakt">
-
-								<div class="col-md-2">
-									<p>
-										<b>
-										Ing.&nbsp;arch. Milica Vujošević, Ph.D.<br>
-										Chairman of the Supervisory Board Předsedkyně Dozorčí rady<br>
-										+420 608 696 536<br>
-										milicavujosevic@yahoo.com
-										</b>
-									</p>
-								</div>
-
-								<div class="col-md-2">
-									<p>
-										<b>
-										Klára Vejrová<br>
-										Member of the Supervisory Board<br>
-										Členka Dozorčí rady<br>
-										+420 604 304 440<br>
-										klarkaMSvejrova@seznam.cz
-										</b>
-									</p>
-								</div>
-								<div class="col-md-2" align="left">
-									<p>
-										<b>
-										Ing.&nbsp;arch. Jan Melichar<br>
-										Member of the Supervisory Board<br>
-										Člen Dozorčí rady<br>
-										melichar.jan@volny.cz
-										</b>
-									</p>
-								</div>
-							</div>
-						</div>
-					</div>
 				</div>
 			</div>
+
+            <div class="contactList contactListIncluded contact">
+                <div class="contact__wrapper wrapper">
+                    <h2>Rada Obce architektů</h2>
+                    <div class="contactList__row">
+                        <div class="contactList__item">
+                            <div class="avatar">
+                                <img src="<?php echo $baseurl ?>/assets/images/contacts/Oleg_Haman.jpg" />
+                            </div>
+                            <span class="contact__block">
+                    Ing.&nbsp;arch. Oleg Haman<br>
+                    President / Předseda<br>
+                    <a href="mailto:oleg.haman@casua.cz">oleg.haman@casua.cz</a><br>
+                    <a href="tel:+420 603 877 788">+420 603 877 788</a>
+                </span>
+                        </div>
+                        <div class="contactList__item">
+                            <div class="avatar">
+                                <img src="<?php echo $baseurl ?>/assets/images/contacts/Zdenek_Jiran.jpg" />
+                            </div>
+                            <span class="contact__block">
+                    prof.&nbsp;Ing.&nbsp;arch. Zdeněk Jiran<br>
+                    Vice-president / Místopředseda<br>
+                    <a href="mailto:jiran@jparch.cz">jiran@jparch.cz</a><br>
+                    <a href="tel:+420 602 304 497">+420 602 304 497</a>
+                </span>
+                        </div>
+                        <div class="contactList__item">
+                            <div class="avatar">
+                                <img src="<?php echo $baseurl ?>/assets/images/contacts/Vladimira_Lenickova.jpg" />
+                            </div>
+                            <span class="contact__block">
+                    Ing.&nbsp;arch. Vladimíra Leníčková<br>
+                    Vice-president / Místopředseda<br>
+                    <a href="mailto:lenickova@len-k.cz">lenickova@len-k.cz</a><br>
+                    <a href="tel:+420 602 157 775">+420 602 157 775</a>
+                </span>
+                        </div>
+                        <div class="contactList__item">
+                            <div class="avatar">
+                                <img src="<?php echo $baseurl ?>/assets/images/contacts/Vaclav_Mastny.jpg" />
+                            </div>
+                            <span class="contact__block">
+                    Ing.&nbsp;arch. Václav Mastný<br>
+                    Vice-president / Místopředseda<br>
+                    <a href="mailto:mastny@mastny.cz">mastny@mastny.cz</a><br>
+                    <a href="tel:+420 603 802 892">+420 603 802 892</a>
+                </span>
+                        </div>
+                        <div class="contactList__item">
+                            <div class="avatar">
+                                <img src="<?php echo $baseurl ?>/assets/images/contacts/Zorka_Krejci.jpg" />
+                            </div>
+                            <span class="contact__block">
+                    Ing.&nbsp;arch. Zorka Krejčí<br>
+                    Council member / Členka rady<br>
+                    <a href="mailto:krejci.zorka@seznam.cz">krejci.zorka@seznam.cz</a>
+                </span>
+                        </div>
+                        <div class="contactList__item">
+                            <div class="avatar">
+                                <img src="<?php echo $baseurl ?>/assets/images/contacts/Martina_Hovorakova.jpg" />
+                            </div>
+                            <span class="contact__block">
+                    Ing.&nbsp;arch. Martina Hovořáková<br>
+                    Council member / Členka rady <br>
+                    <a href="mailto:mhovorakova@seznam.cz">mhovorakova@seznam.cz</a>
+                </span>
+                        </div>
+                        <div class="contactList__item">
+                            <div class="avatar">
+                                <img src="<?php echo $baseurl ?>/assets/images/contacts/Jan_Kasl.jpg" />
+                            </div>
+                            <span class="contact__block">
+                    Ing.&nbsp;arch. Jan Kasl<br>
+                    Council member / Člen rad<br>
+                    <a href="mailto:kasl@jkarchitekti.cz">kasl@jkarchitekti.cz</a>
+                </span>
+                        </div>
+                        <div class="contactList__item">
+                            <div class="avatar">
+                                <img src="<?php echo $baseurl ?>/assets/images/contacts/David_WITTASSEK.jpg" />
+                            </div>
+                            <span class="contact__block">
+                    Ing.&nbsp;arch. David Wittassek<br>
+                    Council member / Člen rady<br>
+                    <a href="mailto:wittassek@qarta.cz">wittassek@qarta.cz</a>
+                </span>
+                        </div>
+                        <div class="contactList__item">
+                            <div class="avatar">
+                                <img src="<?php echo $baseurl ?>/assets/images/contacts/Ondrej_Chybik.jpg" />
+                            </div>
+                            <span class="contact__block">
+                    Ing.&nbsp;arch. Ondřej Chybík MAS ETH<br>
+                    Council member / Člen rady<br>
+                    <a href="mailto:chybik@chkau.com">chybik@chkau.com</a>
+                </span>
+                        </div>
+                        <div class="contactList__item">
+                            <div class="avatar">
+                                <img src="<?php echo $baseurl ?>/assets/images/contacts/Viktorie_SOUCEK.jpg" />
+                            </div>
+                            <span class="contact__block">
+                    MgA Viktorie Součková ARB&nbsp;RIBA<br>
+                    Council member / Členka rady<br>
+                    <a href="mailto:vsoucek@boglearchitects.com">vsoucek@boglearchitects.com</a>
+                </span>
+                        </div>
+                        <div class="contactList__item">
+                            <div class="avatar">
+                                <img src="<?php echo $baseurl ?>/assets/images/contacts/Robert_Rossler.jpg" />
+                            </div>
+                            <span class="contact__block">
+                    Robert Rössler<br>
+                    Council member / Člen rady<br>
+                    <a href="mailto:robertrossler@email.cz">robertrossler@email.cz</a>
+                </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact__wrapper wrapper">
+                    <h2>Dozorčí rada Obce architektů</h2>
+                    <div class="contactList__row">
+                        <div class="contactList__item contactList__itemlarge">
+                            <div class="avatar">
+                                <img src="<?php echo $baseurl ?>/assets/images/contacts/Milica_VUJOSEVIC.jpg" />
+                            </div>
+                            <span class="contact__block">
+                    Ing.&nbsp;arch. Milica Vujošević, Ph.D.<br>
+                    Chairman of the Supervisory Board Předsedkyně Dozorčí rady<br>
+                    <a href="tel:+420 608 696 536">+420 608 696 536</a><br>
+                    <a href="mailto:milicavujosevic@yahoo.com">milicavujosevic@yahoo.com</a>
+                </span>
+                        </div>
+                        <div class="contactList__item contactList__itemlarge">
+                            <div class="avatar">
+                                <img src="<?php echo $baseurl ?>/assets/images/contacts/Klara_V.jpg" />
+                            </div>
+                            <span class="contact__block">
+                    Klára Vejrová<br>
+                    Member of the Supervisory Board<br>
+                    Členka Dozorčí rady<br>
+                    <a href="tel:+420 604 304 440">+420 604 304 440</a><br>
+                    <a href="mailto:klarkaMSvejrova@seznam.cz">klarkaMSvejrova@seznam.cz</a>
+                </span>
+                        </div>
+                        <div class="contactList__item ">
+                            <div class="avatar">
+                                <img src="<?php echo $baseurl ?>/assets/images/contacts/Jan_Melichar.jpg" />
+                            </div>
+                            <span class="contact__block">
+                    Ing.&nbsp;arch. Jan Melichar<br>
+                    Member of the Supervisory Board<br>
+                    Člen Dozorčí rady<br>
+                    <a href="mailto:melichar.jan@volny.cz">melichar.jan@volny.cz</a>
+                </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
 		</div>
 	</div>
 </section>

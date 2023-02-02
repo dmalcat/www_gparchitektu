@@ -2,10 +2,12 @@
     .members__list {
         display: flex;
         justify-content: space-between;
+        flex-flow: row wrap;
     }
 
     .members__item {
-        width: 20%;
+        width: 100%;
+        max-width: 280px;
     }
 
     ul {
