@@ -102,6 +102,59 @@
     </div>
 </section>
 
+<section class="members">
+    <div class="members__wrapper wrapper">
+        <h2 class="text-center">Čestní členové</h2>
+
+        <div class="members__list">
+            
+            <div class="members__item">
+                <h3>2022</h3>
+                <ul>
+                    <li>Jean-Pierre Carniaux (Francie)</li>
+                    <li>Robert Schmitz (Švédsko)</li>
+                    <li>Martin Rein-Cano (Německo)</li>
+                    <li>Michal Bogár (Slovensko)</li>
+                    <li>Eva Le Peutrec (Česko)</li>
+                </ul>
+            </div>
+
+            <div class="members__item">
+                <h3>2021</h3>
+                <ul>
+                    <li>Jean-Pierre Carniaux (Francie)</li>
+                    <li>Robert Schmitz (Švédsko)</li>
+                    <li>Martin Rein-Cano (Německo)</li>
+                    <li>Michal Bogár (Slovensko)</li>
+                    <li>Eva Le Peutrec (Česko)</li>
+                </ul>
+            </div>
+
+            <div class="members__item">
+                <h3>2020</h3>
+                <ul>
+                    <li>Jean-Pierre Carniaux (Francie)</li>
+                    <li>Robert Schmitz (Švédsko)</li>
+                    <li>Martin Rein-Cano (Německo)</li>
+                    <li>Michal Bogár (Slovensko)</li>
+                    <li>Eva Le Peutrec (Česko)</li>
+                </ul>
+            </div>
+
+            <div class="members__item">
+                <h3>2019</h3>
+                <ul>
+                    <li>Jean-Pierre Carniaux (Francie)</li>
+                    <li>Robert Schmitz (Švédsko)</li>
+                    <li>Martin Rein-Cano (Německo)</li>
+                    <li>Michal Bogár (Slovensko)</li>
+                    <li>Eva Le Peutrec (Česko)</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
 <section id="footer" class="footer">
     <?php include('footer.php'); ?>
 </section>

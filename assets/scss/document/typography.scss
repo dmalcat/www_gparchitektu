@@ -21,7 +21,7 @@ h1 {
 h2 {
 	font-size: 30px;
 	font-weight: bold;
-	margin-bottom: 1.5rem;
+	margin-bottom: 3rem;
 	@include max640px {
 		font-size: 24px;
 	}

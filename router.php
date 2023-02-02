@@ -38,6 +38,9 @@ $route = str_replace(str_replace("/router.php", "", $_SERVER['PHP_SELF']), "", $
     
     elseif (preg_match('/kontakty/', $route)):
         require('./kontakty.php');
+    
+    elseif (preg_match('/styleguide/', $route)):
+        require('./styleguide.php');
 
     elseif (preg_match('/galerie-galavacer-predavani/', $route)):
         require('./components/galleries/galavecer.php');

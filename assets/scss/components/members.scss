@@ -1,0 +1,14 @@
+.members {
+    .members__list {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .members__item {
+        width: 20%;
+    }
+
+    ul {
+        padding-left: 17.5px;
+    }
+}
