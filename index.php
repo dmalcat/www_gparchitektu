@@ -36,7 +36,7 @@
 					a prezentace kvalitní architektury široké laické a odborné veřejnosti.
 				</p>
 				<a href="<?php echo $baseurl ?>/o-nas/#organization" class="button button--yellow">
-					Více informací
+					Naše práce
 				</a>
 			</div>
 			<picture class="hero__image">
@@ -94,7 +94,7 @@
 					partnership v&nbsp;Rothmayerově sále na&nbsp;Pražském hradě.
 				</p>
 				<a href="https://www.instagram.com/p/CU4M9BUsOIR/" class="button button--yellow">
-					Více informací
+					O nás
 				</a>
 			</div>
 			<picture class="hero__image">
@@ -102,6 +102,51 @@
 				<source srcset="<?php echo $baseurl ?>/assets/images/carousel/2.jpg" media="(max-width: 2560px)" type="image/jpg">
 				<img src="<?php echo $baseurl ?>/assets/images/carousel/2.jpg" alt="">
 			</picture>
+		</div>
+	</div>
+</section>
+
+<section class="tiles">
+	<div class="tiles__wrapper wrapper">
+		<h1 class="text-center">Naše práce</h1>
+		<p class="perex text-center">
+			Lorem ipsum dolor sit amet. 
+		</p>
+		<div class="tiles__row">
+			<a href="" class="tile">
+				<span class="tile__inner">
+					<span class="tile__image">
+						<img src="<?php echo $baseurl ?>/assets/images/tiles/gpa.jpg" alt="">
+					</span>
+					<span class="tile__desc">
+						<span class="tile__headline">Grand Prix Architektů</span>
+						<span class="tile__description">
+							Obec architektů každoročně vyhlašuje Grand Prix Architektů – Národní cenu za architekturu – největší českou architektonickou soutěž o nejlepší realizaci.
+						</span>
+						<span class="tile__link">Více informací</span>
+					</span>
+				</span>
+			</a>
+			<div class="tile">
+				<div class="tile__inner">
+					<img class="tile__logo" src="http://localhost/www_gparchitektu/assets/images/uia.png" alt="">
+					<span class="tile__headline">Mezinárodní unie architektů</span>
+					<p class="tile__description">
+						Organizace je uznávána jako jediná globální architektonická organizace většinou agentur OSN, včetně UNESCO, UNCHS, ECOSOC, UNIDO a Světové zdravotnické organizace.
+					</p>
+					<a href="">Více informací</a>
+				</div>
+			</div>
+			<div class="tile">
+				<div class="tile__inner">
+					<img class="tile__logo" src="http://localhost/www_gparchitektu/assets/images/uia.png" alt="">
+					<span class="tile__headline">Partnerství</span>
+					<p class="tile__description">
+						Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed vel lectus. Donec odio tempus molestie, porttitor ut, iaculis quis, sem. Cras elementum.
+					</p>
+					<a href="">Více informací</a>
+				</div>
+			</div>
 		</div>
 	</div>
 </section>
