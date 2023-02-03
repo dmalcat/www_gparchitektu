@@ -16,10 +16,41 @@
 	}
 }
 
+.button--arrow {
+	border-radius: 8px;
+	.button__arrow {
+		width: 15px;
+		margin-top: -1px;
+		margin-left: 5px;
+		transition: all 100ms ease-in-out;
+		g {
+			fill: $black;
+		}
+	}
+	
+	
+	&:hover {
+		.button__arrow {
+			margin-left: 10px;
+		}
+	}
+}
+
 .button--black {
 	background-color: black;
 	color: white;
+	&.button--arrow {
+		&:hover {
+			background-color: $black;
+			color: $white;
+		}
+	}
 
+	.button__arrow {
+		g {
+			fill: $white;
+		}
+	}
 }
 
 .button--yellow {
@@ -33,6 +64,8 @@
 }
 
 .button--yellow:hover {
-	background-color: #d0d015;
+	background-color: $light-yellow;
 	color: black;
 }
+
+

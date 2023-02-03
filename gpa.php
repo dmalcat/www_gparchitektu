@@ -177,7 +177,7 @@
             if ($conn->connect_error) {
                 die("Connection failed: " . $conn->connect_error);
             }
-            $sql = "SELECT * FROM oa_clanky WHERE status='1' AND f3=1 ORDER BY id DESC LIMIT 3";
+            $sql = "SELECT * FROM oa_clanky WHERE status='1' AND f2=1 ORDER BY id DESC LIMIT 3";
 
             $result = $conn->query($sql);
 

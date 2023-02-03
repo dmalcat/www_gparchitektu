@@ -4,6 +4,10 @@
         margin-bottom: 5rem;
     }
 
+    .tiles__wrapper {
+        max-width: 1230px;
+    }
+
     .tiles__row {
         display: flex;
         justify-content: space-between;
@@ -14,6 +18,20 @@
         &:hover {
             .tile__image:before {
                 background-color: rgba(0, 0, 0, 0.7);
+            }
+
+            .tile__headline {
+                &:after {
+                    width: 120px;
+                    background-color: $light-yellow;
+                }
+            }
+
+            .tile__arrow {
+                margin-left: 10px;
+                g {
+                    fill: $light-yellow;
+                }
             }
         }
     }
@@ -31,6 +49,10 @@
         color: $white;
     }
 
+    .tile__copy {
+        margin-bottom: 2rem;
+    }
+
     .tile__logo {
         display: block;
         max-width: 200px;
@@ -40,17 +62,18 @@
     .tile__image {
         display: block;
         width: 100%;
-        
         &:before {
             content: '';
             position: absolute;
             background-color: rgba(0, 0, 0, 0.6);
             top: 0; left: 0; right: 0; bottom: 0;
             transition: all 300ms ease-in-out;
+            border-radius: 8px;
         }
 
         img {
             width: 100%;
+            border-radius: 8px;
         }
     }
 
@@ -59,18 +82,37 @@
     }
 
     .tile__headline {
+        position: relative;
         display: block;
         font-size: 24px;
         font-weight: bold;
-        margin-bottom: 1.5rem;
+        margin-bottom: 2.5rem;
+        &:after {
+            content: '';
+            position: absolute;
+            bottom: -15px;
+            left: 0;
+            width: 80px;
+            height: 2px;
+            background-color: $white;
+            transition: all 100ms ease-in-out;
+        }
     }
 
     .tile__link {
         color: $white;
-        &:after {
-            content: '';
-            display: inline-block;
-            background-image: url('../../images/icons/arrow-right.svg');
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .tile__arrow {
+        display: inline-block;
+        width: 15px;
+        margin-top: -1px;
+        margin-left: 5px;
+        transition: all 100ms ease-in-out;
+        g {
+            fill: $white;
         }
     }
 }
