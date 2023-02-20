@@ -46,10 +46,6 @@
 					</a>
 				</div>
 			</div>
-			
-			<video class="hero__video" muted autoplay loop>
-				<source src="<?php echo $baseurl ?>/assets/video/gpa-video.mp4" type="video/mp4">
-			</video>
 		</div>
 	</div>
 </section>
