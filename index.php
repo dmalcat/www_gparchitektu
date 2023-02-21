@@ -25,7 +25,7 @@
 
 <section class="hero">
 	<div class="hero__wrapper wrapper">
-		<div class="hero__wrap">
+		<div class="hero__slide">
 			<div class="hero__inner">
 				<h1>
 					Obec architektů
@@ -36,11 +36,11 @@
 					architektury široké laické a odborné veřejnosti.
 				</p>
 				<div class="hero__buttons">
-					<a href="<?php echo $baseurl ?>/o-nas/#organization" class="button button--black button--arrow">
+					<a href="<?php echo $baseurl ?>/o-nas/" class="button button--black button--arrow">
 						O nás
 						<img class="button__arrow svg" src="<?php echo $baseurl ?>/assets/images/icons/arrow-right-white.svg" alt="">
 					</a>
-					<a href="<?php echo $baseurl ?>/o-nas/#organization" class="button button--yellow button--arrow">
+					<a href="<?php echo $baseurl ?>/grand-prix-architektu/" class="button button--yellow button--arrow">
 						Grand Prix Architektů
 						<img class="button__arrow svg" src="<?php echo $baseurl ?>/assets/images/icons/arrow-right-white.svg" alt="">
 					</a>
@@ -48,6 +48,11 @@
 			</div>
 		</div>
 	</div>
+	<picture class="hero__image">
+		<!--<source srcset="<?php echo $baseurl ?>/assets/images/carousel/6.jpg" media="(max-width: 940px)" type="image/jpg">-->
+		<source srcset="<?php echo $baseurl ?>/assets/images/carousel/6.jpg" media="(max-width: 2560px)" type="image/jpg">
+		<img src="<?php echo $baseurl ?>/assets/images/carousel/6.jpg" alt="">
+	</picture>
 </section>
 
 <section class="tiles">
