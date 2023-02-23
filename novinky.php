@@ -22,18 +22,39 @@ $q = end($slug);
 	<?php include('./components/head.php'); ?>
 </head>
 <body>
-<!-- Menu -->    
+
+
 <?php include ('menu.php');?> 
 
+<section class="hero hero--subpage">
+	<div class="hero__wrapper wrapper">
+		<h1>Novinky</h1>
+	</div>
+	<div class="hero__image">
+		<img src="<?php echo $baseurl ?>/assets/images/covers/novinky.png" alt="">
+	</div>
+</section>
 
-<section id="novinky-slide" class="news">
+<section class="breadcrumb">
+	<div class="breadcrumb__wrapper wrapper">
+		<ul class="breadcrumbList">
+			<li>
+				<a href="<?php echo $baseurl ?>">Úvodní strana</a>
+			</li>
+			<li class="active">
+				Novinky
+			</li>
+		</ul>
+	</div>
+</section>
+
+
+<section class="news">
     <div class="news__wrapper wrapper">
-        <h1>Novinky</h1>
-
         <div class="buttonRow buttonRow--left news__filters">
-            <a href="<?php echo $baseurl ?>/novinky/" class="button button--black <?php if($q!='gpa'&&$q!='uia')echo 'active'; ?>">Všechny</a>
-            <a href="<?php echo $baseurl ?>/novinky/gpa" class="button button--black <?php if($q=='gpa')echo 'active'; ?>">Grand Prix Architektů</a>
-            <a href="<?php echo $baseurl ?>/novinky/uia" class="button button--black <?php if($q=='uia')echo 'active'; ?>">UIA</a>
+            <a href="<?php echo $baseurl ?>/novinky/" class="button button--black-border <?php if($q!='gpa'&&$q!='uia')echo 'button--active'; ?>">Všechny</a>
+            <a href="<?php echo $baseurl ?>/novinky/gpa" class="button button--black-border <?php if($q=='gpa')echo 'button--active'; ?>">Grand Prix Architektů</a>
+            <a href="<?php echo $baseurl ?>/novinky/uia" class="button button--black-border <?php if($q=='uia')echo 'button--active'; ?>">UIA</a>
         </div>
         
         <div class="news__row">

@@ -12,22 +12,6 @@
         }
     }
     
-    .about__col--img {
-        width: 60%;
-        padding-left: 5rem;
-        @include max768px {
-            width: 100%;
-            padding-left: 0;
-        }
-    }
-
-    .about__col--copy {
-        width: 40%;
-        @include max768px {
-            width: 100%;
-        }
-    }
-
     .about__img {
         width: 100%;
         margin-top: 5rem;

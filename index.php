@@ -58,15 +58,7 @@
 <section class="tiles">
 	<div class="tiles__wrapper wrapper">
 		<h1 class="text-center">Naše činnost</h1>
-		<p class="perex text-center">
-			Posláním spolku je především <strong>seznamovat širokou veřejnost <br>
-			s architekturou a stavitelstvím</strong>, aktivně spolupracovat při <br>
-			<strong>vytváření příznivých podmínek</strong> pro architektonickou a jinou <br>
-			související tvorbu</strong>, podporovat <strong>svobodnou diskuzi</strong> o tvůrčích <br>
-			a odborných otázkách v oboru architektury a aktivně <strong>spolupracovat</strong> <br>
-			s obdobnými institucemi <strong>doma i v zahraničí</strong>. 
-		</p>
-
+		
 		<div class="tiles__row">
 			<a href="<?php echo $baseurl ?>/grand-prix-architektu/" class="tile">
 				<span class="tile__inner">
@@ -127,48 +119,115 @@
 	<div class="news__wrapper wrapper">
 		<h1 class="text-center">Poslední novinky</h1>
 		<div class="news__row">
-			<div class="news__col news__col--image">
-				<div class="news__image">
-					<img src="<?php echo $baseurl ?>/assets/images/news/placeholder.jpg">
-				</div>
-			</div>
-			<div class="news__col news__col--copy">
-				<h2>
-					Rozhovor předsedy Olega Hamana s&nbsp;Janem Kaslem v Českém rozhlasu
-				</h2>
-				<p>
-					Saša Michailidis se ptal 9. listopadu 2022 od 16:30 předsedy České komory architektů Jana Kasla a předsedy Rady Obce architektů Olega Hamana. 
-					Proč máme dvě velké architektonické soutěže? Jak daleko jsou úvahy o jejich případném sloučení? A jakou váhu mají ceny u samotných architektů?
-				</p>
-				<div class="news__button">
-					<a href="" class="button button--black button--arrow">
-						Číst dále
-						<img class="button__arrow svg" src="<?php echo $baseurl ?>/assets/images/icons/arrow-right-white.svg" alt="">
-					</a>
-				</div>
-			</div>
-		</div>
-		<div class="news__row">
-			<div class="news__col news__col--copy">
-				<h2>
-					Rozhovor předsedy Olega Hamana s&nbsp;Janem Kaslem v Českém rozhlasu
-				</h2>
-				<p>
-					Saša Michailidis se ptal 9. listopadu 2022 od 16:30 předsedy České komory architektů Jana Kasla a předsedy Rady Obce architektů Olega Hamana. 
-					Proč máme dvě velké architektonické soutěže? Jak daleko jsou úvahy o jejich případném sloučení? A jakou váhu mají ceny u samotných architektů?
-				</p>
-				<div class="news__button">
-					<a href="" class="button button--black button--arrow">
-						Číst dále
-						<img class="button__arrow svg" src="<?php echo $baseurl ?>/assets/images/icons/arrow-right-white.svg" alt="">
-					</a>
-				</div>
-			</div>
-			<div class="news__col news__col--image">
-				<div class="news__image">
-					<img src="<?php echo $baseurl ?>/assets/images/news/placeholder.jpg">
-				</div>
-			</div>
+			<?php
+
+			include 'conn.php';
+
+			// Create connection
+			$conn = new mysqli($servername, $username, $password, $dbname);
+			$conn->set_charset('utf8');
+
+			// Check connection
+			if ($conn->connect_error) {
+				die("Connection failed: " . $conn->connect_error);
+			}
+			$sql = "SELECT * FROM oa_clanky WHERE status='1' ORDER BY id DESC LIMIT 2";
+			
+			$result = $conn->query($sql);                            
+
+			if ($result->num_rows > 0) {                                     
+				// output data of each row
+				while($row = $result->fetch_assoc()) {
+					$id = $row['id'];   
+					$title = $row['title'];
+					$content = $row['content'];
+					$datum= $row['date'];
+					$photo= $row['main_img'];
+
+					$cisty_text = strip_tags($content);
+
+					$pole = explode(" ",$cisty_text);
+				}
+
+					for ($i=0;$i<140;$i++) {
+						$pole2[$i]=$pole[$i];
+					};
+
+					$text = implode(" ",$pole2);
+
+					function substrwords($text, $maxchar, $end='...') {
+						if (strlen($text) > $maxchar || $text == '') {
+							$words = preg_split('/\s/', $text);      
+							$output = '';
+							$i      = 0;
+							while (1) {
+								$length = strlen($output)+strlen($words[$i]);
+								if ($length > $maxchar) {
+									break;
+								} 
+								else {
+									$output .= " " . $words[$i];
+									++$i;
+								}
+							}
+							$output .= $end;
+						} 
+						else {
+							$output = $text;
+						}
+						return $output;
+					}
+
+					$text = substrwords($text, 400);
+
+					//vytvoření odkazu
+					$string = $title;
+					$string = str_replace("+", " ", $string);
+
+					$slug = \Transliterator::createFromRules(
+						':: Any-Latin;'
+						. ':: NFD;'
+						. ':: [:Nonspacing Mark:] Remove;'
+						. ':: NFC;'
+						. ':: [:Punctuation:] Remove;'
+						. ':: Lower();'
+						. '[:Separator:] > \'-\''
+					)
+						->transliterate( $string );
+						$slug; // namnet-pa-bildtavlingen
+
+
+					$odkaz = "$slug";
+
+
+					
+					echo "      
+						<div class='news__col news__col--image'>
+							<div class='news__image'>
+								<img class='news__img articles__img--mobile' src='$baseurl/uploads/images/$photo'>
+							</div>
+						</div>
+
+						<div class='news__col news__col--copy'>
+							<h2>$title</h2>
+							
+							<p>
+								$text
+							</p>
+
+							<div class='news__button'>
+								<a href='$baseurl/novinka/$id-$odkaz' class='button button--black button--arrow'>
+									Číst dále
+									<img class='button__arrow svg' src='$baseurl/assets/images/icons/arrow-right-white.svg' alt=''>
+								</a>
+							</div>
+						</div>
+					";
+				}
+			
+			$conn->close();
+
+			?>
 		</div>
 	</div>
 </section>
