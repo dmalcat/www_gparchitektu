@@ -13,6 +13,9 @@
             <a class="navigation__link" href="https://www.gpaf.cz/">Festival</a>
         </li>
         <li class="navigation__item">
+            <a class="navigation__link" href="<?php echo $baseurl ?>/partnerstvi/">Partnerství</a>
+        </li>
+        <li class="navigation__item">
             <a class="navigation__link" href="<?php echo $baseurl ?>/clenstvi/">Členství</a>
         </li>
         <li class="navigation__item">

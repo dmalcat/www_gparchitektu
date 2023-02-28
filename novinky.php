@@ -48,7 +48,6 @@ $q = end($slug);
 	</div>
 </section>
 
-
 <section class="news">
     <div class="news__wrapper wrapper">
         <div class="buttonRow buttonRow--left news__filters">
@@ -60,7 +59,7 @@ $q = end($slug);
         <div class="news__row">
             <?php
             include 'conn.php';
-
+            
             // Create connection
             $conn = new mysqli($servername, $username, $password, $dbname);
             $conn->set_charset('utf8');
@@ -79,7 +78,8 @@ $q = end($slug);
 
             $result = $conn->query($sql);                            
 
-            if ($result->num_rows > 0) {                                     
+            if ($result->num_rows > 0) {    
+                                                 
                 // output data of each row   
                 while($row = $result->fetch_assoc()) {
             $id = $row['id'];   
@@ -141,6 +141,7 @@ $q = end($slug);
             ";
                 }
             } else { 
+                var_dump("test");
             }
             $conn->close();
 

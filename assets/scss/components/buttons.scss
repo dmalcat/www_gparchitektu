@@ -66,9 +66,16 @@
 	}
 
 	.button__arrow {
+		margin-right: 5px;
 		g {
 			fill: $white;
 		}
+	}
+}
+
+.button--back {
+	.button__arrow {
+		transform: rotate(180deg);
 	}
 }
 

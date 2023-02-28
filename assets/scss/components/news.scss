@@ -13,6 +13,7 @@
 			}
 		}
 	}
+
 	.news__row {
 		display: flex;
 		justify-content: space-between;
@@ -63,6 +64,20 @@
 		h5 {
 			font-weight: bold;
 		}
+	}
+
+	.news__article {
+		margin-bottom: 3rem;
+	}
+
+	.news__gallery {
+		.gallery {
+			display: flex;
+			gap: 1rem;
+			justify-content: flex-start;
+			margin-bottom: 3rem;
+		}
+		
 	}
 }
 

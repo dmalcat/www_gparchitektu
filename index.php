@@ -1,6 +1,6 @@
 <?php include ('config.php');?>
 
-<!DOCTYPE html>
+<!DOCTYPE&nbsp;html>
 <html lang="cs">
 
 <head> 
@@ -31,9 +31,9 @@
 					Obec architektů
 				</h1>
 				<p>
-					Smyslem naší činnosti je reprezentace ČR <br>
-					na úrovni UIA a V4 a prezentace kvalitní <br>
-					architektury široké laické a odborné veřejnosti.
+					Smyslem naší činnosti je&nbsp;reprezentace ČR <br>
+					na úrovni UIA a&nbsp;V4 a&nbsp;prezentace kvalitní <br>
+					architektury široké laické a&nbsp;odborné veřejnosti.
 				</p>
 				<div class="hero__buttons">
 					<a href="<?php echo $baseurl ?>/o-nas/" class="button button--black button--arrow">
@@ -68,7 +68,7 @@
 					<span class="tile__desc">
 						<span class="tile__headline">Grand Prix Architektů</span>
 						<span class="tile__copy">
-							Obec architektů každoročně vyhlašuje Grand Prix Architektů – Národní cenu za architekturu – největší českou architektonickou soutěž o nejlepší realizaci.
+							Obec architektů každoročně vyhlašuje Grand Prix Architektů – Národní cenu za&nbsp;architekturu – největší českou architektonickou soutěž o&nbsp;nejlepší realizaci.
 						</span>
 						<span class="tile__link">
 							Více informací
@@ -85,7 +85,7 @@
 					<span class="tile__desc">
 						<span class="tile__headline">UIA</span>
 						<span class="tile__copy">
-							Mezinárodní unie architektů je organizace uznávána jako jediná globální architektonická organizace většinou agentur OSN.
+							Mezinárodní unie architektů je&nbsp;organizace uznávána jako jediná globální architektonická organizace většinou agentur OSN.
 						</span>
 						<span class="tile__link">
 							Více informací
@@ -94,7 +94,7 @@
 					</span>
 				</span>
 			</a>
-			<a href="<?php echo $baseurl ?>/grand-prix-architektu/" class="tile">
+			<a href="<?php echo $baseurl ?>/partnerstvi/" class="tile">
 				<span class="tile__inner">
 					<span class="tile__image">
 						<img src="<?php echo $baseurl ?>/assets/images/tiles/partnership.jpg" alt="">
@@ -102,7 +102,7 @@
 					<span class="tile__desc">
 						<span class="tile__headline">Partnerství</span>
 						<span class="tile__copy">
-							Organizace je uznávána jako jediná globální architektonická organizace většinou agentur OSN.
+							Staňte se&nbsp;partnerem jedné z&nbsp;nejvýznamnějších profesních sdružení architektů v&nbsp;České republice.
 						</span>
 						<span class="tile__link">
 							Více informací
@@ -131,7 +131,7 @@
 			if ($conn->connect_error) {
 				die("Connection failed: " . $conn->connect_error);
 			}
-			$sql = "SELECT * FROM oa_clanky WHERE status='1' ORDER BY id DESC LIMIT 2";
+			$sql = "SELECT * FROM oa_clanky WHERE&nbsp;status='1' ORDER BY id DESC LIMIT 2";
 			
 			$result = $conn->query($sql);                            
 
@@ -157,7 +157,7 @@
 
 					function substrwords($text, $maxchar, $end='...') {
 						if (strlen($text) > $maxchar || $text == '') {
-							$words = preg_split('/\s/', $text);      
+							$words = preg_split('/s/', $text);      
 							$output = '';
 							$i      = 0;
 							while (1) {
@@ -184,14 +184,14 @@
 					$string = $title;
 					$string = str_replace("+", " ", $string);
 
-					$slug = \Transliterator::createFromRules(
+					$slug = Transliterator::createFromRules(
 						':: Any-Latin;'
 						. ':: NFD;'
 						. ':: [:Nonspacing Mark:] Remove;'
 						. ':: NFC;'
 						. ':: [:Punctuation:] Remove;'
 						. ':: Lower();'
-						. '[:Separator:] > \'-\''
+						. '[:Separator:] > '-''
 					)
 						->transliterate( $string );
 						$slug; // namnet-pa-bildtavlingen
