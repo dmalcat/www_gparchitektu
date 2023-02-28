@@ -129,7 +129,7 @@
 	</div>
 	<div class="gpTabs__wrapper wrapper" id="winning-projects">
 		<div class="gpTabs__content">
-			<div class="gpa">
+			<div class="gpa gpa--projects">
 				<div class="gpa__row gpa__row--projects row">
 					<div class="gpa__col">
 						<div class="gpa__projectImg">
@@ -142,7 +142,10 @@
 							<strong>Ateliér</strong>: SCHINDLER SEKO ARCHITEKTI <br>
 							<strong>Cena:</strong> Velká modrá kostka
 						</span>
-						<a class="button button--black" href="https://grandprix.grandprixarchitektu.cz/rocnik/2022/573">Detail projektu</a>
+						<a class="button button--black button--arrow button--arrow" href="https://grandprix.grandprixarchitektu.cz/rocnik/2022/573">
+							Detail projektu
+							<img class="button__arrow svg" src="<?php echo $baseurl ?>/assets/images/icons/arrow-right-white.svg" alt="">
+						</a>
 					</div>
 					<div class="gpa__col">
 						<div class="gpa__projectImg">
@@ -166,7 +169,10 @@
 							<strong>Ateliér</strong>: Atelier Stráský, Hustý a&nbsp;partneři, s. r.&nbsp;o. (SHP)&nbsp;Brno <br>
 							<strong>Cena:</strong> Malá modrá kostka
 						</span>
-						<a class="button button--black" href="https://grandprix.grandprixarchitektu.cz/rocnik/2022/676">Detail projektu</a>
+						<a class="button button--black button--arrow button--arrow" href="https://grandprix.grandprixarchitektu.cz/rocnik/2022/676">
+							Detail projektu
+							<img class="button__arrow svg" src="<?php echo $baseurl ?>/assets/images/icons/arrow-right-white.svg" alt="">
+						</a>
 					</div>
 					<div class="gpa__col">
 						<div class="gpa__projectImg">
@@ -179,7 +185,10 @@
 							<strong>Ateliér</strong>: studio AEIOU s. r.&nbsp;o. <br>
 							<strong>Cena:</strong> Malá modrá kostka
 						</span>
-						<a class="button button--black" href="https://grandprix.grandprixarchitektu.cz/rocnik/2022/622">Detail projektu</a>
+						<a class="button button--black button--arrow button--arrow" href="https://grandprix.grandprixarchitektu.cz/rocnik/2022/622">
+							Detail projektu
+							<img class="button__arrow svg" src="<?php echo $baseurl ?>/assets/images/icons/arrow-right-white.svg" alt="">
+						</a>
 					</div>
 					<div class="gpa__col">
 						<div class="gpa__projectImg">
@@ -191,7 +200,10 @@
 							<strong>Autor</strong>: Tomáš Efler, Václav Girsa, Miloslav Hanzl, Jana Strnadová, Jaroslav Svěrek <br>
 							<strong>Cena:</strong> Malá modrá kostka
 						</span>
-						<a class="button button--black" href="https://grandprix.grandprixarchitektu.cz/rocnik/2022/648">Detail projektu</a>
+						<a class="button button--black button--arrow button--arrow" href="https://grandprix.grandprixarchitektu.cz/rocnik/2022/648">
+							Detail projektu
+							<img class="button__arrow svg" src="<?php echo $baseurl ?>/assets/images/icons/arrow-right-white.svg" alt="">
+						</a>
 					</div>
 					<div class="gpa__col">
 						<div class="gpa__projectImg">
@@ -204,7 +216,10 @@
 							<strong>Ateliér</strong>: Martin Neruda Architektura<br>
 							<strong>Cena:</strong> Malá modrá kostka
 						</span>
-						<a class="button button--black" href="https://grandprix.grandprixarchitektu.cz/rocnik/2022/491">Detail projektu</a>
+						<a class="button button--black button--arrow button--arrow" href="https://grandprix.grandprixarchitektu.cz/rocnik/2022/491">
+							Detail projektu
+							<img class="button__arrow svg" src="<?php echo $baseurl ?>/assets/images/icons/arrow-right-white.svg" alt="">
+						</a>
 					</div>
 					<div class="gpa__col">
 						<div class="gpa__projectImg">
@@ -217,7 +232,10 @@
 							<strong>Ateliér</strong>: projectstudio8 <br>
 							<strong>Cena</strong>: Malá zelená kostka
 						</span>
-						<a class="button button--black" href="https://grandprix.grandprixarchitektu.cz/rocnik/2022/384">Detail projektu</a>
+						<a class="button button--black button--arrow button--arrow" href="https://grandprix.grandprixarchitektu.cz/rocnik/2022/384">
+							Detail projektu
+							<img class="button__arrow svg" src="<?php echo $baseurl ?>/assets/images/icons/arrow-right-white.svg" alt="">
+						</a>
 					</div>
 					<div class="gpa__col">
 						<div class="gpa__projectImg">
@@ -230,7 +248,10 @@
 							<strong>Ateliér</strong>: Podlipný Sladký architekti s.r.o. <br>
 							<strong>Cena:</strong> Malá stříbrná kostka
 						</span>
-						<a class="button button--black" href="https://grandprix.grandprixarchitektu.cz/rocnik/2022/412">Detail projektu</a>
+						<a class="button button--black button--arrow button--arrow" href="https://grandprix.grandprixarchitektu.cz/rocnik/2022/412">
+							Detail projektu
+							<img class="button__arrow svg" src="<?php echo $baseurl ?>/assets/images/icons/arrow-right-white.svg" alt="">
+						</a>
 					</div>
 					<div class="gpa__col">
 						<div class="gpa__projectImg">
@@ -244,7 +265,10 @@
 							<strong>Ateliér</strong>: CHYBIK + KRISTOF<br>
 							<strong>Cena:</strong> Malá žlutá kostka
 						</span>
-						<a class="button button--black" href="https://grandprix.grandprixarchitektu.cz/rocnik/2022/590">Detail projektu</a>
+						<a class="button button--black button--arrow button--arrow" href="https://grandprix.grandprixarchitektu.cz/rocnik/2022/590">
+							Detail projektu
+							<img class="button__arrow svg" src="<?php echo $baseurl ?>/assets/images/icons/arrow-right-white.svg" alt="">
+						</a>
 					</div>
 					<div class="gpa__col">
 						<div class="gpa__projectImg">
@@ -257,7 +281,10 @@
 							<strong>Ateliér</strong>: Aulík Fišer architekti, s.r.o.<br>
 							<strong>Cena:</strong> Malá fialová kostka
 						</span>
-						<a class="button button--black" href="https://grandprix.grandprixarchitektu.cz/rocnik/2022/370">Detail projektu</a>
+						<a class="button button--black button--arrow button--arrow" href="https://grandprix.grandprixarchitektu.cz/rocnik/2022/370">
+							Detail projektu
+							<img class="button__arrow svg" src="<?php echo $baseurl ?>/assets/images/icons/arrow-right-white.svg" alt="">
+						</a>
 					</div>
 					<div class="gpa__col">
 						<div class="gpa__projectImg">
@@ -270,7 +297,10 @@
 							<strong>Ateliér</strong>: U&nbsp;studio s. r.&nbsp;o. <br>
 							<strong>Cena:</strong> Diplom
 						</span>
-						<a class="button button--black" href="https://grandprix.grandprixarchitektu.cz/rocnik/2022/440">Detail projektu</a>
+						<a class="button button--black button--arrow button--arrow" href="https://grandprix.grandprixarchitektu.cz/rocnik/2022/440">
+							Detail projektu
+							<img class="button__arrow svg" src="<?php echo $baseurl ?>/assets/images/icons/arrow-right-white.svg" alt="">
+						</a>
 					</div>
 					<div class="gpa__col">
 						<div class="gpa__projectImg">
@@ -283,7 +313,10 @@
 							<strong>Ateliér</strong>:CONSEQUENCE FORMA architects <br>
 							<strong>Cena:</strong> Diplom
 						</span>
-						<a class="button button--black" href="https://grandprix.grandprixarchitektu.cz/rocnik/2022/499">Detail projektu</a>
+						<a class="button button--black button--arrow button--arrow" href="https://grandprix.grandprixarchitektu.cz/rocnik/2022/499">
+							Detail projektu
+							<img class="button__arrow svg" src="<?php echo $baseurl ?>/assets/images/icons/arrow-right-white.svg" alt="">
+						</a>
 					</div>
 					<div class="gpa__col">
 						<div class="gpa__projectImg">
@@ -296,7 +329,10 @@
 							<strong>Ateliér</strong>: ZETTE ateliér <br>
 							<strong>Cena:</strong> Diplom
 						</span>
-						<a class="button button--black" href="https://grandprix.grandprixarchitektu.cz/rocnik/2022/529">Detail projektu</a>
+						<a class="button button--black button--arrow button--arrow" href="https://grandprix.grandprixarchitektu.cz/rocnik/2022/529">
+							Detail projektu
+							<img class="button__arrow svg" src="<?php echo $baseurl ?>/assets/images/icons/arrow-right-white.svg" alt="">
+						</a>
 					</div>
 					<div class="gpa__col">
 						<div class="gpa__projectImg">
@@ -308,7 +344,10 @@
 							<strong>Autor</strong>: Daniela Hradilová <br>
 							<strong>Cena:</strong> Diplom
 						</span>
-						<a class="button button--black" href="https://grandprix.grandprixarchitektu.cz/rocnik/2022/531">Detail projektu</a>
+						<a class="button button--black button--arrow button--arrow" href="https://grandprix.grandprixarchitektu.cz/rocnik/2022/531">
+							Detail projektu
+							<img class="button__arrow svg" src="<?php echo $baseurl ?>/assets/images/icons/arrow-right-white.svg" alt="">
+						</a>
 					</div>
 					<div class="gpa__col">
 						<div class="gpa__projectImg">
@@ -320,7 +359,10 @@
 							<strong>Autor</strong>: Ing.&nbsp;arch. Martin Materna, Ing.&nbsp;arch. Adéla Kudlová , Ing.&nbsp;arch. Adam Weczerek - WMA architekti, spolupráce Art consultancy - Mgr.&nbsp;Ivan Berger, archeologicko-historická část - Mgr.&nbsp;František Kolář, Mgr.&nbsp;Petra Kaniová <br>
 							<strong>Cena:</strong> Diplom
 						</span>
-						<a class="button button--black" href="https://grandprix.grandprixarchitektu.cz/rocnik/2022/568">Detail projektu</a>
+						<a class="button button--black button--arrow button--arrow" href="https://grandprix.grandprixarchitektu.cz/rocnik/2022/568">
+							Detail projektu
+							<img class="button__arrow svg" src="<?php echo $baseurl ?>/assets/images/icons/arrow-right-white.svg" alt="">
+						</a>
 					</div>
 					<div class="gpa__col">
 						<div class="gpa__projectImg">
@@ -333,7 +375,10 @@
 							<strong>Ateliér</strong>: studioPAB s.r.o. <br>
 							<strong>Cena:</strong> Diplom
 						</span>
-						<a class="button button--black" href="https://grandprix.grandprixarchitektu.cz/rocnik/2022/565">Detail projektu</a>
+						<a class="button button--black button--arrow button--arrow" href="https://grandprix.grandprixarchitektu.cz/rocnik/2022/565">
+							Detail projektu
+							<img class="button__arrow svg" src="<?php echo $baseurl ?>/assets/images/icons/arrow-right-white.svg" alt="">
+						</a>
 					</div>
 					<div class="gpa__col">
 						<div class="gpa__projectImg">
@@ -346,7 +391,10 @@
 							<strong>Ateliér</strong>: Archatt, Krejčiříkov <br>
 							<strong>Cena:</strong> Diplom
 						</span>
-						<a class="button button--black" href="https://grandprix.grandprixarchitektu.cz/rocnik/2022/719">Detail projektu</a>
+						<a class="button button--black button--arrow button--arrow" href="https://grandprix.grandprixarchitektu.cz/rocnik/2022/719">
+							Detail projektu
+							<img class="button__arrow svg" src="<?php echo $baseurl ?>/assets/images/icons/arrow-right-white.svg" alt="">
+						</a>
 					</div>
 				</div>
 			</div>
@@ -449,9 +497,9 @@
 	<div class="gpTabs__wrapper wrapper" id="projects">
 		<div class="gpTabs__content">
 			<div class="gpTabs__buttons">
-				<a href="https://grandprix.grandprixarchitektu.cz/rocnik/2022/vitezove" class="button button--black">Vítězové</a>
-				<a href="https://grandprix.grandprixarchitektu.cz/rocnik/2022/shortlist" class="button button--black">Shortlist</a>
-				<a href="https://grandprix.grandprixarchitektu.cz/rocnik/2022" class="button button--black">Všechny projekty</a>
+				<a href="https://grandprix.grandprixarchitektu.cz/rocnik/2022/vitezove" class="button button--black button--arrow button--arrow">Vítězové</a>
+				<a href="https://grandprix.grandprixarchitektu.cz/rocnik/2022/shortlist" class="button button--black button--arrow button--arrow">Shortlist</a>
+				<a href="https://grandprix.grandprixarchitektu.cz/rocnik/2022" class="button button--black button--arrow button--arrow">Všechny projekty</a>
 			</div>
 		</div>
 	</div>
