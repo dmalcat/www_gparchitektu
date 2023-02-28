@@ -19,11 +19,37 @@
 <!-- Menu -->
 <?php include ('menu.php');?>
 
+<section class="hero hero--subpage">
+	<div class="hero__wrapper wrapper">
+		<img class="hero__logo" src="<?php echo $baseurl ?>/assets/images/brand/gpa-logo-white.png" alt="">
+		<h1>Grand Prix Architektů</h1>
+	</div>
+	<div class="hero__image hero__image--video">
+		<video class="hero__video" autoplay loop muted>
+			<source src="<?php echo $baseurl ?>/assets/video/gpa-video.mp4" type="video/mp4">
+		</video>
+	</div>
+</section>
+
+<section class="breadcrumb">
+	<div class="breadcrumb__wrapper wrapper">
+		<ul class="breadcrumbList">
+			<li>
+				<a href="<?php echo $baseurl ?>">Úvodní strana</a>
+			</li>
+			<li>
+				<a href="<?php echo $baseurl ?>/grand-prix-architektu/">Grand Prix Architektů</a>
+			</li>
+			<li class="active">
+                2021
+			</li>
+		</ul>
+	</div>
+</section>
+
 <section class="gpa">
 	<div class="gpa__wrapper wrapper">
 		
-		<h1>Grand Prix Architektů 2021</h1>
-
 		<div class="gpa__row">
 			<div class="gpa__col">
 				<p>
@@ -40,7 +66,10 @@
 					Každoročně je&nbsp;součástí slavnostního večera, který&nbsp;se&nbsp;letos konal v&nbsp;Betlémské kapli, vyhlášena i&nbsp;cena za&nbsp;Celoživotní dílo, kterou uděluje Rada Obce architektů. Tato cena byla udělena Ing.&nbsp;arch. Viktoru Rudišovi.
 				</p>
 				<div class="buttonRow buttonRow--left">
-					<a class="button button--black" href="https://grandprix.grandprixarchitektu.cz/rocnik/2021">Všechny projekty</a>
+					<a class="button button--black button--arrow" href="https://grandprix.grandprixarchitektu.cz/rocnik/2021">
+						Všechny projekty
+						<img class="button__arrow svg" src="<?php echo $baseurl ?>/assets/images/icons/arrow-right-white.svg" alt="">
+					</a>
 				</div>
 			</div>
 			<div class="gpa__col">
@@ -51,10 +80,7 @@
 					<i>„V&nbsp;letošním roce byl&nbsp;velký rozdíl v&nbsp;práci poroty a&nbsp;to&nbsp;především v&nbsp;tom, že&nbsp;porota si nevybrala ze&nbsp;svého středu předsedu. Rozhodování bylo tedy jednomyslné, všechny vítězné projekty získaly plný počet, to&nbsp;je&nbsp;5 hlasů. Již v&nbsp;prvním kole, kdy&nbsp;porota rozhodovala o&nbsp;výběru finalistů, mělo mnoho projektů 4 nebo 5 hlasů. Proto musel být shortlist finalistů rozšířen z&nbsp;50 na&nbsp;55.&nbsp;Je&nbsp;vynikající, že&nbsp;hlavní cena je&nbsp;hrazena z&nbsp;veřejných financí. V&nbsp;loňském roce tomu bylo stejně, kdy&nbsp;vyhrála Městská hala Modřice,“</i> uvedl k&nbsp;udílení cen Oleg Haman, předseda Obce architektů.
 				</p>
 			</div>
-            <div class="gpa__col">
-				<img class="gpa__logo" src="<?php echo $baseurl ?>/img/gpa-logo.png" alt="">
-			</div>
-		</div>
+        </div>
 	</div>
 </section>
 
@@ -64,9 +90,9 @@
 	</div>
 	<div class="gpTabs__wrapper wrapper" id="winning-projects">
 		<div class="gpTabs__content">
-			<div class="gpa">
+			<div class="gpa gpa--projects">
 				<div class="gpa__row row">
-					<div class="gpa__col col-md-4">
+					<div class="gpa__col">
 						<div class="gpa__projectImg">
 							<img src="<?php echo $baseurl ?>/assets/images/projects/prestavba-menzy.png" alt="">
 						</div>
@@ -77,9 +103,12 @@
 							<strong>Ateliér</strong>: Kuba & Pilař architekti s.r.o. <br>
 							<strong>Cena:</strong> Velká modrá kostka
 						</span>
-						<a class="button button--black" href="https://grandprix.grandprixarchitektu.cz/rocnik/2021/shortlist/127">Detail projektu</a>
+						<a class="button button--black button--arrow" href="https://grandprix.grandprixarchitektu.cz/rocnik/2021/shortlist/127">
+							Detail projektu
+							<img class="button__arrow svg" src="<?php echo $baseurl ?>/assets/images/icons/arrow-right-white.svg" alt="">
+						</a>
 					</div>
-					<div class="gpa__col col-md-4">
+					<div class="gpa__col">
 						<div class="gpa__projectImg">
 							<img src="<?php echo $baseurl ?>/assets/images/projects/viktor-rudis.png" alt="">
 						</div>
@@ -90,7 +119,7 @@
 							<strong>Cena:</strong> Velká červená kostka
 						</span>
 					</div>
-					<div class="gpa__col col-md-4">
+					<div class="gpa__col">
 						<div class="gpa__projectImg">
 							<img src="<?php echo $baseurl ?>/assets/images/projects/novostavba.png" alt="">
 						</div>
@@ -101,9 +130,12 @@
 							<strong>Ateliér</strong>: Prokš Přikryl architekti <br>
 							<strong>Cena:</strong> Malá modrá kostka
 						</span>
-						<a class="button button--black" href="https://grandprix.grandprixarchitektu.cz/rocnik/2021/shortlist/175">Detail projektu</a>
+						<a class="button button--black button--arrow" href="https://grandprix.grandprixarchitektu.cz/rocnik/2021/shortlist/175">
+							Detail projektu
+							<img class="button__arrow svg" src="<?php echo $baseurl ?>/assets/images/icons/arrow-right-white.svg" alt="">
+						</a>
 					</div>
-					<div class="gpa__col col-md-4">
+					<div class="gpa__col">
 						<div class="gpa__projectImg">
 							<img src="<?php echo $baseurl ?>/assets/images/projects/radnice-praha-7.png" alt="">
 						</div>
@@ -114,9 +146,12 @@
 							<strong>Ateliér</strong>: Atelier bod architekti s.r.o.<br>
 							<strong>Cena:</strong> Malá modrá kostka
 						</span>
-						<a class="button button--black" href="https://grandprix.grandprixarchitektu.cz/rocnik/2021/shortlist/117">Detail projektu</a>
+						<a class="button button--black button--arrow" href="https://grandprix.grandprixarchitektu.cz/rocnik/2021/shortlist/117">
+							Detail projektu
+							<img class="button__arrow svg" src="<?php echo $baseurl ?>/assets/images/icons/arrow-right-white.svg" alt="">
+						</a>
 					</div>
-					<div class="gpa__col col-md-4">
+					<div class="gpa__col">
 						<div class="gpa__projectImg">
 							<img src="<?php echo $baseurl ?>/assets/images/projects/libusina.png" alt="">
 						</div>
@@ -126,9 +161,12 @@
 							<strong>Ateliér</strong>: Masák & Partner s.r.o.<br>
 							<strong>Cena:</strong> Malá modrá kostka
 						</span>
-						<a class="button button--black" href="https://grandprix.grandprixarchitektu.cz/rocnik/2021/shortlist/31">Detail projektu</a>
+						<a class="button button--black button--arrow" href="https://grandprix.grandprixarchitektu.cz/rocnik/2021/shortlist/31">
+							Detail projektu
+							<img class="button__arrow svg" src="<?php echo $baseurl ?>/assets/images/icons/arrow-right-white.svg" alt="">
+						</a>
 					</div>
-					<div class="gpa__col col-md-4">
+					<div class="gpa__col">
 						<div class="gpa__projectImg">
 							<img src="<?php echo $baseurl ?>/assets/images/projects/dum-na-kozine.png" alt="">
 						</div>
@@ -139,9 +177,12 @@
 							<strong>Ateliér</strong>: atelier 111 architekti<br>
 							<strong>Cena:</strong> Malá modrá kostka
 						</span>
-						<a class="button button--black" href="https://grandprix.grandprixarchitektu.cz/rocnik/2021/shortlist/99">Detail projektu</a>
+						<a class="button button--black button--arrow" href="https://grandprix.grandprixarchitektu.cz/rocnik/2021/shortlist/99">
+							Detail projektu
+							<img class="button__arrow svg" src="<?php echo $baseurl ?>/assets/images/icons/arrow-right-white.svg" alt="">
+						</a>
 					</div>
-					<div class="gpa__col col-md-4">
+					<div class="gpa__col">
 						<div class="gpa__projectImg">
 							<img src="<?php echo $baseurl ?>/assets/images/projects/krajinarska-architektura.png" alt="">
 						</div>
@@ -151,7 +192,7 @@
 							<strong>Cena</strong>: Malá zelená kostka
 						</span>
 					</div>
-					<div class="gpa__col col-md-4">
+					<div class="gpa__col">
 						<div class="gpa__projectImg">
 							<img src="<?php echo $baseurl ?>/assets/images/projects/vecna-loviste.png" alt="">
 						</div>
@@ -162,9 +203,12 @@
 							<strong>Ateliér</strong>: Petr Hájek ARCHITEKTI, s.r.o.<br>
 							<strong>Cena:</strong> Malá modrá kostka
 						</span>
-						<a class="button button--black" href="https://grandprix.grandprixarchitektu.cz/rocnik/2021/shortlist/29">Detail projektu</a>
+						<a class="button button--black button--arrow" href="https://grandprix.grandprixarchitektu.cz/rocnik/2021/shortlist/29">
+							Detail projektu
+							<img class="button__arrow svg" src="<?php echo $baseurl ?>/assets/images/icons/arrow-right-white.svg" alt="">
+						</a>
 					</div>
-					<div class="gpa__col col-md-4">
+					<div class="gpa__col">
 						<div class="gpa__projectImg">
 							<img src="<?php echo $baseurl ?>/assets/images/projects/altan-knihovna.png" alt="">
 						</div>
@@ -175,9 +219,12 @@
 							<strong>Spolupráce</strong>: Ing.arch.&nbsp;Miroslav Bachura (studie), Ing.&nbsp;arch. Jonáš Kolařík (DSP), Ing.arch.&nbsp;Ondřej Hart (DPS)<br>
 							<strong>Cena:</strong> Malá stříbrná kostka
 						</span>
-						<a class="button button--black" href="https://grandprix.grandprixarchitektu.cz/rocnik/2021/109">Detail projektu</a>
+						<a class="button button--black button--arrow" href="https://grandprix.grandprixarchitektu.cz/rocnik/2021/109">
+							Detail projektu
+							<img class="button__arrow svg" src="<?php echo $baseurl ?>/assets/images/icons/arrow-right-white.svg" alt="">
+						</a>
 					</div>
-					<div class="gpa__col col-md-4">
+					<div class="gpa__col">
 						<div class="gpa__projectImg">
 							<img src="<?php echo $baseurl ?>/assets/images/projects/telegraph.png" alt="">
 						</div>
@@ -188,9 +235,12 @@
 							<strong>Ateliér</strong>: ječmen studio<br>
 							<strong>Cena:</strong> Diplom
 						</span>
-						<a class="button button--black" href="https://grandprix.grandprixarchitektu.cz/rocnik/2021/shortlist/18">Detail projektu</a>
+						<a class="button button--black button--arrow" href="https://grandprix.grandprixarchitektu.cz/rocnik/2021/shortlist/18">
+							Detail projektu
+							<img class="button__arrow svg" src="<?php echo $baseurl ?>/assets/images/icons/arrow-right-white.svg" alt="">
+						</a>
 					</div>
-					<div class="gpa__col col-md-4">
+					<div class="gpa__col">
 						<div class="gpa__projectImg">
 							<img src="<?php echo $baseurl ?>/assets/images/projects/sakura.png" alt="">
 						</div>
@@ -200,9 +250,12 @@
 							<strong>Ateliér</strong>: Jestico + Whiles<br>
 							<strong>Cena:</strong> Diplom
 						</span>
-						<a class="button button--black" href="https://grandprix.grandprixarchitektu.cz/admin/event/1/project/88">Detail projektu</a>
+						<a class="button button--black button--arrow" href="https://grandprix.grandprixarchitektu.cz/admin/event/1/project/88">
+							Detail projektu
+							<img class="button__arrow svg" src="<?php echo $baseurl ?>/assets/images/icons/arrow-right-white.svg" alt="">
+						</a>
 					</div>
-					<div class="gpa__col col-md-4">
+					<div class="gpa__col">
 						<div class="gpa__projectImg">
 							<img src="<?php echo $baseurl ?>/assets/images/projects/zvonarka.png" alt="">
 						</div>
@@ -212,9 +265,12 @@
 							<strong>Ateliér</strong>: CHYBIK + KRISTOF<br>
 							<strong>Cena:</strong> Diplom
 						</span>
-						<a class="button button--black" href="https://grandprix.grandprixarchitektu.cz/rocnik/2021/shortlist/133">Detail projektu</a>
+						<a class="button button--black button--arrow" href="https://grandprix.grandprixarchitektu.cz/rocnik/2021/shortlist/133">
+							Detail projektu
+							<img class="button__arrow svg" src="<?php echo $baseurl ?>/assets/images/icons/arrow-right-white.svg" alt="">
+						</a>
 					</div>
-					<div class="gpa__col col-md-4">
+					<div class="gpa__col">
 						<div class="gpa__projectImg">
 							<img src="<?php echo $baseurl ?>/assets/images/projects/panna-a-baba.png" alt="">
 						</div>
@@ -225,9 +281,12 @@
 							<strong>Ateliér</strong>:&nbsp;m4 architekti s.r.o.<br>
 							<strong>Cena:</strong> Diplom
 						</span>
-						<a class="button button--black" href="https://grandprix.grandprixarchitektu.cz/rocnik/2021/shortlist/320">Detail projektu</a>
+						<a class="button button--black button--arrow" href="https://grandprix.grandprixarchitektu.cz/rocnik/2021/shortlist/320">
+							Detail projektu
+							<img class="button__arrow svg" src="<?php echo $baseurl ?>/assets/images/icons/arrow-right-white.svg" alt="">
+						</a>
 					</div>
-					<div class="gpa__col col-md-4">
+					<div class="gpa__col">
 						<div class="gpa__projectImg">
 							<img src="<?php echo $baseurl ?>/assets/images/projects/kaplicka.png" alt="">
 						</div>
@@ -238,7 +297,10 @@
 							<strong>Ateliér</strong>:  ti2 architekti<br>
 							<strong>Cena:</strong> Diplom
 						</span>
-						<a class="button button--black" href="https://grandprix.grandprixarchitektu.cz/rocnik/2021/shortlist/79">Detail projektu</a>
+						<a class="button button--black button--arrow" href="https://grandprix.grandprixarchitektu.cz/rocnik/2021/shortlist/79">
+							Detail projektu
+							<img class="button__arrow svg" src="<?php echo $baseurl ?>/assets/images/icons/arrow-right-white.svg" alt="">
+						</a>
 					</div>
 				</div>
 				<div class="gpa__row row">
@@ -364,9 +426,18 @@
 	<div class="gpTabs__wrapper wrapper" id="projects">
 		<div class="gpTabs__content">
 			<div class="gpTabs__buttons">
-				<a href="https://grandprix.grandprixarchitektu.cz/rocnik/2021/vitezove" class="button button--black">Vítězové</a>
-				<a href="https://grandprix.grandprixarchitektu.cz/rocnik/2021/shortlist" class="button button--black">Shortlist 55</a>
-				<a href="https://grandprix.grandprixarchitektu.cz/rocnik/2021" class="button button--black">Všechny projekty</a>
+				<a href="https://grandprix.grandprixarchitektu.cz/rocnik/2021/vitezove" class="button button--black button--arrow">
+					Vítězové
+					<img class="button__arrow svg" src="<?php echo $baseurl ?>/assets/images/icons/arrow-right-white.svg" alt="">
+				</a>
+				<a href="https://grandprix.grandprixarchitektu.cz/rocnik/2021/shortlist" class="button button--black button--arrow">
+					Shortlist 55
+					<img class="button__arrow svg" src="<?php echo $baseurl ?>/assets/images/icons/arrow-right-white.svg" alt="">
+				</a>
+				<a href="https://grandprix.grandprixarchitektu.cz/rocnik/2021" class="button button--black button--arrow">
+					Všechny projekty
+					<img class="button__arrow svg" src="<?php echo $baseurl ?>/assets/images/icons/arrow-right-white.svg" alt="">
+				</a>
 			</div>
 		</div>
 	</div>

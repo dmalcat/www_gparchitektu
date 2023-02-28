@@ -40,7 +40,7 @@
 				<a href="<?php echo $baseurl ?>">Úvodní strana</a>
 			</li>
 			<li>
-				<a href="<?php echo $baseurl ?>">Grand Prix Architektů</a>
+				<a href="<?php echo $baseurl ?>/grand-prix-architektu/">Grand Prix Architektů</a>
 			</li>
 			<li class="active">
                 2022
