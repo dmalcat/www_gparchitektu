@@ -25,6 +25,17 @@
 		}
 	}
 
+	.hero__image--video {
+		overflow: hidden;
+		height: 500px;
+	}
+
+	.hero__video {
+		position: absolute;
+		top: -62.5%;
+		width: 100%;
+    }
+
 	.hero__slide {
 		position: relative;
 		display: block;
@@ -90,6 +101,13 @@
 		@include max480px {
 			font-size: 15px;
 		}
+	}
+
+	.hero__logo {
+		display: block;
+		max-width: 100px;
+		width: 100%;
+		margin: 0 auto 1.5rem;
 	}
 
 	.hero__buttons {

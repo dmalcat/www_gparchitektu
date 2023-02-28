@@ -21,10 +21,36 @@
 <!-- Menu -->
 <?php include ('menu.php');?>
 
+<section class="hero hero--subpage">
+	<div class="hero__wrapper wrapper">
+		<img class="hero__logo" src="<?php echo $baseurl ?>/assets/images/brand/gpa-logo-white.png" alt="">
+		<h1>Grand Prix Architektů</h1>
+	</div>
+	<div class="hero__image hero__image--video">
+		<video class="hero__video" autoplay loop muted>
+			<source src="<?php echo $baseurl ?>/assets/video/gpa-video.mp4" type="video/mp4">
+		</video>
+	</div>
+</section>
+
+<section class="breadcrumb">
+	<div class="breadcrumb__wrapper wrapper">
+		<ul class="breadcrumbList">
+			<li>
+				<a href="<?php echo $baseurl ?>">Úvodní strana</a>
+			</li>
+			<li>
+				<a href="<?php echo $baseurl ?>">Grand Prix Architektů</a>
+			</li>
+			<li class="active">
+                2022
+			</li>
+		</ul>
+	</div>
+</section>
+
 <section class="gpa">
 	<div class="gpa__wrapper wrapper">
-		<h1>Grand Prix Architektů 2022</h1>
-		
 		<div class="gpa__row">
 			<div class="gpa__col">
 				<p>
@@ -48,7 +74,7 @@
 					Vybrané projekty byly přihlášeny do&nbsp;těchto kategorií:
 				</p>
 
-				<ul>
+				<ul class="list">
 					<li><strong>Novostavba</strong>: 16 projektů</li>
 					<li><strong> Rodinný dům</strong>: 8 projektů</li>
 					<li><strong> Rekonstrukce</strong>: 12 projektů</li>
@@ -87,11 +113,11 @@
 					projektů po&nbsp;covidové pandemii.
 				</p>
 				<div class="buttonRow buttonRow--left">
-					<a href="https://grandprix.grandprixarchitektu.cz/rocnik/2022" target="_blank" class="button button--black">Všechny projekty</a>
+					<a href="https://grandprix.grandprixarchitektu.cz/rocnik/2022" target="_blank" class="button button--black button--arrow">
+						Všechny projekty
+						<img class="button__arrow svg" src="<?php echo $baseurl ?>/assets/images/icons/arrow-right-white.svg" alt="">
+					</a>
 				</div>
-			</div>
-			<div class="gpa__col">
-				<img class="gpa__logo" src="<?php echo $baseurl ?>/img/gpa-logo.png" alt="">
 			</div>
 		</div>
 	</div>

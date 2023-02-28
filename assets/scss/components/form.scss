@@ -7,9 +7,36 @@
         display: flex;
         justify-content: center;
     }
+
+    .form__row {
+        display: flex;
+        justify-content: space-between;
+        flex-flow: row wrap;
+    }
     
     .form__button {
         border: 0;
         box-shadow: none;
+    }
+
+    .form__control {
+        width: 47.5%;
+        margin-bottom: 2.5rem;
+    }
+
+    .form__label {
+        display: block;
+        margin-bottom: 0.75rem;
+    }
+
+    .form__input {
+        width: 100%;
+        border: 0;
+        border-bottom: 1px solid #d8d8d8;
+        @extend .trans;
+        &:focus {
+            outline: none;
+            border-bottom: 1px solid $black;;
+        }
     }
 }

@@ -19,12 +19,36 @@
 <!-- Menu -->
 <?php include ('menu.php');?>
 
+<section class="hero hero--subpage">
+	<div class="hero__wrapper wrapper">
+		<img class="hero__logo" src="<?php echo $baseurl ?>/assets/images/brand/gpa-logo-white.png" alt="">
+		<h1>Grand Prix Architektů</h1>
+	</div>
+	<div class="hero__image hero__image--video">
+		<video class="hero__video" autoplay loop muted>
+			<source src="<?php echo $baseurl ?>/assets/video/gpa-video.mp4" type="video/mp4">
+		</video>
+	</div>
+</section>
+
+<section class="breadcrumb">
+	<div class="breadcrumb__wrapper wrapper">
+		<ul class="breadcrumbList">
+			<li>
+				<a href="<?php echo $baseurl ?>">Úvodní strana</a>
+			</li>
+			<li class="active">
+                Grand Prix Architektů
+			</li>
+		</ul>
+	</div>
+</section>
+
 <section class="gpa">
 	<div class="gpa__wrapper wrapper">
-		<h1>Grand Prix Architektů</h1>	
-		
 		<div class="gpa__row">
 			<div class="gpa__col">
+				
 				<p>
 					Soutěž založená Prof. Ing.&nbsp;Akad. Arch. Alenou Šrámkovou roku 1993.
 				</p>
@@ -73,7 +97,7 @@
 					Na&nbsp;slavnostní zakončení Grand Prix Architektů jsou zveřejněni laureáti a&nbsp;vítězné projekty. Vítězové jsou oceněni ikonickou skleněnou kostkou a&nbsp;diplomem. Součástí večera je&nbsp;také vyhlášení Ceny za&nbsp;celoživotní dílo, kterou obdrží významná osobnost české architektonické scény.
 				</p>
 
-				<h2>Hlavní ceny soutěže:</h2>
+				<h2>Hlavní ceny soutěže</h2>
 
 				<span class="gpa__block">
 					<strong>Grand Prix Architektů</strong> – velká modrá kostka <br>
@@ -110,12 +134,13 @@
 				</p>
 
 				<div class="buttonRow buttonRow--left">
-					<a href="https://grandprix.grandprixarchitektu.cz/" class="button button--black">Registrace</a>
+					<a href="https://grandprix.grandprixarchitektu.cz/" class="button button--black button--arrow">
+						Registrace
+						<img class="button__arrow svg" src="<?php echo $baseurl ?>/assets/images/icons/arrow-right-white.svg" alt="">
+					</a>
 				</div>
 			</div>
-			<div class="gpa__col">
-				<img class="gpa__logo" src="<?php echo $baseurl ?>/img/gpa-logo.png" alt="">
-			</div>
+			
 		</div>
 	</div>
 </section>
@@ -123,35 +148,41 @@
 <section class="gpa gpa--list">
 	<div class="gpa__wrapper wrapper">
 		<div class="gpa__row row">
-			<div class="gpa__col col-md-3">
+			<div class="gpa__col">
 				<div class="gpa__projectImg">
 					<img src="<?php echo $baseurl ?>/assets/images/competition/gpa-2022@2x.png" alt="">
 				</div>
 				<h3 class="gpa__projectName">Národní cena za&nbsp;architekturu 2022</h3>
-				<a class="button button--black" href="<?php echo $baseurl ?>/grand-prix-architekt-2022/">Detail ročníku</a>
+				<a class="button button--arrow button--black" href="<?php echo $baseurl ?>/grand-prix-architekt-2022/">
+					Detail ročníku
+					<img class="button__arrow svg" src="<?php echo $baseurl ?>/assets/images/icons/arrow-right-white.svg" alt="">
+				</a>
 			</div>
-			<div class="gpa__col col-md-3">
+			<div class="gpa__col">
 				<div class="gpa__projectImg">
 					<img src="<?php echo $baseurl ?>/assets/images/competition/gpa-2021@2x.png" alt="">
 				</div>
 				<h3 class="gpa__projectName">Národní cena za&nbsp;architekturu 2021</h3>
-				<a class="button button--black" href="<?php echo $baseurl ?>/grand-prix-architekt-2021/">Detail ročníku</a>
+				<a class="button button--arrow button--black" href="<?php echo $baseurl ?>/grand-prix-architekt-2021/">
+					Detail ročníku
+					<img class="button__arrow svg" src="<?php echo $baseurl ?>/assets/images/icons/arrow-right-white.svg" alt="">
+				</a>
 			</div>
-			<div class="gpa__col col-md-3">
+			<div class="gpa__col">
 				<div class="gpa__projectImg">
 					<img src="<?php echo $baseurl ?>/assets/images/competition/gpa-2020.png" alt="">
 				</div>
 				<h3 class="gpa__projectName">Národní cena za&nbsp;architekturu 2020</h3>
 				<span class="gpa__projectDesc">Podrobnosti připravujeme.</span>
 			</div>
-			<div class="gpa__col col-md-3">
+			<div class="gpa__col">
 				<div class="gpa__projectImg">
 					<img src="<?php echo $baseurl ?>/assets/images/competition/gpa-2019.png" alt="">
 				</div>
 				<h3 class="gpa__projectName">Národní cena za&nbsp;architekturu 2019</h3>
 				<span class="gpa__projectDesc">Podrobnosti připravujeme.</span>
 			</div>
-			<div class="gpa__col col-md-3">
+			<div class="gpa__col">
 				<div class="gpa__projectImg">
 					<img src="<?php echo $baseurl ?>/assets/images/competition/gpa-2018@2x.png" alt="">
 				</div>

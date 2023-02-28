@@ -1,7 +1,5 @@
 .gpa {
 	.gpa__wrapper {
-		padding: 0 3rem;
-		max-width: 1920px;
 		@include max768px {
 			padding: 0 1rem;	
 		}
@@ -32,9 +30,9 @@
 	.gpa__row {
 		display: flex;
 		justify-content: space-between;
+		gap: 5rem;
 		@include max940px {
 			flex-direction: column;
-			
 		}
 	}
 
@@ -56,8 +54,7 @@
 
 	.gpa__col {
 		text-align: left;
-		width: 30%;
-		margin-bottom: calc(var(--bs-gutter-x) * 3);
+		width: 50%;
 		@include max940px {
 			width: 100%;	
 		}
@@ -97,14 +94,14 @@
 		flex-flow: row wrap;
 	}
 
-	.button {
-		margin: 1rem;
-		text-decoration: none;
-		@include max940px {
-			margin: 1rem 0;		
-		}
+	.buttonRow {
+		margin-top: 1rem;
 	}
-	
+
+	.button {
+		text-decoration: none;
+	}
+
 	.gpa__projectImg img {
 		display: block;
 		width: 100%;
@@ -114,7 +111,7 @@
 	.gpa__projectName {
 		font-size: 30px;
 		font-weight: bold;
-		margin-bottom: 1rem;
+		margin: 2rem 0;
 	}
 	
 	.gpa__projectDesc {
@@ -131,8 +128,12 @@
 }
 
 .gpa--list {
-	.button {
-		padding: 0.5rem 1.5rem;
-    	font-size: 0.8rem; 
+	.gpa__row {
+		gap: 2.5rem;
+	}
+
+	.gpa__col {
+		width: calc(50% - 2.5rem);
+		margin-bottom: 2.5rem;
 	}
 }
