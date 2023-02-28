@@ -3,12 +3,11 @@
 
 .gpTabs {
 	padding: 0;
-	background-color: #FFFF2F;
+	//background-color: #FFFF2F;
 
 	.gpTabs__wrapper {
 		display: none;
 		padding: 0 2rem;
-		max-width: 1920px;
 		background-color: #FFF;
 		@media screen and (max-width: 1400px) {
 			padding: 0 1rem;
@@ -21,22 +20,35 @@
 	
 	.gpTabs__wrapper--nav {
 		display: block;
-		border-top: 2px solid black;
 		padding: 0;
-		max-width: 100%;
-		background-color: #ffff2f;
 	}
 	
 	.gpTabs__navItem {
 		display: flex;
 		align-items: center;
+		justify-content: space-between;
 		width: 100%;
+		border-bottom: 1px solid #d8d8d8;
 		font-weight: bold;
 		font-size: 24px;
-		text-transform: uppercase;
 		padding: 1rem 2rem;
-		max-width: 1920px;
 		cursor: pointer;
+		transition: all 300ms ease-in-out;
+		&:hover {
+			border-bottom-color: $black;
+		}
+		
+		&:after {
+			content: '';
+			background-image: url("#{$images-path}/icons/arrow-right.svg");
+			background-repeat: no-repeat;
+			background-size: contain;
+			width: 24px;
+			height: 24px;
+			transition: all 300ms ease-in-out;
+			transform: rotate(90deg);
+		}
+
 		@media screen and (max-width: 1400px) {
 			padding: 1rem;
 		}
@@ -46,20 +58,13 @@
 		}
 	}
 	
-	.gpTabs__navItem:after {
-		content: '';
-		margin-left: 1rem;
-		background-image: url("#{$images-path}/icons/arrow-right.svg");
-		background-repeat: no-repeat;
-		background-size: contain;
-		width: 30px;
-		height: 20px;
-		transition: all 300ms ease-in-out;
-	}
-
-	.gpTabs__navItem--active:after {
-		margin-bottom: -10px;
-		transform: rotate(90deg);
+	.gpTabs__navItem--active {
+		border-bottom-color: $black;
+		&:after {
+			margin-bottom: -10px;
+			transform: rotate(270deg);
+			
+		}
 	}
 	
 	

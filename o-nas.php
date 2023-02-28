@@ -16,28 +16,57 @@
 
 <?php include ('menu.php');?>
 
-<section class="about">
-	<div class="about__wrapper wrapper">
-		<div class="about__row">
-			<div class="about__col about__col--copy">
-				<h1>O nás</h1>
+<section class="hero hero--subpage">
+	<div class="hero__wrapper wrapper">
+		<h1>O nás</h1>
+	</div>
+	<div class="hero__image">
+		<img src="<?php echo $baseurl ?>/assets/images/covers/o-nas.png" alt="">
+	</div>
+</section>
+
+<section class="breadcrumb">
+	<div class="breadcrumb__wrapper wrapper">
+		<ul class="breadcrumbList">
+			<li>
+				<a href="<?php echo $baseurl ?>">Úvodní strana</a>
+			</li>
+			<li class="active">
+				O nás
+			</li>
+		</ul>
+	</div>
+</section>
+
+<section class="article">
+	<div class="article__wrapper wrapper">
+		<div class="article__row">
+			<div class="article__col">
 				<p>Obec architektů je&nbsp;spolek s&nbsp;tradic&iacute; od&nbsp;roku 1921, pokračovatel spolků architektů z&nbsp;prvn&iacute; republiky. V&nbsp;roce 1989 se&nbsp;transformoval ze&nbsp;Svazu Architektů a&nbsp;v&nbsp;letech 1990-1993 se&nbsp;pod&iacute;lel na&nbsp;založen&iacute; profesn&iacute; organizace Česk&eacute; komory architektů. V&nbsp;roce 1948 se&nbsp;stal zakl&aacute;daj&iacute;c&iacute;m členem Mezin&aacute;rodn&iacute;ho svazu architektů (UIA), ve&nbsp;kter&eacute;m bylo členstv&iacute; Česk&eacute; republiky nov&yacute;m veden&iacute;m OA obnoveno v&nbsp;roce 2017, a&nbsp;t&iacute;m bylo znovu vykročeno k&nbsp;zaji&scaron;těn&iacute; ochrany a&nbsp;pr&aacute;v česk&yacute;ch architektů ve&nbsp;světě. Současně je&nbsp;OA členem i&nbsp;Vi&scaron;egr&aacute;dsk&eacute; skupiny (V4). Spolek je&nbsp;kulturn&iacute; platformou česk&yacute;ch architektů zaji&scaron;ťuj&iacute;c&iacute; spolkovou činnost s&nbsp;c&iacute;lem propagovat česk&eacute; architekty &scaron;irok&eacute; odborn&eacute; i&nbsp;laick&eacute; veřejnosti jak v&nbsp;Česku, tak&nbsp;i&nbsp;v&nbsp;zahranič&iacute;.</p>
+				<div class="articles__image">
+					<img src="<?php echo $baseurl ?>/assets/images/gallery/2022/krest-alfabet/full/galerie-4.jpg" alt="">
+				</div>
 				<p>Obec architektů je&nbsp;nez&aacute;visl&yacute;m, nepolitick&yacute;m stavovsk&yacute;m společenstv&iacute;m, usiluj&iacute;c&iacute;m o&nbsp;propagaci architektury a&nbsp;stavitelstv&iacute;, architektonick&eacute; tvorby a&nbsp;architektonick&yacute;ch děl a&nbsp;jejich ochranu. K&nbsp;tomuto &uacute;čelu sdružuje odbornou veřejnost a&nbsp;z&aacute;jemce z&nbsp;řad ostatn&iacute;ch občanů. Činnost Obce je&nbsp;založena na&nbsp;demokratick&yacute;ch principech a&nbsp;jej&iacute;m z&aacute;kladem je&nbsp;aktivita členů Obce.</p>
 				<p>Hlavn&iacute; činnost&iacute; Spolku je&nbsp;uspokojov&aacute;n&iacute; a&nbsp;ochrana těch z&aacute;jmů, k&nbsp;jejichž naplňov&aacute;n&iacute; je&nbsp;Spolek založen. Posl&aacute;n&iacute;m Spolku je&nbsp;předev&scaron;&iacute;m:</p>
-				<ul>
+				<ul class="list">
 					<li>seznamovat &scaron;irokou veřejnost s&nbsp;architekturou a&nbsp;stavitelstv&iacute;m a&nbsp;př&iacute;buzn&yacute;mi obory jakožto ned&iacute;lnou souč&aacute;st&iacute; n&aacute;rodn&iacute; kultury,</li>
 					<li>aktivně spolupracovat při&nbsp;vytv&aacute;řen&iacute; př&iacute;zniv&yacute;ch podm&iacute;nek pro&nbsp;architektonickou, urbanistickou a&nbsp;jinou souvisej&iacute;c&iacute; tvorbu, zejm&eacute;na &scaron;&iacute;řen&iacute;m informac&iacute; o&nbsp;architektuře a&nbsp;stavitelstv&iacute; prostřednictv&iacute;m tisku, předn&aacute;&scaron;ek a&nbsp;v&yacute;stavn&iacute; činnost&iacute;,</li>
 					<li>podporovat svobodnou diskuzi o&nbsp;tvůrč&iacute;ch a&nbsp;odborn&yacute;ch ot&aacute;zk&aacute;ch v&nbsp;oboru architektury a&nbsp;stavitelstv&iacute; a&nbsp;vytv&aacute;řet organizačn&iacute; předpoklady pro&nbsp;vznik tvůrč&iacute;ch skupin, pobočn&yacute;ch spolků a&nbsp;jejich podporu,</li>
 					<li>aktivně spolupracovat s&nbsp;obdobn&yacute;mi institucemi, organizacemi a&nbsp;kulturn&iacute;mi svazy doma i&nbsp;v&nbsp;zahranič&iacute;.</li>
 				</ul>
-				<p><strong>Aktivity Obce architektů:</strong></p>
-				<p><em>Aktivity ve&nbsp;světě:</em></p>
+			</div>
+			
+			<div class="article__col">
+				<h2>Aktivity Obce architektů</h2>
+
+				<h3>Aktivity ve&nbsp;světě</h3>
 				<p>Jako spoluzakladatel&eacute; (1948) a&nbsp;členov&eacute; Mezin&aacute;rodn&iacute; Unie Architektů &ndash; UIA jsme aktivně propojeni s&nbsp;asociacemi architektů 124 zem&iacute; v&scaron;ech kontinentů, a&nbsp;d&iacute;ky tomu pro&nbsp;členy zaji&scaron;ťujeme:</p>
-				<ul>
+				<ul class="list">
 					<li>Informace o&nbsp;novink&aacute;ch z&nbsp;cel&eacute;ho světa</li>
 					<li>Kontakty na&nbsp;zahraničn&iacute; ateli&eacute;ry, asociace a&nbsp;univerzity</li>
 					<li>Možnost b&yacute;t nominov&aacute;n do&nbsp;pracovn&iacute;ch skupin UIA</li>
-					<li>Možnost b&yacute;t nominov&aacute;n do&nbsp;prestižn&iacute;ch světov&yacute;ch cen UIA:<ol>
+					<li>Možnost b&yacute;t nominov&aacute;n do&nbsp;prestižn&iacute;ch světov&yacute;ch cen UIA:
+						<ol>
 							<li>Gold Medal</li>
 							<li>Auguste Perret Prize (Karel Hub&aacute;ček 1969)</li>
 							<li>Jean Tschumi Prize</li>
@@ -46,12 +75,11 @@
 						</ol>
 					</li>
 				</ul>
-				<p><em>Aktivity v&nbsp;Evropě:</em></p>
+				<h3>Aktivity v&nbsp;Evropě</h3>
 				<p>Obec Architektů představuje Česko ve&nbsp;struktuře Vi&scaron;egrad Four (V4) &ndash; Česko &ndash; Slovensko &ndash; Polsko &ndash; Maďarsko, podporuje architekty v&nbsp;regionu V4 a&nbsp;spolupracuje s&nbsp;asociacemi ze&nbsp;v&scaron;ech zem&iacute; V4.</p>
 				<p>Obec Architektů spolupracuje s&nbsp;SHARE&nbsp;Architects, a&nbsp;na&nbsp;jin&yacute;mi zaj&iacute;mav&yacute;mi projekty v&nbsp;r&aacute;mci evropsk&eacute; přeshraničn&iacute; spolupr&aacute;ce.&nbsp;</p>
-				<p><em>&nbsp;</em></p>
-				<p><em>Aktivity v&nbsp;Česk&eacute; republice:</em></p>
-				<ul>
+				<h3>Aktivity v&nbsp;Česk&eacute; republice</h3>
+				<ul class="list">
 					<li>Organizujeme prestižn&iacute; architektonickou soutěž Grand Prix Architektů &ndash; N&aacute;rodn&iacute; cena za&nbsp;architekturu &ndash; od&nbsp;roku 1993.</li>
 					<li>Sdružujeme česk&eacute; architekty, zahraničn&iacute; architekty žij&iacute;c&iacute; v&nbsp;Česk&eacute; republice, studenty architektury, a&nbsp;ostatn&iacute; propojen&eacute; profese.</li>
 					<li>Organizujeme v&yacute;stavy architektonick&yacute;ch děl v&nbsp;Česk&eacute; republice, v&nbsp;zem&iacute; V4 a&nbsp;na&nbsp;světov&yacute;ch kongresech UIA.</li>
@@ -59,10 +87,6 @@
 					<li>Organizujeme Ples architektů v&nbsp;Ostravě, od&nbsp;roku 1998.</li>
 					<li>Organizujeme SHARE&nbsp;Talks Prague ve&nbsp;spolupr&aacute;ci s&nbsp;SHARE&nbsp;Architects, od&nbsp;roku 2019.</li>
 				</ul>
-			</div>
-
-			<div class="about__col about__col--img">
-				<img class="about__img" src="<?php echo $baseurl ?>/assets/images/partners/oa-uiamember.jpeg" alt="">
 			</div>
 		</div>
 	</div>

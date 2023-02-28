@@ -1,10 +1,11 @@
 /* Buttons */
 .button {
 	display: inline-block;
-	padding: 0.75rem 3.5rem;
+	padding: 0.75rem 1.5rem;
 	font-weight: bold;
-	font-size: 1.1rem;
+	font-size: 14px;
 	transition: all 300ms ease-in-out;
+	border-radius: 8px;
 	@include max768px {
 		padding: 0.5rem 2rem;	
 		font-size: 0.9rem;
@@ -16,10 +17,66 @@
 	}
 }
 
+.button--yellow {
+	&:hover {
+		background-color: $light-yellow;
+	}
+}
+
+.button--arrow {
+	.button__arrow {
+		width: 15px;
+		margin-top: -1px;
+		margin-left: 5px;
+		transition: all 100ms ease-in-out;
+		g {
+			fill: $black;
+		}
+	}
+	
+	
+	&:hover {
+		.button__arrow {
+			margin-left: 10px;
+		}
+	}
+}
+
+.button--black-border {
+	background-color: transparent;
+	border: 2px solid $black;
+	&:hover {
+		background-color: rgba(0, 0, 0, 0.1);
+	}
+
+	&.button--active {
+		background-color: $black;
+		color: $white;
+	}
+}
+
 .button--black {
 	background-color: black;
 	color: white;
+	&.button--arrow {
+		&:hover {
+			background-color: $black;
+			color: $white;
+		}
+	}
 
+	.button__arrow {
+		margin-right: 5px;
+		g {
+			fill: $white;
+		}
+	}
+}
+
+.button--back {
+	.button__arrow {
+		transform: rotate(180deg);
+	}
 }
 
 .button--yellow {
@@ -33,6 +90,8 @@
 }
 
 .button--yellow:hover {
-	background-color: #d0d015;
+	background-color: $light-yellow;
 	color: black;
 }
+
+

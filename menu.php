@@ -1,7 +1,7 @@
 <header class="header">
 	<div class="header__wrapper wrapper">
 		<a href="<?php echo $baseurl ?>/" class="header__logo">
-			<img class="header__logoImg" src="<?php echo $baseurl ?>/img/logo.png" alt="logo">
+			<img class="header__logoImg" src="<?php echo $baseurl ?>/assets/images/brand/logo-white.png" alt="logo">
 		</a>
 
 		<div class="header__menu">

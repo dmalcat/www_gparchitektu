@@ -1,6 +1,6 @@
 <section class="gpTabs">
 	<div class="gpTabs__wrapper gpTabs__wrapper--nav wrapper">
-		<a class="gpTabs__navItem gpTabs__navItem--active" href="#partners">Partnerství XXIX. ročníku Grand Prix Architektů Národní cena za architekturu 2022</a>
+		<a class="gpTabs__navItem gpTabs__navItem--active" href="#partners">Partnerství XXIX. ročníku Grand Prix Architektů - Národní cena za architekturu 2022</a>
 	</div>
 	<div class="gpTabs__wrapper gpTabs__wrapper--active wrapper" id="partners">
 		<div class="gpTabs__content">

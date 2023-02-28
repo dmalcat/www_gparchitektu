@@ -1,4 +1,5 @@
 .members {
+    margin-top: 3rem;
     .members__list {
         display: flex;
         justify-content: space-between;
@@ -6,8 +7,11 @@
     }
 
     .members__item {
-        width: 100%;
-        max-width: 280px;
+        width: 25%;
+        margin-bottom: 2rem;
+        h3 {
+            margin-top: 0;
+        }
     }
 
     ul {

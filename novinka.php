@@ -28,7 +28,29 @@ $id = explode('-', $q)[0];
 <!-- Menu -->    
 <?php include ('menu.php');?>
 
-<section id="novinky-slide" class="news">
+<section class="hero hero--subpage">
+	<div class="hero__wrapper wrapper">
+		<h1>Novinky</h1>
+	</div>
+	<div class="hero__image">
+		<img src="<?php echo $baseurl ?>/assets/images/covers/novinky.png" alt="">
+	</div>
+</section>
+
+<section class="breadcrumb">
+	<div class="breadcrumb__wrapper wrapper">
+		<ul class="breadcrumbList">
+			<li>
+				<a href="<?php echo $baseurl ?>">Úvodní strana</a>
+			</li>
+			<li class="active">
+				Novinky
+			</li>
+		</ul>
+	</div>
+</section>
+
+<section class="news">
     <div class="news__wrapper wrapper">
 
         <div class="news__article">
@@ -59,9 +81,8 @@ $id = explode('-', $q)[0];
             
             echo "        
 
-                <h1 class='text-center'>$title</h5>
-                            <br>
-            $content
+                <h1 class='text-center'>$title</h5><br>
+                $content
                             </b></p>
                             <br><br>
                                 
@@ -72,8 +93,9 @@ $id = explode('-', $q)[0];
 
             ?>  
             </div>
-            <div class="col-md-8">
-            <div class="row">
+            
+            <div class="news__gallery">
+            
             <?php
 
 
@@ -96,9 +118,11 @@ $id = explode('-', $q)[0];
             $url_image = $row['cesta'];
 
             echo "
-            <div class='col-md-6'>
-                        <img src='$baseurl/uploads/images/$url_image' class='img-responsive' data-pop-img='$baseurl/uploads/images/$url_image' width='100%'><br><br>
-            </div>
+                <div class='gallery' id='news-gallery'>
+                    <a href='$baseurl/uploads/images/$url_image' class='gallery__item'>
+                        <img src='$baseurl/uploads/images/$url_image' class='gallery__item'>
+                    </a>
+                </div>
             ";
                 }
             } else { 
@@ -107,31 +131,12 @@ $id = explode('-', $q)[0];
 
             ?>  
 
-
-            <!-- The Modal -->
-            <div id="myModal" class="modal">
-
-            <!-- The Close Button -->
-            <span class="close">&times;</span>
-
-            <!-- Modal Content (The Image) -->
-            <img class="modal-content" id="img01">
-
-            <!-- Modal Caption (Image Text) -->
-            <div id="caption"></div>
+            <div class="buttonRow buttonRow--left">
+                <a href="<?php echo $baseurl ?>/novinky/" class="button button--black button--arrow button--back">
+                    <img class="button__arrow svg" src="<?php echo $baseurl ?>/assets/images/icons/arrow-right-white.svg" alt="">
+                    Zpět na výpis novinek
+                </a>
             </div>
-
-            </div>
-            </div>
-                    </div>
-                    </div><hr size="4" style="background-color: black;opacity: 1;">
-                </div>
-            </div>
-
-
-        <p>
-            <a href="<?php echo $baseurl ?>/novinky/">Zpět</a>
-        </p>
 
         </div>
     </div>
@@ -141,7 +146,6 @@ $id = explode('-', $q)[0];
 	<?php include('footer.php'); ?>
 </section>
     
-  
-
-
-    
+<script>
+	baguetteBox.run('#news-gallery');
+</script> 

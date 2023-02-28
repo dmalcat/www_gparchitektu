@@ -32,6 +32,9 @@ $route = str_replace(str_replace("/router.php", "", $_SERVER['PHP_SELF']), "", $
     
     elseif (preg_match('/clenstvi/', $route)): 
         require('clenstvi.php');
+    
+    elseif (preg_match('/partnerstvi/', $route)): 
+        require('partnerstvi.php');
 
     elseif (preg_match('/uia/', $route)):
         require('./uia.php');
