@@ -109,9 +109,9 @@
 	}
 
 	.news__image {
-		img {
-			border-radius: 8px;
-		}
+		display: block;
+		border-radius: 8px;
+		width: 100%;
 	}
 
 	h2 {

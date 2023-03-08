@@ -119,8 +119,8 @@
 	<div class="news__wrapper wrapper">
 		<h1 class="text-center">Poslední novinky</h1>
 		<div class="news__row">
-			<?php
-
+		<?php
+			/*
 			include 'conn.php';
 
 			// Create connection
@@ -131,9 +131,9 @@
 			if ($conn->connect_error) {
 				die("Connection failed: " . $conn->connect_error);
 			}
-			$sql = "SELECT * FROM oa_clanky WHERE&nbsp;status='1' ORDER BY id DESC LIMIT 2";
-			
-			$result = $conn->query($sql);                            
+			$sql = "SELECT * FROM oa_clanky WHERE status='1' ORDER BY id DESC LIMIT 1";
+			$result = $conn->query($sql);
+
 
 			if ($result->num_rows > 0) {                                     
 				// output data of each row
@@ -184,14 +184,14 @@
 					$string = $title;
 					$string = str_replace("+", " ", $string);
 
-					$slug = Transliterator::createFromRules(
+					$slug = \Transliterator::createFromRules(
 						':: Any-Latin;'
 						. ':: NFD;'
 						. ':: [:Nonspacing Mark:] Remove;'
 						. ':: NFC;'
 						. ':: [:Punctuation:] Remove;'
 						. ':: Lower();'
-						. '[:Separator:] > '-''
+						. '[:Separator:] > \'-\''
 					)
 						->transliterate( $string );
 						$slug; // namnet-pa-bildtavlingen
@@ -202,32 +202,74 @@
 
 					
 					echo "      
-						<div class='news__col news__col--image'>
-							<div class='news__image'>
-								<img class='news__img articles__img--mobile' src='$baseurl/uploads/images/$photo'>
-							</div>
-						</div>
-
-						<div class='news__col news__col--copy'>
+						<div class='articles__col articles__col--copy'>
 							<h2>$title</h2>
+
+							<img class='articles__img articles__img--mobile' src='./uploads/images/$photo' alt=''>
 							
 							<p>
 								$text
 							</p>
 
-							<div class='news__button'>
-								<a href='$baseurl/novinka/$id-$odkaz' class='button button--black button--arrow'>
-									Číst dále
-									<img class='button__arrow svg' src='$baseurl/assets/images/icons/arrow-right-white.svg' alt=''>
-								</a>
-							</div>
+							<a href='$baseurl/novinka/$id-$odkaz' class='button button--yellow'>Číst dále</a>
+						</div>
+							
+						<div class='articles__col articles__col--img'>
+							<img class='articles__img articles__img--desktop' src='$baseurl/uploads/images/$photo' alt=''>
 						</div>
 					";
 				}
-			
+
 			$conn->close();
+			*/
 
 			?>
+
+				
+			<div class='news__col news__col--copy'>
+				<h2>Akcent Saši Michailidise - Rozhovor předsedy Olega Hamana s Janem Kaslem v pořadu Českého rozhlasu</h2>
+
+				<img class='news__img news__img--mobile' src='<?php echo $baseurl ?>/uploads/images/news/placeholder.jpg' alt=''>
+				
+				<p>
+					Saša Michailidis se ptal 9. listopadu 2022 od 16:30 předsedy České komory architektů Jana Kasla a předsedy Rady Obce architektů Olega Hamana. Proč máme dvě velké architektonické soutěže? Jak daleko jsou úvahy o jejich případném sloučení? A jakou váhu mají ceny u samotných architektů?
+				</p>
+
+				<div class="buttonRow buttonRow--left">
+					<a href='$baseurl/novinka/$id-$odkaz' class='button button--black button--arrow'>
+						Číst dále
+						<img class="button__arrow svg" src="<?php echo $baseurl ?>/assets/images/icons/arrow-right-white.svg" alt="">
+					</a>
+				</div>
+			</div>
+				
+			<div class='news__col news__col--image'>
+				<img class='news__image' src='<?php echo $baseurl ?>/assets/images/news/placeholder.jpg' alt=''>
+			</div>
+		</div>
+
+		<div class="news__row">
+			<div class='news__col news__col--image'>
+				<img class='news__image' src='<?php echo $baseurl ?>/assets/images/news/placeholder.jpg' alt=''>
+			</div>
+			<div class='news__col news__col--copy'>
+				<h2>Akcent Saši Michailidise - Rozhovor předsedy Olega Hamana s Janem Kaslem v pořadu Českého rozhlasu</h2>
+
+				<img class='news__img news__img--mobile' src='<?php echo $baseurl ?>/uploads/images/news/placeholder.jpg' alt=''>
+				
+				<p>
+					Saša Michailidis se ptal 9. listopadu 2022 od 16:30 předsedy České komory architektů Jana Kasla a předsedy Rady Obce architektů Olega Hamana. Proč máme dvě velké architektonické soutěže? Jak daleko jsou úvahy o jejich případném sloučení? A jakou váhu mají ceny u samotných architektů?
+				</p>
+
+				<div class="buttonRow buttonRow--left">
+					<a href='$baseurl/novinka/$id-$odkaz' class='button button--black button--arrow'>
+						Číst dále
+						<img class="button__arrow svg" src="<?php echo $baseurl ?>/assets/images/icons/arrow-right-white.svg" alt="">
+					</a>
+				</div>
+			</div>
+				
+			
 		</div>
 	</div>
 </section>

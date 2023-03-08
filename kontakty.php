@@ -18,11 +18,31 @@
 
 <?php include ('menu.php');?>
 
+<section class="hero hero--subpage">
+	<div class="hero__wrapper wrapper">
+		<h1>Kontakty</h1>
+	</div>
+	<div class="hero__image">
+		<img src="<?php echo $baseurl ?>/assets/images/covers/kontakt.png" alt="">
+	</div>
+</section>
+
+<section class="breadcrumb">
+	<div class="breadcrumb__wrapper wrapper">
+		<ul class="breadcrumbList">
+			<li>
+				<a href="<?php echo $baseurl ?>">Úvodní strana</a>
+			</li>
+			<li class="active">
+				Kontakty
+			</li>
+		</ul>
+	</div>
+</section>
+
 <section class="contact" id="contact">
 	<div class="contact__wrapper wrapper">
 		
-		<h1>Kontakty</h1>
-
 		<div class="contact__row">
 			<div class="contact__col">
 				<div class="contact__wrap">
@@ -136,16 +156,6 @@
                     Ing.&nbsp;arch. Martina Hovořáková<br>
                     Council member / Členka rady <br>
                     <a href="mailto:mhovorakova@seznam.cz">mhovorakova@seznam.cz</a>
-                </span>
-            </div>
-            <div class="contactList__item">
-                <div class="avatar">
-                    <img src="<?php echo $baseurl ?>/assets/images/contacts/Jan_Kasl.jpg" />
-                </div>
-                <span class="contact__block">
-                    Ing.&nbsp;arch. Jan Kasl<br>
-                    Council member / Člen rad<br>
-                    <a href="mailto:kasl@jkarchitekti.cz">kasl@jkarchitekti.cz</a>
                 </span>
             </div>
             <div class="contactList__item">

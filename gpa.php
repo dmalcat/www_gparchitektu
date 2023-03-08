@@ -22,7 +22,6 @@
 <section class="hero hero--subpage">
 	<div class="hero__wrapper wrapper">
 		<img class="hero__logo" src="<?php echo $baseurl ?>/assets/images/brand/gpa-logo-white.png" alt="">
-		<h1>Grand Prix Architektů</h1>
 	</div>
 	<div class="hero__image hero__image--video">
 		<video class="hero__video" autoplay loop muted>

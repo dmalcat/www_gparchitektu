@@ -63,6 +63,7 @@ $q = end($slug);
             // Create connection
             $conn = new mysqli($servername, $username, $password, $dbname);
             $conn->set_charset('utf8');
+
             // Check connection
             if ($conn->connect_error) {
                 die("Connection failed: " . $conn->connect_error);
@@ -82,29 +83,29 @@ $q = end($slug);
                                                  
                 // output data of each row   
                 while($row = $result->fetch_assoc()) {
-            $id = $row['id'];   
-            $title = $row['title'];
-            $content = $row['content'];
-            $datum= $row['date'];
-            $photo= $row['main_img'];
+                    $id = $row['id'];   
+                    $title = $row['title'];
+                    $content = $row['content'];
+                    $datum= $row['date'];
+                    $photo= $row['main_img'];
 
 
-            $cisty_text = strip_tags($content);
+                    $cisty_text = strip_tags($content);
 
-            if (substr_count($cisty_text, " ") > 30) {
-                $pole = explode(" ",$cisty_text);
+                    if (substr_count($cisty_text, " ") > 30) {
+                        $pole = explode(" ",$cisty_text);
 
-                for ($i=0;$i<30;$i++):
+                        for ($i=0;$i<30;$i++):
 
-                    $pole2[$i]=$pole[$i];
+                            $pole2[$i]=$pole[$i];
 
 
-                endfor;
+                        endfor;
 
-                $text = implode(" ",$pole2);
-            } else {
-                $text = $cisty_text;
-            }
+                        $text = implode(" ",$pole2);
+                    } else {
+                        $text = $cisty_text;
+                }
             //vytvoření odkazu
             $string = $title;
             $string = str_replace("+", " ", $string);

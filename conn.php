@@ -12,6 +12,4 @@ if (in_array($_SERVER['REMOTE_ADDR'], $whitelist)) {
     $dbname = "obecarchit";
 }
 
-var_dump($servername);
-
 ?>
