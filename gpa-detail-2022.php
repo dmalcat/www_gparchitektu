@@ -21,7 +21,7 @@
 <!-- Menu -->
 <?php include ('menu.php');?>
 
-<section class="hero hero--subpage">
+<section class="hero hero--subpage hero--video">
 	<div class="hero__wrapper wrapper">
 		<img class="hero__logo" src="<?php echo $baseurl ?>/assets/images/brand/gpa-logo-white.png" alt="">
 	</div>
@@ -122,6 +122,8 @@
 	</div>
 </section>
 
+<?php include('./components/partners/auspices-2022.php'); ?>
+
 <section class="winningProjects gpTabs">
 	<div class="gpTabs__wrapper gpTabs__wrapper--nav wrapper">
 		<a href="#winning-projects" class="gpTabs__navItem">Vítězné projekty</a>
@@ -136,7 +138,7 @@
 						</div>
 						<h3 class="gpa__projectName">Národní cena za&nbsp;architekturu 2022</h3>
 						<span class="gpa__projectDesc">
-							Kunsthalle<br>
+							<span class="gpa__title"><strong>Název projektu:</strong> Kunsthalle</span>
 							<strong>Autoři</strong>: Jan Schindler, Ludvík Seko, Zuzana Drahotová SCHINDLER SEKO ARCHITEKTI<br>
 							<strong>Ateliér</strong>: SCHINDLER SEKO ARCHITEKTI <br>
 							<strong>Cena:</strong> Velká modrá kostka
@@ -163,7 +165,7 @@
 						</div>
 						<h3 class="gpa__projectName">Novostavba</h3>
 						<span class="gpa__projectDesc">
-							Lávka přes Labe v&nbsp;Nymburce <br>
+							<span class="gpa__title"><strong>Název projektu:</strong> Lávka přes Labe v&nbsp;Nymburce</span>
 							<strong>Autor</strong>: Jiří Stráský, Leonard Šopík, Jan Pozdíšek, Karel Zlatuška<br>
 							<strong>Ateliér</strong>: Atelier Stráský, Hustý a&nbsp;partneři, s. r.&nbsp;o. (SHP)&nbsp;Brno <br>
 							<strong>Cena:</strong> Malá modrá kostka
@@ -179,7 +181,7 @@
 						</div>
 						<h3 class="gpa__projectName">Novostavba</h3>
 						<span class="gpa__projectDesc">
-							 Společenský sál Farního centra v&nbsp;Lidečku <br>
+							<span class="gpa__title"><strong>Název projektu:</strong> Společenský sál Farního centra v&nbsp;Lidečku</span>
 							<strong>Autor</strong>: Jan Vojtíšek, Jakub Staník<br>
 							<strong>Ateliér</strong>: studio AEIOU s. r.&nbsp;o. <br>
 							<strong>Cena:</strong> Malá modrá kostka
@@ -195,7 +197,7 @@
 						</div>
 						<h3 class="gpa__projectName">Rekonstrukce</h3>
 						<span class="gpa__projectDesc">
-							Zámek Děčín – restaurování glorietu v&nbsp;Růžové zahradě<br>
+							<span class="gpa__title"><strong>Název projektu:</strong> Zámek Děčín – restaurování glorietu v&nbsp;Růžové zahradě</span>
 							<strong>Autor</strong>: Tomáš Efler, Václav Girsa, Miloslav Hanzl, Jana Strnadová, Jaroslav Svěrek <br>
 							<strong>Cena:</strong> Malá modrá kostka
 						</span>
@@ -210,7 +212,7 @@
 						</div>
 						<h3 class="gpa__projectName">Rodinný dům</h3>
 						<span class="gpa__projectDesc">
-							Dům v&nbsp;Lanškrouně<br>
+							<span class="gpa__title"><strong>Název projektu:</strong> Dům v&nbsp;Lanškrouně</span>
 							<strong>Autor</strong>: Martin Neruda <br>
 							<strong>Ateliér</strong>: Martin Neruda Architektura<br>
 							<strong>Cena:</strong> Malá modrá kostka
@@ -226,7 +228,7 @@
 						</div>
 						<h3 class="gpa__projectName">Krajinářská architektura</h3>
 						<span class="gpa__projectDesc">
-							Paluba Hamburk<br>
+							<span class="gpa__title"><strong>Název projektu:</strong> Paluba Hamburk</span>
 							<strong>Autor</strong>: Ing.&nbsp;arch. Bohuslav Strejc. Ing.&nbsp;Ondřej Janout, Ing.&nbsp;Jan Běl, Ing.&nbsp;Lucie Tlustá <br>
 							<strong>Ateliér</strong>: projectstudio8 <br>
 							<strong>Cena</strong>: Malá zelená kostka
@@ -242,7 +244,7 @@
 						</div>
 						<h3 class="gpa__projectName">Šetrná stavba</h3>
 						<span class="gpa__projectDesc">
-							Bytový dům Rezidence Michelangelova<br>
+							<span class="gpa__title"><strong>Název projektu:</strong> Bytový dům Rezidence Michelangelova</span>
 							<strong>Autor</strong>: Ing.&nbsp;arch. Luděk Podlipný, ing.&nbsp;Martin Sladký, ing.&nbsp;arch. Pavel Zezula, ing.&nbsp;arch. Markéta Talašová<br>
 							<strong>Ateliér</strong>: Podlipný Sladký architekti s.r.o. <br>
 							<strong>Cena:</strong> Malá stříbrná kostka
@@ -258,7 +260,7 @@
 						</div>
 						<h3 class="gpa__projectName">Interiér</h3>
 						<span class="gpa__projectDesc">
-							Vývojové centrum modularity <br>
+							<span class="gpa__title"><strong>Název projektu:</strong> Vývojové centrum modularity</span>
 							<strong>Autor</strong>: Ing.&nbsp;arch. Ondřej Chybík, Ing.&nbsp;arch. Michal Krištof<br>
 							<strong>Autor venkovních úprav</strong>: Ing.&nbsp;Zdeněk Sendler<br>
 							<strong>Ateliér</strong>: CHYBIK + KRISTOF<br>
@@ -275,7 +277,7 @@
 						</div>
 						<h3 class="gpa__projectName">Urbanismus</h3>
 						<span class="gpa__projectDesc">
-							Bořislavka Centrum <br>
+							<span class="gpa__title"><strong>Název projektu:</strong> Bořislavka Centrum</span>
 							<strong>Autor</strong>: Jan Aulík, Leoš Horák | Spoluautoři: Jakub Fišer, David Zalabák, Jakub Hemzal, Gabriela Králová, Alena Sedláková, Petra Coufal Skalická, Eva Mašková, Jan Dluhoš<br>
 							<strong>Ateliér</strong>: Aulík Fišer architekti, s.r.o.<br>
 							<strong>Cena:</strong> Malá fialová kostka
@@ -291,7 +293,7 @@
 						</div>
 						<h3 class="gpa__projectName">Čestné uznání</h3>
 						<span class="gpa__projectDesc">
-							V7_Underground <br>
+							<span class="gpa__title"><strong>Název projektu:</strong> V7_Underground</span>
 							<strong>Autoři</strong>: Re_place.cz a&nbsp;U&nbsp;<br>
 							<strong>Ateliér</strong>: U&nbsp;studio s. r.&nbsp;o. <br>
 							<strong>Cena:</strong> Diplom
@@ -307,7 +309,7 @@
 						</div>
 						<h3 class="gpa__projectName">Čestné uznání</h3>
 						<span class="gpa__projectDesc">
-							Sportovní hala Základní školy v&nbsp;Novém Hrozenkově <br>
+							<span class="gpa__title"><strong>Název projektu:</strong> Sportovní hala Základní školy v&nbsp;Novém Hrozenkově</span>
 							<strong>Autoři</strong>: Janica Šipulová, Martin Sládek <br>
 							<strong>Ateliér</strong>:CONSEQUENCE FORMA architects <br>
 							<strong>Cena:</strong> Diplom
@@ -323,7 +325,7 @@
 						</div>
 						<h3 class="gpa__projectName">Čestné uznání</h3>
 						<span class="gpa__projectDesc">
-							Vodojem s&nbsp;vyhlídkou na&nbsp;Trosky <br>
+							<span class="gpa__title"><strong>Název projektu:</strong> Vodojem s&nbsp;vyhlídkou na&nbsp;Trosky</span>
 							<strong>Autoři</strong>: Zdenek Balík, Jakub Dvořák <br>
 							<strong>Ateliér</strong>: ZETTE ateliér <br>
 							<strong>Cena:</strong> Diplom
@@ -339,7 +341,7 @@
 						</div>
 						<h3 class="gpa__projectName">Čestné uznání</h3>
 						<span class="gpa__projectDesc">
-							Mezi lukami <br>
+							<span class="gpa__title"><strong>Název projektu:</strong> Mezi lukami</span>
 							<strong>Autor</strong>: Daniela Hradilová <br>
 							<strong>Cena:</strong> Diplom
 						</span>
@@ -354,7 +356,7 @@
 						</div>
 						<h3 class="gpa__projectName">Čestné uznání</h3>
 						<span class="gpa__projectDesc">
-							Expozice "Skrytý středověk" v&nbsp;suterénu zámku Bílovec <br>
+							<span class="gpa__title"><strong>Název projektu:</strong> Expozice "Skrytý středověk" v&nbsp;suterénu zámku Bílovec</span>
 							<strong>Autor</strong>: Ing.&nbsp;arch. Martin Materna, Ing.&nbsp;arch. Adéla Kudlová , Ing.&nbsp;arch. Adam Weczerek - WMA architekti, spolupráce Art consultancy - Mgr.&nbsp;Ivan Berger, archeologicko-historická část - Mgr.&nbsp;František Kolář, Mgr.&nbsp;Petra Kaniová <br>
 							<strong>Cena:</strong> Diplom
 						</span>
@@ -369,7 +371,7 @@
 						</div>
 						<h3 class="gpa__projectName">Čestné uznání</h3>
 						<span class="gpa__projectDesc">
-							Rekonstrukce a&nbsp;nástavba vily Wellnerova <br>
+							<span class="gpa__title"><strong>Název projektu:</strong> Rekonstrukce a&nbsp;nástavba vily Wellnerova</span>
 							<strong>Autor</strong>: Mgr.&nbsp;Ing.&nbsp;arch. Jan Pospíšil/ návrh interiéru Ing.&nbsp;Jana Trundová <br>
 							<strong>Ateliér</strong>: studioPAB s.r.o. <br>
 							<strong>Cena:</strong> Diplom
@@ -385,7 +387,7 @@
 						</div>
 						<h3 class="gpa__projectName">Čestné uznání</h3>
 						<span class="gpa__projectDesc">
-							Obnova vrchnostenské zahrady u&nbsp;hradu Pernštejn <br>
+							<span class="gpa__title"><strong>Název projektu:</strong> Obnova vrchnostenské zahrady u&nbsp;hradu Pernštejn</span>
 							<strong>Autor</strong>: Marek Tichý, Přemysl Krejčiřík, Kamila Krejčiříková<br>
 							<strong>Ateliér</strong>: Archatt, Krejčiříkov <br>
 							<strong>Cena:</strong> Diplom

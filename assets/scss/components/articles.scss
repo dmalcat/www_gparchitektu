@@ -48,14 +48,25 @@
 }
 
 .article {
+    @include max1024px {
+        padding-top: 1.5rem;
+    }
+
     .article__row {
         display: flex;
         justify-content: space-between;
         gap: 5rem;
+        @include max768px {
+            flex-direction: column;
+        }
     }
 
     .article__col {
         width: 50%;
+        @include max768px {
+            width: 100%;
+        }
+
         h2:first-child {
             margin-top: 0;
         }
@@ -85,5 +96,16 @@
 
     .article__form {
         margin: 3rem 0;
+    }
+
+    .article__member {
+        margin-top: 3rem;
+    }
+
+    .article__logos {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        flex-flow: row wrap;
     }
 }

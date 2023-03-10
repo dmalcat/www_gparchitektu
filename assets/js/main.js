@@ -10,6 +10,14 @@ $(function() {
 	});*/
 
 	replaceSVG();
+	replaceVideo();
+
+	function replaceVideo() {
+		if ($(window).width() < 768) { // pokud je rozlišení menší než 768 pixelů
+		   $('#video').remove(); // odebereme element s id="video" z DOMu
+		   $('#image').addClass('active'); // přidáme třídu "active" k elementu s id="image"
+		}
+	}
 
 	function replaceSVG() {
 		/*

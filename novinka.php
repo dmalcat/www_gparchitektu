@@ -32,9 +32,13 @@ $id = explode('-', $q)[0];
 	<div class="hero__wrapper wrapper">
 		<h1>Novinky</h1>
 	</div>
-	<div class="hero__image">
-		<img src="<?php echo $baseurl ?>/assets/images/covers/novinky.png" alt="">
-	</div>
+	<picture class="hero__image">
+		<source srcset="<?php echo $baseurl ?>/assets/images/covers/novinky/cover_375.jpg" media="(max-width: 375px)" type="image/jpeg">
+		<source srcset="<?php echo $baseurl ?>/assets/images/covers/novinky/cover_540.jpg" media="(max-width: 540px)" type="image/jpeg">
+        <source srcset="<?php echo $baseurl ?>/assets/images/covers/novinky/cover_768.jpg" media="(max-width: 768px)" type="image/jpeg">
+		<source srcset="<?php echo $baseurl ?>/assets/images/covers/novinky/cover.jpg" media="(max-width: 2560px)" type="image/jpeg">
+		<img src="<?php echo $baseurl ?>/assets/images/covers/novinky/cover.jpg" alt="">
+	</picture>
 </section>
 
 <section class="breadcrumb">

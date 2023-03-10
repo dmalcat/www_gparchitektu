@@ -1,5 +1,10 @@
+@import '../core/breakpoints.scss';
+
 section {
 	padding: 5rem 0;
+	@include max640px {
+		padding: 2.5rem 0;
+	}
 }
 
 .spacer {

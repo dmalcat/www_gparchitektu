@@ -10,6 +10,9 @@
         display: block;
         max-width: 90px;
         width: 100%;
+        @include max480px {
+            max-width: 70px;
+        }
     }
     
     .header__logoImg {

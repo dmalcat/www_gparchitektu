@@ -22,9 +22,13 @@
 	<div class="hero__wrapper wrapper">
 		<h1>Kontakty</h1>
 	</div>
-	<div class="hero__image">
-		<img src="<?php echo $baseurl ?>/assets/images/covers/kontakt.png" alt="">
-	</div>
+	<picture class="hero__image">
+		<source srcset="<?php echo $baseurl ?>/assets/images/covers/kontakt/cover_375.jpg" media="(max-width: 375px)" type="image/jpeg">
+		<source srcset="<?php echo $baseurl ?>/assets/images/covers/kontakt/cover_540.jpg" media="(max-width: 540px)" type="image/jpeg">
+        <source srcset="<?php echo $baseurl ?>/assets/images/covers/kontakt/cover_768.jpg" media="(max-width: 768px)" type="image/jpeg">
+		<source srcset="<?php echo $baseurl ?>/assets/images/covers/kontakt/cover.jpg" media="(max-width: 2560px)" type="image/jpeg">
+		<img src="<?php echo $baseurl ?>/assets/images/covers/kontakt/cover.jpg" alt="">
+	</picture>
 </section>
 
 <section class="breadcrumb">

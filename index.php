@@ -36,22 +36,30 @@
 					architektury široké laické a&nbsp;odborné veřejnosti.
 				</p>
 				<div class="hero__buttons">
-					<a href="<?php echo $baseurl ?>/o-nas/" class="button button--black button--arrow">
-						O nás
-						<img class="button__arrow svg" src="<?php echo $baseurl ?>/assets/images/icons/arrow-right-white.svg" alt="">
-					</a>
-					<a href="<?php echo $baseurl ?>/grand-prix-architektu/" class="button button--yellow button--arrow">
-						Grand Prix Architektů
-						<img class="button__arrow svg" src="<?php echo $baseurl ?>/assets/images/icons/arrow-right-white.svg" alt="">
-					</a>
+					<div>
+						<a href="<?php echo $baseurl ?>/o-nas/" class="button button--black button--arrow">
+							O nás
+							<img class="button__arrow svg" src="<?php echo $baseurl ?>/assets/images/icons/arrow-right-white.svg" alt="">
+						</a>
+					</div>
+					<div>
+						<a href="<?php echo $baseurl ?>/grand-prix-architektu/" class="button button--yellow button--arrow">
+							Grand Prix Architektů
+							<img class="button__arrow svg" src="<?php echo $baseurl ?>/assets/images/icons/arrow-right-white.svg" alt="">
+						</a>
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 	<picture class="hero__image">
-		<!--<source srcset="<?php echo $baseurl ?>/assets/images/carousel/6.jpg" media="(max-width: 940px)" type="image/jpg">-->
-		<source srcset="<?php echo $baseurl ?>/assets/images/carousel/6.jpg" media="(max-width: 2560px)" type="image/jpg">
-		<img src="<?php echo $baseurl ?>/assets/images/carousel/6.jpg" alt="">
+		<source srcset="<?php echo $baseurl ?>/assets/images/carousel/cover_375.jpg" media="(max-width: 375px)" type="image/jpeg">
+		<source srcset="<?php echo $baseurl ?>/assets/images/carousel/cover_500.jpg" media="(max-width: 500px)" type="image/jpeg">
+		<source srcset="<?php echo $baseurl ?>/assets/images/carousel/cover_640.jpg" media="(max-width: 640px)" type="image/jpeg">	
+		<source srcset="<?php echo $baseurl ?>/assets/images/carousel/cover_940.jpg" media="(max-width: 940px)" type="image/jpeg">	
+		<source srcset="<?php echo $baseurl ?>/assets/images/carousel/cover_1400.jpg" media="(max-width: 1400px)" type="image/jpeg">
+		<source srcset="<?php echo $baseurl ?>/assets/images/carousel/cover.jpg" media="(max-width: 2560px)" type="image/jpeg">
+		<img src="<?php echo $baseurl ?>/assets/images/carousel/cover.jpg" alt="">
 	</picture>
 </section>
 

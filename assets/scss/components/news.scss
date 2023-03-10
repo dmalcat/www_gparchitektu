@@ -88,9 +88,16 @@
 
 	.news__row {
 		justify-content: center;
+		@include max940px {
+			flex-direction: column;
+		}
+
 		.news__col {
 			width: 50%;
 			margin-bottom: 0;
+			@include max940px {
+				width: 100%;
+			}
 		}
 	}
 
@@ -99,6 +106,9 @@
 		flex-direction: column;
 		justify-content: center;
 		padding: 4rem;
+		@include max940px {
+			padding: 2rem 0;
+		}
 		p {
 			margin-bottom: 2rem;
 		}
@@ -106,6 +116,9 @@
 
 	.news__col--image {
 		border-radius: 8px;
+		@include max940px {
+			order: -1;
+		}
 	}
 
 	.news__image {

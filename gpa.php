@@ -19,14 +19,20 @@
 <!-- Menu -->
 <?php include ('menu.php');?>
 
-<section class="hero hero--subpage">
+<section class="hero hero--subpage hero--video">
 	<div class="hero__wrapper wrapper">
 		<img class="hero__logo" src="<?php echo $baseurl ?>/assets/images/brand/gpa-logo-white.png" alt="">
 	</div>
 	<div class="hero__image hero__image--video">
-		<video class="hero__video" autoplay loop muted>
+		<video class="hero__video" autoplay loop muted id="video">
 			<source src="<?php echo $baseurl ?>/assets/video/gpa-video.mp4" type="video/mp4">
 		</video>
+		<picture class="hero__picture" id="image">
+			<source srcset="<?php echo $baseurl ?>/assets/images/covers/gpa/cover_375.jpg" media="(max-width: 375px)" type="image/jpeg">
+			<source srcset="<?php echo $baseurl ?>/assets/images/covers/gpa/cover_540.jpg" media="(max-width: 540px)" type="image/jpeg">
+			<source srcset="<?php echo $baseurl ?>/assets/images/covers/gpa/cover_768.jpg" media="(max-width: 768px)" type="image/jpeg">
+			<img src="<?php echo $baseurl ?>/assets/images/covers/gpa/cover_768.jpg" alt="">
+		</picture>
 	</div>
 </section>
 
@@ -47,7 +53,6 @@
 	<div class="gpa__wrapper wrapper">
 		<div class="gpa__row">
 			<div class="gpa__col">
-				
 				<p>
 					Soutěž založená Prof. Ing.&nbsp;Akad. Arch. Alenou Šrámkovou roku 1993.
 				</p>
@@ -91,10 +96,15 @@
 				</p>
 			</div>
 			<div class="gpa__col">
-			<h2 class="no-top-margin">Galavečer Grand Prix Architektů</h2>
+				<h2 class="no-top-margin">Galavečer Grand Prix Architektů</h2>
 				<p>
 					Na&nbsp;slavnostní zakončení Grand Prix Architektů jsou zveřejněni laureáti a&nbsp;vítězné projekty. Vítězové jsou oceněni ikonickou skleněnou kostkou a&nbsp;diplomem. Součástí večera je&nbsp;také vyhlášení Ceny za&nbsp;celoživotní dílo, kterou obdrží významná osobnost české architektonické scény.
 				</p>
+
+				<a class="button button--black button--arrow" href="<?php echo $baseurl ?>/celozivotni-ceny/">
+					Ceny za celoživotní dílo
+					<img class="button__arrow svg" src="<?php echo $baseurl ?>/assets/images/icons/arrow-right-white.svg" alt="">
+				</a>
 
 				<h2>Hlavní ceny soutěže</h2>
 
@@ -139,150 +149,170 @@
 					</a>
 				</div>
 			</div>
-			
 		</div>
 	</div>
 </section>
 
-<section class="gpa gpa--list">
-	<div class="gpa__wrapper wrapper">
-		<div class="gpa__row row">
-			<div class="gpa__col">
-				<div class="gpa__projectImg">
-					<img src="<?php echo $baseurl ?>/assets/images/competition/gpa-2022@2x.png" alt="">
+<?php include('./components/partners/auspices-general.php'); ?>
+
+<section class="gpTabs">
+	<div class="gpTabs__wrapper gpTabs__wrapper--nav wrapper">
+		<a class="gpTabs__navItem gpTabs__navItem--active" href="#rocniky">Ročníky</a>
+	</div>
+	<div class="gpTabs__wrapper gpTabs__wrapper--active wrapper" id="rocniky">
+		<div class="gpTabs__content">
+			<div class="gpa gpa--list">
+				<div class="gpa__row row">
+					<div class="gpa__col">
+						<div class="gpa__projectImg">
+							<img src="<?php echo $baseurl ?>/assets/images/competition/gpa-2022@2x.png" alt="">
+						</div>
+						<h3 class="gpa__projectName">Národní cena za&nbsp;architekturu 2022</h3>
+						<a class="button button--arrow button--black" href="<?php echo $baseurl ?>/grand-prix-architekt-2022/">
+							Detail ročníku
+							<img class="button__arrow svg" src="<?php echo $baseurl ?>/assets/images/icons/arrow-right-white.svg" alt="">
+						</a>
+					</div>
+					<div class="gpa__col">
+						<div class="gpa__projectImg">
+							<img src="<?php echo $baseurl ?>/assets/images/competition/gpa-2021@2x.png" alt="">
+						</div>
+						<h3 class="gpa__projectName">Národní cena za&nbsp;architekturu 2021</h3>
+						<a class="button button--arrow button--black" href="<?php echo $baseurl ?>/grand-prix-architekt-2021/">
+							Detail ročníku
+							<img class="button__arrow svg" src="<?php echo $baseurl ?>/assets/images/icons/arrow-right-white.svg" alt="">
+						</a>
+					</div>
+					<div class="gpa__col">
+						<div class="gpa__projectImg">
+							<img src="<?php echo $baseurl ?>/assets/images/competition/gpa-2020.png" alt="">
+						</div>
+						<h3 class="gpa__projectName">Národní cena za&nbsp;architekturu 2020</h3>
+						<span class="gpa__projectDesc">Podrobnosti připravujeme.</span>
+					</div>
+					<div class="gpa__col">
+						<div class="gpa__projectImg">
+							<img src="<?php echo $baseurl ?>/assets/images/competition/gpa-2019.png" alt="">
+						</div>
+						<h3 class="gpa__projectName">Národní cena za&nbsp;architekturu 2019</h3>
+						<span class="gpa__projectDesc">Podrobnosti připravujeme.</span>
+					</div>
+					<div class="gpa__col">
+						<div class="gpa__projectImg">
+							<img src="<?php echo $baseurl ?>/assets/images/competition/gpa-2018@2x.png" alt="">
+						</div>
+						<h3 class="gpa__projectName">Národní cena za&nbsp;architekturu 2018</h3>
+						<span class="gpa__projectDesc">Podrobnosti připravujeme.</span>
+					</div>
 				</div>
-				<h3 class="gpa__projectName">Národní cena za&nbsp;architekturu 2022</h3>
-				<a class="button button--arrow button--black" href="<?php echo $baseurl ?>/grand-prix-architekt-2022/">
-					Detail ročníku
-					<img class="button__arrow svg" src="<?php echo $baseurl ?>/assets/images/icons/arrow-right-white.svg" alt="">
-				</a>
-			</div>
-			<div class="gpa__col">
-				<div class="gpa__projectImg">
-					<img src="<?php echo $baseurl ?>/assets/images/competition/gpa-2021@2x.png" alt="">
-				</div>
-				<h3 class="gpa__projectName">Národní cena za&nbsp;architekturu 2021</h3>
-				<a class="button button--arrow button--black" href="<?php echo $baseurl ?>/grand-prix-architekt-2021/">
-					Detail ročníku
-					<img class="button__arrow svg" src="<?php echo $baseurl ?>/assets/images/icons/arrow-right-white.svg" alt="">
-				</a>
-			</div>
-			<div class="gpa__col">
-				<div class="gpa__projectImg">
-					<img src="<?php echo $baseurl ?>/assets/images/competition/gpa-2020.png" alt="">
-				</div>
-				<h3 class="gpa__projectName">Národní cena za&nbsp;architekturu 2020</h3>
-				<span class="gpa__projectDesc">Podrobnosti připravujeme.</span>
-			</div>
-			<div class="gpa__col">
-				<div class="gpa__projectImg">
-					<img src="<?php echo $baseurl ?>/assets/images/competition/gpa-2019.png" alt="">
-				</div>
-				<h3 class="gpa__projectName">Národní cena za&nbsp;architekturu 2019</h3>
-				<span class="gpa__projectDesc">Podrobnosti připravujeme.</span>
-			</div>
-			<div class="gpa__col">
-				<div class="gpa__projectImg">
-					<img src="<?php echo $baseurl ?>/assets/images/competition/gpa-2018@2x.png" alt="">
-				</div>
-				<h3 class="gpa__projectName">Národní cena za&nbsp;architekturu 2018</h3>
-				<span class="gpa__projectDesc">Podrobnosti připravujeme.</span>
 			</div>
 		</div>
 	</div>
 </section>
 
-<section id="novinky-slide" class="news">
-    <div class="news__wrapper wrapper">
-        <h1>Novinky</h1>
+<section class="gpTabs">
+	<div class="gpTabs__wrapper gpTabs__wrapper--nav wrapper">
+		<a class="gpTabs__navItem gpTabs__navItem--active" href="#novinky">Novinky</a>
+	</div>
+	<div class="gpTabs__wrapper gpTabs__wrapper--active wrapper" id="novinky">
+		<div class="gpTabs__content">
+			<div class="news">
+				<div class="news__wrapper wrapper">
+					<div class="news__row">
+						<?php
+						include 'conn.php';
 
-        <div class="news__row">
-            <?php
-            include 'conn.php';
+						// Create connection
+						$conn = new mysqli($servername, $username, $password, $dbname);
+						$conn->set_charset('utf8');
+						// Check connection
+						if ($conn->connect_error) {
+							die("Connection failed: " . $conn->connect_error);
+						}
+						$sql = "SELECT * FROM oa_clanky WHERE status='1' AND f2=1 ORDER BY id DESC LIMIT 3";
 
-            // Create connection
-            $conn = new mysqli($servername, $username, $password, $dbname);
-            $conn->set_charset('utf8');
-            // Check connection
-            if ($conn->connect_error) {
-                die("Connection failed: " . $conn->connect_error);
-            }
-            $sql = "SELECT * FROM oa_clanky WHERE status='1' AND f2=1 ORDER BY id DESC LIMIT 3";
+						$result = $conn->query($sql);
 
-            $result = $conn->query($sql);
-
-            if ($result->num_rows > 0) {
-                // output data of each row
-                while($row = $result->fetch_assoc()) {
-                    $id = $row['id'];
-                    $title = $row['title'];
-                    $content = $row['content'];
-                    $datum= $row['date'];
-                    $photo= $row['main_img'];
-
-
-                    $cisty_text = strip_tags($content);
-
-                    if (substr_count($cisty_text, " ") > 30) {
-                        $pole = explode(" ",$cisty_text);
-
-                        for ($i=0;$i<30;$i++):
-
-                            $pole2[$i]=$pole[$i];
+						if ($result->num_rows > 0) {
+							// output data of each row
+							while($row = $result->fetch_assoc()) {
+								$id = $row['id'];
+								$title = $row['title'];
+								$content = $row['content'];
+								$datum= $row['date'];
+								$photo= $row['main_img'];
 
 
-                        endfor;
+								$cisty_text = strip_tags($content);
 
-                        $text = implode(" ",$pole2);
-                    } else {
-                        $text = $cisty_text;
-                    }
-                    //vytvoření odkazu
-                    $string = $title;
-                    $string = str_replace("+", " ", $string);
+								if (substr_count($cisty_text, " ") > 30) {
+									$pole = explode(" ",$cisty_text);
 
-                    $slug = \Transliterator::createFromRules(
-                        ':: Any-Latin;'
-                        . ':: NFD;'
-                        . ':: [:Nonspacing Mark:] Remove;'
-                        . ':: NFC;'
-                        . ':: [:Punctuation:] Remove;'
-                        . ':: Lower();'
-                        . '[:Separator:] > \'-\''
-                    )
-                        ->transliterate( $string );
-                    $slug; // namnet-pa-bildtavlingen
+									for ($i=0;$i<30;$i++):
+
+										$pole2[$i]=$pole[$i];
 
 
-                    $odkaz = "$slug";
+									endfor;
 
-                    echo "               
-                <div class='news__col'>
-                    <a href='$baseurl/novinka/$id-$odkaz'>
-                        <div class='news__image'>
-                            <img src='$baseurl/uploads/images/$photo'>
-                            <span class='news__overlay'>
-                                <span class='button button--yellow'>Zobrazit detail</span>
-                            </span>
-                        </div>
-                        
-                        <h5>$title</h5>
-                        <p>$text</p>
-                    </a> 
-                </div>
-            ";
-                }
-            } else {
-            }
-            $conn->close();
+									$text = implode(" ",$pole2);
+								} else {
+									$text = $cisty_text;
+								}
+								//vytvoření odkazu
+								$string = $title;
+								$string = str_replace("+", " ", $string);
 
-            ?>
-        </div>
-        <div>
-            <a href="<?php echo $baseurl ?>/novinky/gpa" class='button button--yellow'>Další novinky</a>
-        </div>
-    </div>
+								$slug = \Transliterator::createFromRules(
+									':: Any-Latin;'
+									. ':: NFD;'
+									. ':: [:Nonspacing Mark:] Remove;'
+									. ':: NFC;'
+									. ':: [:Punctuation:] Remove;'
+									. ':: Lower();'
+									. '[:Separator:] > \'-\''
+								)
+									->transliterate( $string );
+								$slug; // namnet-pa-bildtavlingen
+
+
+								$odkaz = "$slug";
+
+								echo "               
+							<div class='news__col'>
+								<a href='$baseurl/novinka/$id-$odkaz'>
+									<div class='news__image'>
+										<img src='$baseurl/uploads/images/$photo'>
+										<span class='news__overlay'>
+											<span class='button button--yellow'>Zobrazit detail</span>
+										</span>
+									</div>
+									
+									<h5>$title</h5>
+									<p>$text</p>
+								</a> 
+							</div>
+						";
+							}
+						} else {
+						}
+						$conn->close();
+
+						?>
+					</div>
+					<div>
+						<a href="<?php echo $baseurl ?>/novinky/gpa" class='button button--black button--arrow'>
+							Další novinky
+							<img class="button__arrow svg" src="<?php echo $baseurl ?>/assets/images/icons/arrow-right-white.svg" alt="">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </section>
+
+
 
 
 <?php include('./components/partners/2022.php'); ?>

@@ -19,6 +19,32 @@
 <!-- Menu -->
 <?php include ('menu.php');?>
 
+<section class="hero hero--subpage">
+	<div class="hero__wrapper wrapper">
+		<h1>Mezinárodní unie architektů</h1>
+	</div>
+	<picture class="hero__image">
+		<source srcset="<?php echo $baseurl ?>/assets/images/covers/uia/cover_375.jpg" media="(max-width: 375px)" type="image/jpeg">
+		<source srcset="<?php echo $baseurl ?>/assets/images/covers/uia/cover_540.jpg" media="(max-width: 540px)" type="image/jpeg">
+        <source srcset="<?php echo $baseurl ?>/assets/images/covers/uia/cover_768.jpg" media="(max-width: 768px)" type="image/jpeg">
+		<source srcset="<?php echo $baseurl ?>/assets/images/covers/uia/cover.jpg" media="(max-width: 2560px)" type="image/jpeg">
+		<img src="<?php echo $baseurl ?>/assets/images/covers/uia/cover.jpg" alt="">
+	</picture>
+</section>
+
+<section class="breadcrumb">
+	<div class="breadcrumb__wrapper wrapper">
+		<ul class="breadcrumbList">
+			<li>
+				<a href="<?php echo $baseurl ?>">Úvodní strana</a>
+			</li>
+			<li class="active">
+				Mezinárodní unie architektů
+			</li>
+		</ul>
+	</div>
+</section>
+
 <section class="gpa">
 	<div class="gpa__wrapper wrapper">
 

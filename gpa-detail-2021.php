@@ -19,7 +19,7 @@
 <!-- Menu -->
 <?php include ('menu.php');?>
 
-<section class="hero hero--subpage">
+<section class="hero hero--subpage hero--video">
 	<div class="hero__wrapper wrapper">
 		<img class="hero__logo" src="<?php echo $baseurl ?>/assets/images/brand/gpa-logo-white.png" alt="">
 	</div>
@@ -83,6 +83,8 @@
 	</div>
 </section>
 
+<?php include('./components/partners/auspices-2021.php'); ?>
+
 <section class="winningProjects gpTabs">
 	<div class="gpTabs__wrapper gpTabs__wrapper--nav wrapper">
 		<a href="#winning-projects" class="gpTabs__navItem">Vítězné projekty</a>
@@ -97,7 +99,7 @@
 						</div>
 						<h3 class="gpa__projectName">Národní cena za&nbsp;architektura 2021</h3>
 						<span class="gpa__projectDesc">
-							Fakulta humanitních studií UK – přestavba menzy Koleje 17. listopadu<br>
+							<span class="gpa__title"><strong>Název projektu:</strong> Fakulta humanitních studií UK – přestavba menzy Koleje 17. listopadu</span>
 							<strong>Autor</strong>: Ladislav Kuba, Tomáš Pilař, Martin Klimecký <br>
 							<strong>Ateliér</strong>: Kuba & Pilař architekti s.r.o. <br>
 							<strong>Cena:</strong> Velká modrá kostka
@@ -124,7 +126,7 @@
 						</div>
 						<h3 class="gpa__projectName">Novostavba</h3>
 						<span class="gpa__projectDesc">
-							Přístavba kanceláře ve&nbsp;Vysokém Mýtě <br>
+							<span class="gpa__title"><strong>Název projektu:</strong> Přístavba kanceláře ve&nbsp;Vysokém Mýtě</span>
 							<strong>Autor</strong>: Martin Prokš, Marek Přikryl <br>
 							<strong>Ateliér</strong>: Prokš Přikryl architekti <br>
 							<strong>Cena:</strong> Malá modrá kostka
@@ -140,7 +142,7 @@
 						</div>
 						<h3 class="gpa__projectName">Renovace</h3>
 						<span class="gpa__projectDesc">
-							Radnice pro&nbsp;Prahu 7<br>
+							<span class="gpa__title"><strong>Název projektu:</strong> Radnice pro&nbsp;Prahu 7</span>
 							<strong>Autor</strong>: Ing.&nbsp;arch. Vojtěch Sosna, Ing.&nbsp;arch. Jakub Straka, Ing.&nbsp;arch. Jáchym Svoboda <br>
 							<strong>Ateliér</strong>: Atelier bod architekti s.r.o.<br>
 							<strong>Cena:</strong> Malá modrá kostka
@@ -156,7 +158,7 @@
 						</div>
 						<h3 class="gpa__projectName">Rekonstrukce</h3>
 						<span class="gpa__projectDesc">
-							Zpracování projektové dokumentace na&nbsp;rekonstrukci Libušína<br>
+							<span class="gpa__title"><strong>Název projektu:</strong> Zpracování projektové dokumentace na&nbsp;rekonstrukci Libušína</span>
 							<strong>Ateliér</strong>: Masák & Partner s.r.o.<br>
 							<strong>Cena:</strong> Malá modrá kostka
 						</span>
@@ -171,7 +173,7 @@
 						</div>
 						<h3 class="gpa__projectName">Rodinný dům</h3>
 						<span class="gpa__projectDesc">
-							Dům na&nbsp;Kozině<br>
+							<span class="gpa__title"><strong>Název projektu:</strong> Dům na&nbsp;Kozině</span>
 							<strong>Autor</strong>: Barbora Weinzettlová, Jiří Weinzettl <br>
 							<strong>Ateliér</strong>: atelier 111 architekti<br>
 							<strong>Cena:</strong> Malá modrá kostka
@@ -187,7 +189,7 @@
 						</div>
 						<h3 class="gpa__projectName">Krajinářská architektura</h3>
 						<span class="gpa__projectDesc">
-							Obnova krajiny kočárových koní<br>
+							<span class="gpa__title"><strong>Název projektu:</strong> Obnova krajiny kočárových koní<br>
 							<strong>Cena</strong>: Malá zelená kostka
 						</span>
 					</div>
@@ -197,7 +199,7 @@
 						</div>
 						<h3 class="gpa__projectName">Malá architektura</h3>
 						<span class="gpa__projectDesc">
-							Věčná loviště<br>
+							<span class="gpa__title"><strong>Název projektu:</strong> Věčná loviště</span>
 							<strong>Autor</strong>: Petr Hájek, Martin Stoss, Cornelia Klien <br>
 							<strong>Ateliér</strong>: Petr Hájek ARCHITEKTI, s.r.o.<br>
 							<strong>Cena:</strong> Malá modrá kostka
@@ -213,7 +215,7 @@
 						</div>
 						<h3 class="gpa__projectName">Šetrná stavba</h3>
 						<span class="gpa__projectDesc">
-							Altán městské knihovny ve&nbsp;Vamberku<br>
+							<span class="gpa__title"><strong>Název projektu:</strong> Altán městské knihovny ve&nbsp;Vamberku</span>
 							<strong>Autor</strong>: MgA.&nbsp;Martin Kožnar <br>
 							<strong>Spolupráce</strong>: Ing.arch.&nbsp;Miroslav Bachura (studie), Ing.&nbsp;arch. Jonáš Kolařík (DSP), Ing.arch.&nbsp;Ondřej Hart (DPS)<br>
 							<strong>Cena:</strong> Malá stříbrná kostka
@@ -229,7 +231,7 @@
 						</div>
 						<h3 class="gpa__projectName">Čestné uznání v&nbsp;kategorii Šetrná stavba</h3>
 						<span class="gpa__projectDesc">
-							Telegraph <br>
+							<span class="gpa__title"><strong>Název projektu:</strong> Telegraph</span>
 							<strong>Autor</strong>: Lukáš Blažek, Eva Blažková, Vojtěch Jemelka, Lucie Vyhlídalová <br>
 							<strong>Ateliér</strong>: ječmen studio<br>
 							<strong>Cena:</strong> Diplom
@@ -245,7 +247,7 @@
 						</div>
 						<h3 class="gpa__projectName">Čestné uznání v&nbsp;kategorii Šetrná stavba</h3>
 						<span class="gpa__projectDesc">
-							Rezidenční projekt Sakura <br>
+							<span class="gpa__title"><strong>Název projektu:</strong> Rezidenční projekt Sakura</span>
 							<strong>Ateliér</strong>: Jestico + Whiles<br>
 							<strong>Cena:</strong> Diplom
 						</span>
@@ -260,7 +262,7 @@
 						</div>
 						<h3 class="gpa__projectName">Čestné uznání</h3>
 						<span class="gpa__projectDesc">
-							Ústřední autobusové nádraží Zvonařka <br>
+							<span class="gpa__title"><strong>Název projektu:</strong> Ústřední autobusové nádraží Zvonařka</span>
 							<strong>Ateliér</strong>: CHYBIK + KRISTOF<br>
 							<strong>Cena:</strong> Diplom
 						</span>
@@ -275,7 +277,7 @@
 						</div>
 						<h3 class="gpa__projectName">Čestné uznání</h3>
 						<span class="gpa__projectDesc">
-							Bytový dům Panna a&nbsp;Baba <br>
+							<span class="gpa__title"><strong>Název projektu:</strong> Bytový dům Panna a&nbsp;Baba</span>
 							<strong>Autor</strong>: Milan Jirovec, Matyáš Sedlák, Miroslav Holubec, Tomáš Fejk <br>
 							<strong>Ateliér</strong>:&nbsp;m4 architekti s.r.o.<br>
 							<strong>Cena:</strong> Diplom
@@ -291,7 +293,7 @@
 						</div>
 						<h3 class="gpa__projectName">Čestné uznání</h3>
 						<span class="gpa__projectDesc">
-							Kaplička Čtyř svatých <br>
+							<span class="gpa__title"><strong>Název projektu:</strong> Kaplička Čtyř svatých </span>
 							<strong>Autor</strong>: Kamil Měrka <br>
 							<strong>Ateliér</strong>:  ti2 architekti<br>
 							<strong>Cena:</strong> Diplom

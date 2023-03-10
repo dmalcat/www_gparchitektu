@@ -46,25 +46,6 @@
 				</div>
 				<div class="partners__row">
 					<div class="partners__col">
-						<span class="partners__subheadline">Obec architektů je členem</span>
-						<div class="partners__logos">
-							<a href="http://siacr.cz/" target="_blank">
-								<img class="logo logo--architects" src="<?php echo $baseurl ?>/loga/architects.png" alt="">
-							</a>
-							<a href="https://www.uia-architectes.org/webApi/en/" target="_blank">
-								<img class="logo logo--uiax" src="<?php echo $baseurl ?>/loga/uiax.png" alt="">
-							</a>
-							<a href="">
-								<img class="logo logo--v4" src="<?php echo $baseurl ?>/assets/images/partners/2022/V4-partnership.png" alt="">
-							</a>
-							<a href="http://siacr.cz/" target="_blank">
-								<img class="logo logo--sia" src="<?php echo $baseurl ?>/loga/sia.png" alt="">
-							</a>
-						</div>
-					</div>
-				</div>
-				<div class="partners__row">
-					<div class="partners__col">
 						<span class="partners__subheadline">Odkazy na weby projektů partnera Grand Prix Architektů</span>
 						<div class="partners__logos">
 							<a href="https://sekyragroup.cz/pages/developersky-projekt-praha8-rohan-city-1" target="_blank">

@@ -42,6 +42,9 @@ $route = str_replace(str_replace("/router.php", "", $_SERVER['PHP_SELF']), "", $
     elseif (preg_match('/kontakty/', $route)):
         require('./kontakty.php');
     
+    elseif (preg_match('/celozivotni-ceny/', $route)):
+        require('./celozivotni-ceny.php');
+    
     elseif (preg_match('/styleguide/', $route)):
         require('./styleguide.php');
 

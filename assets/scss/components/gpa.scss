@@ -114,6 +114,12 @@
 		font-size: 24px;
 		margin: 2rem 0 1rem;
 	}
+
+	.gpa__title {
+		display: block;
+		font-size: 18px;
+		margin-bottom: 0.5rem;
+	}
 	
 	.gpa__projectDesc {
 		display: block;
@@ -131,10 +137,20 @@
 .gpa--list {
 	.gpa__row {
 		gap: 2.5rem;
+		@include max940px {
+			flex-direction: initial;
+		}
+
+		@include max640px {
+			flex-direction: column;
+		}
 	}
 
 	.gpa__col {
 		width: calc(50% - 2.5rem);
+		@include max640px {
+			width: 100%;
+		}
 	}
 }
 

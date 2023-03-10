@@ -10,7 +10,12 @@
 
     .tiles__row {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
+        gap: 2rem;
+        flex-flow: row wrap;
+        @include max940px {
+            
+        }
     }
 
     .tile {

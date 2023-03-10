@@ -1,0 +1,17 @@
+.partners--auspices {
+    display: flex;
+    gap: 3rem;
+    padding-bottom: 0;
+    .partners__col--mk {
+        width: 20%;
+    }
+
+    .partners__logos {
+        gap: 30px;
+        a {
+            max-width: 150px;
+            margin: 0;
+        }
+        
+    }
+}

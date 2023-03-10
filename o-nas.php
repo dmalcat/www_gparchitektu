@@ -20,9 +20,13 @@
 	<div class="hero__wrapper wrapper">
 		<h1>O nás</h1>
 	</div>
-	<div class="hero__image">
-		<img src="<?php echo $baseurl ?>/assets/images/covers/o-nas.png" alt="">
-	</div>
+	<picture class="hero__image">
+		<source srcset="<?php echo $baseurl ?>/assets/images/covers/o-nas/cover_375.jpg" media="(max-width: 375px)" type="image/jpeg">
+		<source srcset="<?php echo $baseurl ?>/assets/images/covers/o-nas/cover_540.jpg" media="(max-width: 540px)" type="image/jpeg">
+        <source srcset="<?php echo $baseurl ?>/assets/images/covers/o-nas/cover_768.jpg" media="(max-width: 768px)" type="image/jpeg">
+		<source srcset="<?php echo $baseurl ?>/assets/images/covers/o-nas/cover.jpg" media="(max-width: 2560px)" type="image/jpeg">
+		<img src="<?php echo $baseurl ?>/assets/images/covers/o-nas/cover.jpg" alt="">
+	</picture>
 </section>
 
 <section class="breadcrumb">
@@ -54,7 +58,22 @@
 					<li>podporovat svobodnou diskuzi o&nbsp;tvůrč&iacute;ch a&nbsp;odborn&yacute;ch ot&aacute;zk&aacute;ch v&nbsp;oboru architektury a&nbsp;stavitelstv&iacute; a&nbsp;vytv&aacute;řet organizačn&iacute; předpoklady pro&nbsp;vznik tvůrč&iacute;ch skupin, pobočn&yacute;ch spolků a&nbsp;jejich podporu,</li>
 					<li>aktivně spolupracovat s&nbsp;obdobn&yacute;mi institucemi, organizacemi a&nbsp;kulturn&iacute;mi svazy doma i&nbsp;v&nbsp;zahranič&iacute;.</li>
 				</ul>
-			</div>
+
+                <div class="article__member">
+					<h3>Obec architektů je členem</h3>
+                    <div class="article__logos">
+                        <a href="https://www.uia-architectes.org/webApi/en/" target="_blank">
+                            <img class="logo logo--uiax" src="<?php echo $baseurl ?>/loga/uiax.png" alt="">
+                        </a>
+                        <a href="">
+                            <img class="logo logo--v4" src="<?php echo $baseurl ?>/assets/images/partners/2022/V4-partnership.png" alt="">
+                        </a>
+                        <a href="http://siacr.cz/" target="_blank">
+                            <img class="logo logo--sia" src="<?php echo $baseurl ?>/loga/sia.png" alt="">
+                        </a>
+                    </div>
+				</div>
+            </div>
 			
 			<div class="article__col">
 				<h2>Aktivity Obce architektů</h2>
@@ -65,16 +84,17 @@
 					<li>Informace o&nbsp;novink&aacute;ch z&nbsp;cel&eacute;ho světa</li>
 					<li>Kontakty na&nbsp;zahraničn&iacute; ateli&eacute;ry, asociace a&nbsp;univerzity</li>
 					<li>Možnost b&yacute;t nominov&aacute;n do&nbsp;pracovn&iacute;ch skupin UIA</li>
-					<li>Možnost b&yacute;t nominov&aacute;n do&nbsp;prestižn&iacute;ch světov&yacute;ch cen UIA:
-						<ul class="list">
-							<li>Gold Medal</li>
-							<li>Auguste Perret Prize (Karel Hub&aacute;ček 1969)</li>
-							<li>Jean Tschumi Prize</li>
-							<li>Robert Matthew Prize</li>
-							<li>Vassilis Sgoutas Prize</li>
-						</ol>
-					</li>
-				</ul>
+					<li>
+                        Možnost b&yacute;t nominov&aacute;n do&nbsp;prestižn&iacute;ch světov&yacute;ch cen UIA:
+                        <ul class="list">
+                        <li>Gold Medal</li>
+                        <li>Auguste Perret Prize (Karel Hub&aacute;ček 1969)</li>
+                        <li>Jean Tschumi Prize</li>
+                        <li>Robert Matthew Prize</li>
+                        <li>Vassilis Sgoutas Prize</li>
+                    </ul>
+                    </li>
+                </ul>
 				<h3>Aktivity v&nbsp;Evropě</h3>
 				<p>Obec Architektů představuje Česko ve&nbsp;struktuře Vi&scaron;egrad Four (V4) &ndash; Česko &ndash; Slovensko &ndash; Polsko &ndash; Maďarsko, podporuje architekty v&nbsp;regionu V4 a&nbsp;spolupracuje s&nbsp;asociacemi ze&nbsp;v&scaron;ech zem&iacute; V4.</p>
 				<p>Obec Architektů spolupracuje s&nbsp;SHARE&nbsp;Architects, a&nbsp;na&nbsp;jin&yacute;mi zaj&iacute;mav&yacute;mi projekty v&nbsp;r&aacute;mci evropsk&eacute; přeshraničn&iacute; spolupr&aacute;ce.&nbsp;</p>
