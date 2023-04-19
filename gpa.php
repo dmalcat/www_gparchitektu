@@ -101,11 +101,6 @@
 					Na&nbsp;slavnostní zakončení Grand Prix Architektů jsou zveřejněni laureáti a&nbsp;vítězné projekty. Vítězové jsou oceněni ikonickou skleněnou kostkou a&nbsp;diplomem. Součástí večera je&nbsp;také vyhlášení Ceny za&nbsp;celoživotní dílo, kterou obdrží významná osobnost české architektonické scény.
 				</p>
 
-				<a class="button button--black button--arrow" href="<?php echo $baseurl ?>/celozivotni-ceny/">
-					Ceny za celoživotní dílo
-					<img class="button__arrow svg" src="<?php echo $baseurl ?>/assets/images/icons/arrow-right-white.svg" alt="">
-				</a>
-
 				<h2>Hlavní ceny soutěže</h2>
 
 				<span class="gpa__block">
@@ -117,6 +112,13 @@
 					<strong>Cena za&nbsp;celoživotní dílo</strong> – velká červená kostka <br>
 					udílí Rada Obce architektů – nominace zasílejte na&nbsp;email: <a href="mailto:info@obecarchitektu.cz">info@obecarchitektu.cz</a>
 				</span>
+
+				<div class="buttonRow buttonRow--left">
+					<a class="button button--black button--arrow" href="<?php echo $baseurl ?>/celozivotni-ceny/">
+						Ceny za celoživotní dílo
+						<img class="button__arrow svg" src="<?php echo $baseurl ?>/assets/images/icons/arrow-right-white.svg" alt="">
+					</a>
+				</div>
 
 				<h3>Porota uděluje další ceny v&nbsp;kategoriích: </h3>
 				<span class="gpa__block">
@@ -163,6 +165,16 @@
 		<div class="gpTabs__content">
 			<div class="gpa gpa--list">
 				<div class="gpa__row row">
+					<div class="gpa__col">
+						<div class="gpa__projectImg">
+							<img src="<?php echo $baseurl ?>/assets/images/competition/gpa-2023@2x.png" alt="">
+						</div>
+						<h3 class="gpa__projectName">Národní cena za&nbsp;architekturu 2023</h3>
+						<a class="button button--arrow button--black" href="<?php echo $baseurl ?>/grand-prix-architekt-2023/">
+							Detail ročníku
+							<img class="button__arrow svg" src="<?php echo $baseurl ?>/assets/images/icons/arrow-right-white.svg" alt="">
+						</a>
+					</div>
 					<div class="gpa__col">
 						<div class="gpa__projectImg">
 							<img src="<?php echo $baseurl ?>/assets/images/competition/gpa-2022@2x.png" alt="">

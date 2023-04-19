@@ -128,7 +128,7 @@
 		<h1 class="text-center">Poslední novinky</h1>
 		<div class="news__row">
 		<?php
-			/*
+			
 			include 'conn.php';
 
 			// Create connection
@@ -153,8 +153,10 @@
 					$photo= $row['main_img'];
 
 					$cisty_text = strip_tags($content);
+					
 
 					$pole = explode(" ",$cisty_text);
+					
 				}
 
 					for ($i=0;$i<140;$i++) {
@@ -162,10 +164,10 @@
 					};
 
 					$text = implode(" ",$pole2);
-
+					
 					function substrwords($text, $maxchar, $end='...') {
 						if (strlen($text) > $maxchar || $text == '') {
-							$words = preg_split('/s/', $text);      
+							$words = preg_split('/\s/', $text);
 							$output = '';
 							$i      = 0;
 							while (1) {
@@ -210,75 +212,36 @@
 
 					
 					echo "      
-						<div class='articles__col articles__col--copy'>
+						<div class='news__col news__col--copy'>
 							<h2>$title</h2>
 
-							<img class='articles__img articles__img--mobile' src='./uploads/images/$photo' alt=''>
+							<img class='news__img news__img--mobile' src='./uploads/images/$photo' alt=''>
 							
 							<p>
 								$text
 							</p>
 
-							<a href='$baseurl/novinka/$id-$odkaz' class='button button--yellow'>Číst dále</a>
+							<div class='buttonRow buttonRow--left'>
+								<a href='$baseurl/novinka/$id-$odkaz' class='button button--black button--arrow'>
+									Číst dále
+									<img class='button__arrow svg' src='$baseurl/assets/images/icons/arrow-right-white.svg' alt=''>
+								</a>
+							</div>
 						</div>
 							
-						<div class='articles__col articles__col--img'>
-							<img class='articles__img articles__img--desktop' src='$baseurl/uploads/images/$photo' alt=''>
+						<div class='news__col news__col--img'>
+							<img class='news__img news__img--desktop' src='$baseurl/uploads/images/$photo' alt=''>
 						</div>
 					";
 				}
 
 			$conn->close();
-			*/
+			
 
 			?>
 
 				
-			<div class='news__col news__col--copy'>
-				<h2>Akcent Saši Michailidise - Rozhovor předsedy Olega Hamana s Janem Kaslem v pořadu Českého rozhlasu</h2>
-
-				<img class='news__img news__img--mobile' src='<?php echo $baseurl ?>/uploads/images/news/placeholder.jpg' alt=''>
-				
-				<p>
-					Saša Michailidis se ptal 9. listopadu 2022 od 16:30 předsedy České komory architektů Jana Kasla a předsedy Rady Obce architektů Olega Hamana. Proč máme dvě velké architektonické soutěže? Jak daleko jsou úvahy o jejich případném sloučení? A jakou váhu mají ceny u samotných architektů?
-				</p>
-
-				<div class="buttonRow buttonRow--left">
-					<a href='$baseurl/novinka/$id-$odkaz' class='button button--black button--arrow'>
-						Číst dále
-						<img class="button__arrow svg" src="<?php echo $baseurl ?>/assets/images/icons/arrow-right-white.svg" alt="">
-					</a>
-				</div>
-			</div>
-				
-			<div class='news__col news__col--image'>
-				<img class='news__image' src='<?php echo $baseurl ?>/assets/images/news/placeholder.jpg' alt=''>
-			</div>
-		</div>
-
-		<div class="news__row">
-			<div class='news__col news__col--image'>
-				<img class='news__image' src='<?php echo $baseurl ?>/assets/images/news/placeholder.jpg' alt=''>
-			</div>
-			<div class='news__col news__col--copy'>
-				<h2>Akcent Saši Michailidise - Rozhovor předsedy Olega Hamana s Janem Kaslem v pořadu Českého rozhlasu</h2>
-
-				<img class='news__img news__img--mobile' src='<?php echo $baseurl ?>/uploads/images/news/placeholder.jpg' alt=''>
-				
-				<p>
-					Saša Michailidis se ptal 9. listopadu 2022 od 16:30 předsedy České komory architektů Jana Kasla a předsedy Rady Obce architektů Olega Hamana. Proč máme dvě velké architektonické soutěže? Jak daleko jsou úvahy o jejich případném sloučení? A jakou váhu mají ceny u samotných architektů?
-				</p>
-
-				<div class="buttonRow buttonRow--left">
-					<a href='$baseurl/novinka/$id-$odkaz' class='button button--black button--arrow'>
-						Číst dále
-						<img class="button__arrow svg" src="<?php echo $baseurl ?>/assets/images/icons/arrow-right-white.svg" alt="">
-					</a>
-				</div>
-			</div>
-				
 			
-		</div>
 	</div>
 </section>
 

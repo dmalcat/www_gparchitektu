@@ -1,4 +1,6 @@
 .tiles {
+    position: relative;
+    z-index: 1;
     .perex {
         text-align: center;
         margin-bottom: 5rem;

@@ -77,3 +77,14 @@
 	background-color: rgba(0, 0, 0, .3);
 	opacity: 1;
 }
+
+.gallery {
+	.gallery__item {
+		max-width: 250px;
+		width: 100%;
+		img {
+			display: block;
+			width: 100%;
+		}
+	}
+}

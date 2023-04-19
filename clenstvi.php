@@ -350,7 +350,67 @@
                         <li>Kurt Gebauer (Česká republika)</li>
                     </ul>
                 </div>
-                
+                <div class="members__item">
+                    <h3>1999</h3>
+                    <ul class="list">
+                        <li>Pavel Zvěřina (Německo)</li>
+                        <li>Alena Šrámková (Česká republika)</li>
+                        <li>Josep Lluis Mateo (Španělsko)</li>
+                        <li>Boris Podrecca (Rakousko)</li>
+                        <li>Ľudovít Urban (Slovensko)</li>
+                        <li>Jiří Ševčík (Česká republika)</li>
+                    </ul>
+                </div>
+                <div class="members__item">
+                    <h3>1998</h3>
+                    <ul class="list">
+                        <li>Henrieta H. Moravčíková (Slovensko)</li>
+                        <li>Miro Baum (Německo)</li>
+                        <li>Pavel Halík (Česká republika)</li>
+                        <li>José Antonio Martínez Lapeña (Španělsko)</li>
+                        <li>Gustav Peichl (Rakousko)</li>
+                    </ul>
+                </div>
+                <div class="members__item">
+                    <h3>1996</h3>
+                    <ul class="list">
+                        <li>Ivan Gürtler (Slovensko)</li>
+                        <li>Martin Kohlbauer (Rakousko)</li>
+                        <li>Jan Hird Pokorny (USA)</li>
+                        <li>Phillipe Robert (Francie)</li>
+                        <li>Pavel Škranc (Česká republika)</li>
+                    </ul>
+                </div>
+                <div class="members__item">
+                    <h3>1995</h3>
+                    <ul class="list">
+                        <li>Ivan Koleček (Švýcarsko)</li>
+                        <li>Matúš Dulla (Slovensko)</li>
+                        <li>Karel Hubáček (Česká republika)</li>
+                        <li>David Chipperfield (Velká Británie)</li>
+                        <li>Stanislav Makarov (Norsko)</li>
+                    </ul>
+                </div>
+                <div class="members__item">
+                    <h3>1994</h3>
+                    <ul class="list">
+                        <li>Michal Bogár (Slovensko)</li>
+                        <li>Jan Kaplický (Velká Británie)</li>
+                        <li>Jiří Novotný (Česká republika)</li>
+                        <li>Jiří Oplatek (Švýcarsko)</li>
+                        <li>Elias Torres (Španělsko)</li>
+                    </ul>
+                </div>
+                <div class="members__item">
+                    <h3>1993</h3>
+                    <ul class="list">
+                        <li>Dalibor Veselý (Velká Británie)</li>
+                        <li>Eva Jiřičná (Velká Británie)</li>
+                        <li>John Miller (Velká Británie)</li>
+                        <li>Štefan Šlachta (Slovensko)</li>
+                        <li>Antonín Tenzer (Česká republika)</li>
+                    </ul>
+                </div>
             </div>
         </form>
     </div>

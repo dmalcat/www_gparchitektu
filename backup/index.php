@@ -122,8 +122,7 @@
 				die("Connection failed: " . $conn->connect_error);
 			}
 			$sql = "SELECT * FROM oa_clanky WHERE status='1' ORDER BY id DESC LIMIT 1";
-			$result = $conn->query($sql);
-		
+			$result = $conn->query($sql);                            
 
 			if ($result->num_rows > 0) {                                     
 				// output data of each row
