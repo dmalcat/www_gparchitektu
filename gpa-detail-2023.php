@@ -79,7 +79,7 @@
 					</li>
 					
 					<li>
-						<strong>Balázs Bognár</strong> / Japonsko <br>
+						<strong>Balázs Bognár</strong> / USA, Japonsko, Maďarsko <br>
 						– Partner at studio <a href="https://kkaa.co.jp/en/people/balazs-bognar/" target="_blank">Kengo Kuma & Associates</a>
 					</li>
 					
@@ -102,6 +102,10 @@
 				</p>
 
 				<p>
+					Projekt musí být dokončen v rozmezí 1.1.2022-31.3.2023 a postaven na území České republiky. Pro krajinářská díla je rozmezí 3 roky, tedy od  1.1.2020-31.3.2023.
+				</p>
+
+				<p>
 					Přihlašovat své projekty můžete do půlnoci 30.6. 2023.
 				</p>
 
@@ -116,7 +120,7 @@
 	</div>
 </section>
 
-<?php include('./components/partners/auspices-2022.php'); ?>
+<?php include('./components/partners/auspices-2023.php'); ?>
 
 <?php include('components/jury/jury2023.php'); ?>
 

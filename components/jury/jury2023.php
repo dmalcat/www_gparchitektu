@@ -24,7 +24,7 @@
 					<div class="jury__item">
 						<img class="jury__photo" src="../assets/images/jury/2023/balasz-bognar.png" alt="">
 						<span class="jury__name">Balázs Bognár</span>
-						<span class="jury__country">Japonsko</span>
+						<span class="jury__country">USA, Japonsko, Maďarsko</span>
 					</div>
 					<div class="jury__item">
 						<img class="jury__photo" src="../assets/images/jury/2023/petr-stefek.png" alt="">

@@ -7,11 +7,13 @@
     }
 
     .partners__logos {
-        gap: 30px;
         a {
-            max-width: 150px;
+            max-width: 165px;
             margin: 0;
+            margin-right: 30px;
         }
-        
+        & + .partners__logos {
+            margin-top: 20px;
+        }
     }
 }
