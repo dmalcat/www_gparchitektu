@@ -23,8 +23,8 @@
 							<a href="https://www.archinfo.sk/" target="_blank">
 								<img class="logo logo--archinfo" src="<?php echo $baseurl ?>/loga/archinfo.jpg" alt="">
 							</a>
-							<a href="https://www.stavebni-forum.cz/" target="_blank">
-								<img class="logo logo--archinfo" src="<?php echo $baseurl ?>/assets/images/partners/2022/stavebni-forum.png" alt="">
+							<a href="https://www.remspace.cz/" target="_blank">
+								<img class="logo logo--archinfo" src="<?php echo $baseurl ?>/assets/images/partners/remspace.png" alt="">
 							</a>
 							<a href="https://archizoom.cz/" target="_blank">
 								<img class="logo logo--archinfo" src="<?php echo $baseurl ?>/assets/images/partners/oa/archizoom.png" alt="">

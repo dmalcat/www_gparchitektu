@@ -11,6 +11,9 @@
         padding-left: 0;
         margin-bottom: 0;
         padding: 1rem 0;
+        @include max640px {
+            flex-flow: row wrap;
+        }
         
         li {
             display: flex;

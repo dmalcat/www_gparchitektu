@@ -7,7 +7,7 @@
 			<div class="partners">
 				<div class="partners__row">
 					<div class="partners__col">
-						<span class="partners__subheadline">Partneři Obce architektů</span>
+						<span class="partners__subheadline">Partneři</span>
 						<div class="partners__logos">
 							<a href="http://www.marlo.cz/" target="_blank">
 								<img class="logo logo--marlo" src="<?php echo $baseurl ?>/loga/marlo-new-black.png" alt="">
@@ -40,6 +40,16 @@
 							</a>
 							<a href="https://a8000.cz/" target="_blank">
 								<img class="logo logo--marlo" src="<?php echo $baseurl ?>/assets/images/partners/oa/a8000.png" alt="">
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="partners__row">
+					<div class="partners__col">
+						<span class="partners__subheadline">Mediální partneři</span>
+						<div class="partners__logos">
+							<a href="https://www.remspace.cz/" target="_blank">
+								<img class="logo logo--archinfo" src="<?php echo $baseurl ?>/assets/images/partners/remspace.png" alt="">
 							</a>
 						</div>
 					</div>

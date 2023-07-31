@@ -5,6 +5,27 @@
 	padding: 0;
 	//background-color: #FFFF2F;
 
+	&.media {
+		h3 {
+			font-size: 1.35rem;
+			font-weight: bold;
+			margin-bottom: 1.5rem;
+		}
+
+		.list {
+			margin-bottom: 2rem;
+			&:last-child {
+				margin-bottom: 0;;
+			}
+
+			a {
+				&:hover {
+					text-decoration: underline;
+				}
+			}
+		}
+	}
+
 	.gpTabs__wrapper {
 		display: none;
 		padding: 0 2rem;

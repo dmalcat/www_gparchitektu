@@ -43,7 +43,11 @@
 		}
 
 		@include max768px {
-			height: auto;
+			height: 40vw;
+		}
+
+		@media screen and (max-width: 420px) {
+			height: 50vw;
 		}
 	}
 
@@ -53,6 +57,10 @@
 		width: 100%;
 		@media screen and (max-width: 1200px) {
 			top: -37.5%;
+		}
+
+		@media screen and (max-width: 420px) {
+			width: 125%;
 		}
     }
 
@@ -214,6 +222,10 @@
 
 		@include max640px {
 			max-width: 200px;
+		}
+
+		@include max480px {
+			max-width: 170px;
 		}
 	}
 }

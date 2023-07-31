@@ -192,16 +192,6 @@
                     <a href="mailto:vsoucek@boglearchitects.com">vsoucek@boglearchitects.com</a>
                 </span>
             </div>
-            <div class="contactList__item">
-                <div class="avatar">
-                    <img src="<?php echo $baseurl ?>/assets/images/contacts/Robert_Rossler.jpg" />
-                </div>
-                <span class="contact__block">
-                    Robert Rössler<br>
-                    Council member / Člen rady<br>
-                    <a href="mailto:robertrossler@email.cz">robertrossler@email.cz</a>
-                </span>
-            </div>
         </div>
     </div>
     <div class="contact__wrapper wrapper">

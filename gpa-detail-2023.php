@@ -102,11 +102,11 @@
 				</p>
 
 				<p>
-					Projekt musí být dokončen v rozmezí 1.1.2022-31.3.2023 a postaven na území České republiky. Pro krajinářská díla je rozmezí 3 roky, tedy od  1.1.2020-31.3.2023.
+					Projekt musí být dokončen v rozmezí 1. 1. 2022&mdash;31. 3. 2023 a postaven na území České republiky. Pro krajinářská díla je rozmezí 3 roky, tedy od 1. 1. 2020&mdash;31. 3. 2023.
 				</p>
 
 				<p>
-					Přihlašovat své projekty můžete do půlnoci 30.6. 2023.
+					Přihlašovat své projekty můžete do půlnoci 15. srpna 2023.
 				</p>
 
 				<div class="buttonRow buttonRow--left">
@@ -132,12 +132,16 @@
 		<div class="gpTabs__content">
 			<ul class="downloadList">
 				<li class="downloadList__item">
+					<a href="<?php echo $baseurl ?>/prodlouzeni-terminu-prihlaseni-2023/">Tisková zpráva 30. 6. 2023 - prodloužení termínu přihlášení (PDF)</a>
+				</li>	
+				<li class="downloadList__item">
 					<a href="<?php echo $baseurl ?>/vyhlaseni-rocniku-2023/">Tisková zpráva 3. 4. 2023 - vyhlášení ročníku (PDF)</a>
 				</li>
 			</ul>
 		</div>
 	</div>
 </section>
+
 
 <section class="gallery gpTabs">
 	<div class="gpTabs__wrapper gpTabs__wrapper--nav wrapper">

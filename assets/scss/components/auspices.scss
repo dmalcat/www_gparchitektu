@@ -2,11 +2,20 @@
     display: flex;
     gap: 3rem;
     padding-bottom: 0;
+    @include max768px {
+        flex-flow: row wrap;
+        gap: 1rem;
+    }
+
     .partners__col--mk {
         width: 20%;
+        @include max768px {
+            width: 100%;
+        }
     }
 
     .partners__logos {
+
         a {
             max-width: 165px;
             margin: 0;

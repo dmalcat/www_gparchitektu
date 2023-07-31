@@ -21,7 +21,10 @@ $route = str_replace(str_replace("/router.php", "", $_SERVER['PHP_SELF']), "", $
     elseif (preg_match('/grand-prix-architektu/', $route)):
         require('gpa.php');
 
-    elseif (preg_match('/grand-prix-architekt-2021/', $route)):
+    elseif (preg_match('/grand-prix-architekt-2020/', $route)):
+        require('gpa-detail-2020.php');
+    
+        elseif (preg_match('/grand-prix-architekt-2021/', $route)):
         require('gpa-detail-2021.php');
 
     elseif (preg_match('/grand-prix-architekt-2022/', $route)):
@@ -115,7 +118,7 @@ $route = str_replace(str_replace("/router.php", "", $_SERVER['PHP_SELF']), "", $
     elseif (preg_match('/vysledky-2022-pdf/', $route)):
         require('./components/downloads/2022/vysledky-pdf.php');
     
-    elseif (preg_match('/vyhlaseni-rocniku-2023/', $route)):
+    elseif (preg_match('/prodlouzeni-terminu-prihlaseni-2023/', $route)):
         require('./components/downloads/2023/vyhlaseni-rocniku.php');
 
 

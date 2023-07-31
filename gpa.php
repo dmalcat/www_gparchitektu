@@ -139,8 +139,10 @@
 				<p>
 					Porota nemá povinnost malé kostky udělit. V&nbsp;případě, že&nbsp;porota mezi finalisty nenajde pro&nbsp;danou kategorii vítěze, tak&nbsp;se&nbsp;cena v&nbsp;dané kategorii udílet nebude.
 				</p>
+				
 				<p>
-					Porota také může udělit více kostek nebo navrhnout další nové kategorie. V&nbsp;případě, že&nbsp;porota mezi finalisty najde projekt, který&nbsp;by&nbsp;si ocenění zasloužil, může vytvořit novou kategorii či&nbsp;vyhlásit dva vítěze. <br>
+					Porota také může udělit více kostek nebo navrhnout další nové kategorie, či projekt z kategorie přesunout a ocenit jej v jiné kategorii. <br>
+					V&nbsp;případě, že&nbsp;porota mezi finalisty najde projekt, který&nbsp;by&nbsp;si ocenění zasloužil, může vytvořit novou kategorii či&nbsp;vyhlásit dva vítěze. <br>
 					Hlavní cena – Grand Prix Architektů – má vždy jen&nbsp;jednoho vítěze.
 				</p>
 
@@ -200,14 +202,20 @@
 							<img src="<?php echo $baseurl ?>/assets/images/competition/gpa-2020.png" alt="">
 						</div>
 						<h3 class="gpa__projectName">Národní cena za&nbsp;architekturu 2020</h3>
-						<span class="gpa__projectDesc">Podrobnosti připravujeme.</span>
+						<a class="button button--arrow button--black" href="<?php echo $baseurl ?>/grand-prix-architekt-2020/">
+							Detail ročníku
+							<img class="button__arrow svg" src="<?php echo $baseurl ?>/assets/images/icons/arrow-right-white.svg" alt="">
+						</a>
 					</div>
 					<div class="gpa__col">
 						<div class="gpa__projectImg">
 							<img src="<?php echo $baseurl ?>/assets/images/competition/gpa-2019.png" alt="">
 						</div>
 						<h3 class="gpa__projectName">Národní cena za&nbsp;architekturu 2019</h3>
-						<span class="gpa__projectDesc">Podrobnosti připravujeme.</span>
+						<a class="button button--arrow button--black" href="<?php echo $baseurl ?>/grand-prix-architekt-2020/">
+							Detail ročníku
+							<img class="button__arrow svg" src="<?php echo $baseurl ?>/assets/images/icons/arrow-right-white.svg" alt="">
+						</a>
 					</div>
 					<div class="gpa__col">
 						<div class="gpa__projectImg">
@@ -327,7 +335,7 @@
 
 
 
-<?php include('./components/partners/2022.php'); ?>
+<?php include('./components/partners/2023.php'); ?>
 
 <?php include('./components/partners/oa-partners.php'); ?>
 

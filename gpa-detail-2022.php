@@ -154,8 +154,8 @@
 						</div>
 						<h3 class="gpa__projectName">Cena za&nbsp;Celoživotní dílo</h3>
 						<span class="gpa__projectDesc">
-							Tuto cenu uděluje Rada Obce architektů. <br>
-							Václav Aulický <br>
+							<span class="gpa__title">Tuto cenu uděluje Rada Obce architektů.</span>
+							<strong>Oceněný</strong>: Václav Aulický <br>
 							<strong>Cena:</strong> Velká červená kostka
 						</span>
 					</div>
@@ -337,7 +337,7 @@
 					</div>
 					<div class="gpa__col">
 						<div class="gpa__projectImg">
-							<img src="<?php echo $baseurl ?>/assets/images/projects/2022/cestne-uznani-4.png" alt="">
+							<img src="<?php echo $baseurl ?>/assets/images/projects/2022/cestne-uznani-5.png" alt="">
 						</div>
 						<h3 class="gpa__projectName">Čestné uznání</h3>
 						<span class="gpa__projectDesc">
@@ -352,7 +352,7 @@
 					</div>
 					<div class="gpa__col">
 						<div class="gpa__projectImg">
-							<img src="<?php echo $baseurl ?>/assets/images/projects/2022/cestne-uznani-5.png" alt="">
+							<img src="<?php echo $baseurl ?>/assets/images/projects/2022/cestne-uznani-4.png" alt="">
 						</div>
 						<h3 class="gpa__projectName">Čestné uznání</h3>
 						<span class="gpa__projectDesc">
@@ -429,6 +429,60 @@
 	</div>
 </section>
 
+<section class="media gpTabs">
+	<div class="gpTabs__wrapper gpTabs__wrapper--nav wrapper">
+		<a href="#media" class="gpTabs__navItem">Média</a>
+	</div>
+	<div class="gpTabs__wrapper wrapper" id="media">
+		<div class="gpTabs__content">
+			<h3>Reportáže</h3>
+			<ul class="list">
+				<li>
+					<a href="https://www.ceskatelevize.cz/porady/1097206490-udalosti-v-kulture/222411000121031/cast/943541/" target="_blank">Česká televize - Události v kultuře - 31. říjen 2022</a>
+				</li>
+				<li>
+					<a href="https://www.tvarchitect.com/video/reportaz-slavnostni-predavani-cen-grand-prix-architektu-narodni-ceny-za-architekturu-2022/" target="_blank">Tv Architect - Slavnostní předávání cen - 31. říjen 2022</a>
+				</li>
+				<li>
+					<a href="https://www.ceskatelevize.cz/porady/1097181328-udalosti/222411000101101/cast/943832/" target="_blank">Česká televize - Události - 1. listopad 2022</a>
+				</li>
+				<li>
+					<a href="https://www.ceskatelevize.cz/porady/1097206490-udalosti-v-kulture/222411000121101/cast/943843/" target="_blank">Česká televize - Události v kultuře - 1. listopad 2022</a>
+				</li>
+				<li>
+					<a href="https://www.ceskatelevize.cz/porady/1096902795-studio-6/222411010111102/cast/943879/" target="_blank">Česká televize - Studio 6 II - 2. listopad 2022</a>
+				</li>
+			</ul>
+
+			<h3>Články</h3>
+
+			<ul class="list">
+				<li><a href="https://forbes.cz/zlata-kunsthalle-prestavbe-trafostanice-nalezi-narodni-cena-za-architekturu/" target="_blank">Forbes - Zlatá Kunsthalle. Přestavbě trafostanice náleží Národní cena za architekturu</a></li>
+				<li><a href="https://ct24.ceskatelevize.cz/kultura/3540447-narodni-cena-za-architekturu-se-zabydlela-v-kunsthalle-praha-za-premenu-trafostanice" target="_blank">ČT24 - Národní cena za architekturu se zabydlela v Kunsthalle Praha. Za přeměnu trafostanice na galerii</a></li>
+				<li><a href="https://www.irozhlas.cz/kultura/grand-prix-architektu-narodni-cena-za-architekturu-2022-jan-schindler-kunsthalle_2210312358_nov" target="_blank">iRozhlas - Z 255 projektů vybrala porota za vítěze Národní ceny za architekturu pro rok 2022 Kunsthalle</a></li>
+				<li><a href="https://www.asb-portal.cz/aktualne/narodni-cenu-za-architekturu-pro-rok-2022-ziskala-prazska-kunsthalle">ASB - Národní cenu za architekturu pro rok 2022 získala pražská Kunsthalle</a></li>
+				<li><a href="https://denikn.cz/minuta/998902/" target="_blank">DeníkN - Grand Prix Obce architektů zná vítěze</a></li>
+				<li><a href="https://www.archiweb.cz/en/n/competition/v-grand-prix-architektu-zvitezila-prazska-kunsthalle" target="_blank">Archiweb - V Grand Prix Architektů zvítězila pražská Kunsthalle</a></li>
+				<li><a href="https://magazin.aktualne.cz/grand-prix-architektu-2022-ziskal-projekt-prazske-kunsthalle/r~25ca807c596611ed8980ac1f6b220ee8/" target="_blank">Aktualne.cz - Grand Prix Architektů 2022 získal projekt pražské Kunsthalle</a></li>
+				<li><a href="https://www.tvarchitect.com/clanek/zname-viteze-grand-prix-architektu-narodni-ceny-za-architekturu-2022/" target="_blank">TV Architect - Známe vítěze Grand Prix Architektů – Národní ceny za architekturu 2022</a></li>
+				<li><a href="https://www.archinfo.sk/diskusia/blog/sutaze/vysledky-grand-prix-architektu-2022.html" target="_blank">Archinfo - Výsledky Grand Prix Architektů 2022</a></li>
+				<li><a href="https://cc.cz/galerie-kunsthalle-vyhrala-grand-prix-architektu-oceneni-ziskal-i-autor-zizkovske-televizni-veze/" target="_blank">CzechCrunch - Galerie Kunsthalle vyhrála Grand Prix Architektů. Ocenění získal i autor žižkovské televizní věže</a></li>
+				<li><a href="https://www.earch.cz/revue/clanek/grand-prix-architektu-2022-vyhrala-kunsthalle-cenu-za-celozivotni-dilo-ziskal-vaclav-aulicky" target="_blank">Earch - Grand Prix Architektů 2022 vyhrála Kunsthalle. Cenu za celoživotní dílo získal Václav Aulický</a></li>
+				<li><a href="https://www.newstream.cz/reality/prazska-tate-modern-ziskala-prestizni-architektonickou-cenu" target="_blank">Newstream - Pražská Kunsthalle má prestižní Grand Prix Architektů. Podívejte se</a></li>
+				<li><a href="https://echo24.cz/a/S3YQV/zpravy-domaci-fotogalerie-grand-prix-architekti-cena-vitez-projekt-kunsthalle" target="_blank">Echo24 - Grand Prix Architektů získal projekt pražské Kunsthalle</a></li>
+				<li><a href="https://refresher.cz/124221-Ceska-architektonicka-soutez-zna-sve-viteze-Toto-jsou-nase-nejlepsi-stavby" target="_blank">Refresher - Česká architektonická soutěž zná své vítěze. Toto jsou naše nejlepší stavby</a></li>
+				<li><a href="https://www.ceskenoviny.cz/zpravy/grand-prix-architektu-ziskal-projekt-prazske-kunsthalle/2279250" target="_blank">ČTK - Grand Prix Architektů získal projekt pražské Kunsthalle</a></li>
+				<li><a href="https://cesky.radio.cz/grand-prix-architektu-ziskal-projekt-prazske-kunsthalle-8765744" target="_blank">Český Rozhlas - Grand Prix Architektů získal projekt pražské Kunsthalle</a></li>
+				<li><a href="https://novojicinsky.denik.cz/zpravy_region/bilovec-zamek-skryty-stredovek.html" target="_blank">Novojičínský Deník - Skrytý středověk v Bílovci na zámku získal ocenění, už jste ho viděli?</a></li>
+				<li><a href="https://www.kurzy.cz/zpravy/679589-plzenska-paluba-hamburk-vyhrala-kategorii-krajinarske-architektury-a-zahradni-tvorby-v-narodni-cene/" target="_blank">Kurzy.cz - Plzeňská Paluba Hamburk vyhrála kategorii Krajinářské architektury a zahradní tvorby v Národní ceně architektury</a></li>
+				<li><a href="https://www.expresfm.cz/aktualne/prazska-kunsthalle-ziskala-cenu-za-architekturu-produkce-vina-bude-letos-nizsi/" target="_blank">Expres FM - Pražská Kunsthalle získala cenu za architekturu, produkce vína bude letos nižší</a></li>
+				<li><a href="https://ozveny24.cz/2022/11/01/s3yqv/" target="_blank">Ozvěny24 - Grand Prix Architektů získal projekt pražské Kunsthalle</a></li>
+				<li><a href="https://www.tvarchitect.com/clanek/vime-ktere-projekty-postoupily-do-finale-gpa-narodni-ceny-za-architekturu/"target="_blank">TV Architekt - Víme, které projekty postoupily do finále GPA - Národní ceny za architekturu</a></li>
+				<li><a href="https://www.tvarchitect.com/clanek/vime-ktere-vyznamne-osobnosti-architektury-letos-vyberou-grand-prix-architektu-narodni-cena-za-architekturu-2022/" target="_blank">TV Architekt - Víme, které významné osobnosti architektury letos vyberou Grand Prix Architektů - Národní cena za architekturu 2022</a></li>
+			</ul>
+		</div>
+	</div>
+</section>
 
 <section class="gallery gpTabs">
 	<div class="gpTabs__wrapper gpTabs__wrapper--nav wrapper">
