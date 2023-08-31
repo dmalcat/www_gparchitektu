@@ -32,6 +32,8 @@
 							<a href="https://developmentnews.cz/" target="_blank">
 								<img class="logo logo--archinfo" src="<?php echo $baseurl ?>/assets/images/partners/oa/development-news.png" alt="">
 							</a>
+						</div>
+						<div class="partners__logos">
 							<a href="http://orgmedia.cz/" target="_blank">
 								<img class="logo logo--archinfo" src="<?php echo $baseurl ?>/assets/images/partners/oa/orgmedia.png" alt="">
 							</a>

@@ -4,18 +4,19 @@
 	</div>
 	<div class="gpTabs__wrapper gpTabs__wrapper--active wrapper" id="auspices">
 		<div class="gpTabs__content">
-			<div class="partners partners--auspices">
-				<div class="partners__col partners__col--mk">
-                    <span class="partners__subheadline">
-                        Akce se koná pod záštitou <br> ministra kultury
-                    </span>
-                    <div class="partners__logos">
-                        <a href="https://www.mkcr.cz/" target="_blank">
-                            <img class="logo logo--mk" src="<?php echo $baseurl ?>/loga/ministerstvo-kultury.png" alt="">
-                        </a>
+			<div class="partners">
+				<div class="partners__row">
+                    <div class="partners__col">
+                        <span class="partners__subheadline">
+                            Akce se koná pod záštitou <br> ministra kultury
+                        </span>
+                        <div class="partners__logos">
+                            <a href="https://www.mkcr.cz/" target="_blank">
+                                <img class="logo logo--mk" src="<?php echo $baseurl ?>/loga/ministerstvo-kultury.png" alt="">
+                            </a>
+                        </div>
                     </div>
-                </div>
-                <div class="partners__col">
+                    <div class="partners__col">
                         <span class="partners__subheadline">Záštity</span>
                         <div class="partners__logos">
 
@@ -29,6 +30,10 @@
 
                             <a href="https://www.cvut.cz/" target="_blank">
                                 <img class="logo logo--cvut" src="<?php echo $baseurl ?>/loga/cvut.png" alt="">
+                            </a>
+
+                            <a href="https://www.sps.cz/" target="_blank">
+                                <img class="logo logo--sps" src="<?php echo $baseurl ?>/assets/images/partners/2022/sps.png" alt="">
                             </a>
                         </div>
                         <div class="partners__logos">
@@ -59,7 +64,7 @@
                         
                         </div>
                     </div>
-                </div>
+                </div>    
             </div>
         </div>
     </div>

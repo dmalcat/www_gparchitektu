@@ -10,7 +10,7 @@
 
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-	<title>GPA 2020 | Grand Prix Architektů</title>
+	<title>GPA 2005 | Grand Prix Architektů</title>
 
 	<?php include('./components/head.php'); ?>
 </head>
@@ -21,7 +21,7 @@
 
 <section class="hero hero--subpage hero--video">
 	<div class="hero__wrapper wrapper">
-		<img class="hero__logo" src="<?php echo $baseurl ?>/assets/images/brand/gpa-logo-white.png" alt="">
+		<img class="hero__logo" src="<?php echo $baseurl ?>/assets/images/competition/logo-2005-tran.png" alt="">
 	</div>
 	<div class="hero__image hero__image--video">
 		<video class="hero__video" autoplay loop muted>
@@ -40,7 +40,7 @@
 				<a href="<?php echo $baseurl ?>/grand-prix-architektu/">Grand Prix Architektů</a>
 			</li>
 			<li class="active">
-                2020
+                2005
 			</li>
 		</ul>
 	</div>
@@ -60,11 +60,10 @@
 							<img src="<?php echo $baseurl ?>/assets/images/projects/prestavba-menzy.png" alt="">
 						</div>
 						-->
-						<h3 class="gpa__projectName">Národní cena za&nbsp;architekturu 2020</h3>
+						<h3 class="gpa__projectName">Národní cena za&nbsp;architekturu 2005</h3>
 						<span class="gpa__projectDesc">
-							<span class="gpa__title"><strong>Název projektu:</strong> Městská hala Modřice</span>
-							<strong>Autor</strong>: Vojtěch Sosna, Jakub Straka, Jáchym Svoboda / Hlavní inženýr projektu: Ing. Jan Svoboda <br>
-							<strong>Ateliér</strong>: Atelier bod architekti <br>
+							<span class="gpa__title"><strong>Název projektu:</strong> Rekonstrukce a dostavba rekreačně sportovního areálu Kraví Hora, Brno</span>
+							<strong>Autor</strong>: Antonín Novák, Petr Valenta, Radovan Smejkal, Klára Košťálová<br>
 							<strong>Cena:</strong> Velká modrá kostka
 						</span>
 					</div>
@@ -76,9 +75,7 @@
 						-->
 						<h3 class="gpa__projectName">Cena za&nbsp;Celoživotní dílo</h3>
 						<span class="gpa__projectDesc">
-							<span class="gpa__title">Tuto cenu uděluje Rada Obce architektů.</span>
-							<strong>Oceněný</strong>: Akad. arch. Jiří Lasovský <br>
-							<strong>Cena:</strong> Velká červená kostka
+							<strong>Oceněný</strong>: prof. Ing. arch. Jan Hird Pokorný<br>
 						</span>
 					</div>
 					<div class="gpa__col">
@@ -89,9 +86,8 @@
 						-->
 						<h3 class="gpa__projectName">Novostavba</h3>
 						<span class="gpa__projectDesc">
-							<span class="gpa__title"><strong>Název projektu:</strong> Kostel Blahoslavené Marie Restituty, Brno - Lesná</span>
-							<strong>Autor</strong>: Marek Jan Štěpán / Spolupráce: František Brychta, Vanda Štěpánová, Jan Vodička, Marin Kopecký <br>
-							<strong>Ateliér</strong>: Atelier Štěpán s.r.o. <br>
+							<span class="gpa__title"><strong>Název projektu:</strong> Dům na půl cesty č. , novostavba devíti bytových jednotek, Valašské Meziříčí</span>
+							<strong>Autor</strong>: Zdeněk Trefil<br>
 							<strong>Cena:</strong> Malá modrá kostka
 						</span>
 					</div>
@@ -103,9 +99,8 @@
 						-->
 						<h3 class="gpa__projectName">Rekonstrukce</h3>
 						<span class="gpa__projectDesc">
-							<span class="gpa__title"><strong>Název projektu:</strong> Sídlo firmy Lasvit</span>
-							<strong>Autor</strong>:  Jiří Opočenský, Štěpán Valouch <br>
-							<strong>Ateliér</strong>: ov architekti s.r.o.<br>
+							<span class="gpa__title"><strong>Název projektu:</strong> Rekonstrukce 21 správní budovy "Baťova mrakodrapu" na sídlo KÚ a FÚ, Zlín</span>
+							<strong>Autor</strong>: Ivan Bergmann, Ladislav Pastrnek<br>
 							<strong>Cena:</strong> Malá modrá kostka
 						</span>
 					</div>
@@ -117,10 +112,7 @@
 						-->
 						<h3 class="gpa__projectName">Rodinný dům</h3>
 						<span class="gpa__projectDesc">
-							<span class="gpa__title"><strong>Název projektu:</strong> Rodinný dům v údolí Dyje, Znojmo</span>
-							<strong>Autor</strong>: Ladislav Kuba, Tomáš Pilař,  Norbert Walter <br>
-							<strong>Ateliér</strong>: Kuba & Pilař architekti<br>
-							<strong>Cena:</strong> Malá modrá kostka
+							<span>Neuděleno</span>
 						</span>
 					</div>
 					<div class="gpa__col">
@@ -129,14 +121,12 @@
 							<img src="<?php echo $baseurl ?>/assets/images/projects/krajinarska-architektura.png" alt="">
 						</div>
 						-->
-						<h3 class="gpa__projectName">Architektonický design, drobná architektura a výtvarné dílo v architektuře</h3>
+						<h3 class="gpa__projectName">Architektonický design, drobná architektura a výtvarné dílo v architektuře </h3>
 						<span class="gpa__projectDesc">
-							<span class="gpa__title"><strong>Název projektu:</strong> Památník Jana Palacha ve Všetatech</span>
-							<strong>Autor</strong>: doc. Ing. arch. Miroslav Cikán, doc. Ing. arch. Pavla Melková, Ph.D. <br> 
-							<strong>Ateliér</strong>: MCA atelier<br>
-							<strong>Cena</strong>: Malá modrá kostka
+							<span>Neuděleno</span>
 						</span>
 					</div>
+				
 					<div class="gpa__col">
 						<!--
 						<div class="gpa__projectImg">
@@ -145,11 +135,8 @@
 						-->
 						<h3 class="gpa__projectName">Krajinářská architektura a zahradní tvorba</h3>
 						<span class="gpa__projectDesc">
-							<span class="gpa__title"><strong>Název projektu:</strong> Tree house</span>
-							<strong>Autor</strong>: Jan Tyrpekl, Jaroslav Kejř, Jan Hyk, Adam Ulrich <br>
-							<strong>Cena:</strong> Malá zelená kostka
+							<span>Neuděleno</span>
 						</span>
-						
 					</div>
 					<div class="gpa__col">
 						<!--
@@ -159,11 +146,8 @@
 						-->
 						<h3 class="gpa__projectName">Interiér</h3>
 						<span class="gpa__projectDesc">
-							<span class="gpa__title"><strong>Název projektu:</strong> House of Wine</span>
-							<strong>Ateliér</strong>: CHYBIK + KRISTOF ARCHITECTS & URBAN DESIGNERS<br>
-							<strong>Cena:</strong> Malá žlutá kostka
+							<span>Neuděleno</span>
 						</span>
-						
 					</div>
 					<div class="gpa__col">
 						<!--
@@ -173,11 +157,8 @@
 						-->
 						<h3 class="gpa__projectName">Urbanismus</h3>
 						<span class="gpa__projectDesc">
-							<span class="gpa__title"><strong>Název projektu:</strong> Revitalizace pražských náplavek</span>
-							<strong>Autor</strong>: Ing. arch. MgA. Petr Janda <br>
-							<strong>Cena:</strong> Malá fialová kostka
+							<span>Neuděleno</span>
 						</span>
-						
 					</div>
 					<div class="gpa__col">
 						<!--
@@ -187,10 +168,7 @@
 						-->
 						<h3 class="gpa__projectName">Šetrná stavba</h3>
 						<span class="gpa__projectDesc">
-							<span class="gpa__title"><strong>Název projektu:</strong> Základní škola AMOS pro Psáry a Dolní Jirčany</span>
-							<strong>Autor</strong>: Ondřej Píhrt, Štefan Šulek, Ondřej Laciga <br>
-							<strong>Ateliér</strong>: SOA architekti s.r.o.<br>
-							<strong>Cena:</strong> Malá stříbrná kostka
+							<span>Udělována od roku 2020 ve spolupráci s Českou radou pro šetrné budovy (CZGBC)</span>
 						</span>
 						
 					</div>
@@ -200,71 +178,51 @@
 							<img src="<?php echo $baseurl ?>/assets/images/projects/zvonarka.png" alt="">
 						</div>
 						-->
-						<h3 class="gpa__projectName">Čestné uznání</h3>
+						<h3 class="gpa__projectName">Čestné uznání v kategorii rekonstrukce</h3>
 						<span class="gpa__projectDesc">
-							<span class="gpa__title"><strong>Název projektu:</strong> PVZ – Pravá vesnická zastávka</span>
-							<strong>Autor</strong>: Ing.arch. David Ptáček<br>
-							<strong>Ateliér</strong>: DPA<br>
+							<span class="gpa__title"><strong>Název projektu:</strong> Rekonstrukce kostela Svaté Anny, Praha 1</span>
+							<strong>Autor</strong>: Eva Jiřičná, Petr Vágner, Jan Adámek<br>
 							<strong>Cena:</strong> Diplom
 						</span>
 					</div>
 					<div class="gpa__col">
 						<!--
 						<div class="gpa__projectImg">
-							<img src="<?php echo $baseurl ?>/assets/images/projects/panna-a-baba.png" alt="">
+							<img src="<?php echo $baseurl ?>/assets/images/projects/zvonarka.png" alt="">
 						</div>
 						-->
-						<h3 class="gpa__projectName">Čestné uznání</h3>
+						<h3 class="gpa__projectName">Čestné uznání v kategorii krajinářská architektura a zahradní tvorba</h3>
 						<span class="gpa__projectDesc">
-							<span class="gpa__title"><strong>Název projektu:</strong> Obnova Školy architektury AVU</span>
-							<strong>Autor</strong>: Marcela Steinbachová, Vít Holý <br>
-							<strong>Ateliér</strong>: Skupina<br>
+							<span class="gpa__title"><strong>Název projektu:</strong> Rozhledna Brdo</span>
+							<strong>Autor</strong>: Svatopluk Sládeček, spoluautor Bohuslav Stránský<br>
 							<strong>Cena:</strong> Diplom
 						</span>
 					</div>
 					<div class="gpa__col">
 						<!--
 						<div class="gpa__projectImg">
-							<img src="<?php echo $baseurl ?>/assets/images/projects/kaplicka.png" alt="">
+							<img src="<?php echo $baseurl ?>/assets/images/projects/zvonarka.png" alt="">
 						</div>
 						-->
-						<h3 class="gpa__projectName">Čestné uznání</h3>
+						<h3 class="gpa__projectName">Čestné uznání v kategorii interiér</h3>
 						<span class="gpa__projectDesc">
-							<span class="gpa__title"><strong>Název projektu:</strong> Stožár s výhledem </span>
-							<strong>Autor</strong>: Kristýna Rejsková & tým studentů <br>
-							<strong>Ateliér</strong>: Ateliér Hlaváček – Čeněk, 1:1 lab, Ústav navrhování II, FA ČVUT<br>
+							<span class="gpa__title"><strong>Název projektu:</strong> Příběh Pražského Hradu, Praha </span>
+							<strong>Autor</strong>: Richard Doležal, Petr Malinský, Petr Burian, Michal Pokorný<br>
 							<strong>Cena:</strong> Diplom
 						</span>
 					</div>
 					<div class="gpa__col">
 						<!--
 						<div class="gpa__projectImg">
-							<img src="<?php echo $baseurl ?>/assets/images/projects/kaplicka.png" alt="">
+							<img src="<?php echo $baseurl ?>/assets/images/projects/zvonarka.png" alt="">
 						</div>
 						-->
-						<h3 class="gpa__projectName">Čestné uznání</h3>
+						<h3 class="gpa__projectName">Čestné uznání v kategorii výtvarné dílo v architektuře</h3>
 						<span class="gpa__projectDesc">
-							<span class="gpa__title"><strong>Název projektu:</strong> KØMEN – Útulna u Balvanového vodopádu </span>
-							<strong>Autor</strong>: Julie Kopecká & tým studentů <br>
-							<strong>Ateliér</strong>: Ateliér Hlaváček – Čeněk, 1:1 lab, Ústav navrhování II, FA ČVUT<br>
+							<span class="gpa__title"><strong>Název projektu:</strong> Logistický terminál Písek</span>
+							<strong>Autor</strong>: Jiří Příhoda, Jan Karásek, Tomáš Novotný, Tomáš Zmek<br>
 							<strong>Cena:</strong> Diplom
 						</span>
-						
-					</div>
-					<div class="gpa__col">
-						<!--
-						<div class="gpa__projectImg">
-							<img src="<?php echo $baseurl ?>/assets/images/projects/kaplicka.png" alt="">
-						</div>
-						-->
-						<h3 class="gpa__projectName">Čestné uznání</h3>
-						<span class="gpa__projectDesc">
-							<span class="gpa__title"><strong>Název projektu:</strong> Lávka přes Hlubokou strouhu</span>
-							<strong>Autor</strong>: Tomáš Minarovič & tým studentů <br>
-							<strong>Ateliér</strong>: Ateliér Hlaváček – Čeněk, 1:1 lab, Ústav navrhování II, FA ČVUT<br>
-							<strong>Cena:</strong> Diplom
-						</span>
-						
 					</div>
 				</div>
 			</div>

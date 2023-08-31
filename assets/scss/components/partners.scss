@@ -14,6 +14,7 @@
         display: flex;
         justify-content: flex-start;
         flex-flow: row wrap;
+        gap: 4rem;
         &:last-child {
             margin-bottom: 0;
         }
@@ -29,7 +30,7 @@
             margin: 1rem;
         }
     }
-    
+
     .partners__logos {
         display: flex;
         align-items: center;
@@ -42,13 +43,20 @@
             max-width: 160px;
         }
 
+        .logo--sps {
+            max-width: 160px;
+        }
+
         a {
             display: flex;
             flex-direction: column;
             justify-content: center;
-            height: 85px;
-            margin-right: 2rem;
+            margin-right: 3rem;
             margin-bottom: 2rem;
+            &:last-child {
+                margin-right: 0;
+            }
+
             @media screen and (max-width: 1500px) {
                 margin-bottom: 1rem;
             }

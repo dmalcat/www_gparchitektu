@@ -8,23 +8,104 @@ $route = str_replace(str_replace("/router.php", "", $_SERVER['PHP_SELF']), "", $
     
     
     elseif (preg_match('/novinky/', $route)):
-    require('novinky.php');   
+        require('novinky.php');   
     
     //detail novinky
     elseif (preg_match('/novinka/', $route)):
-    require('novinka.php');
+        require('novinka.php');
     
     //detail spolupráce
     elseif (preg_match('/spoluprace/', $route)):
-    require('spoluprace.php');
+        require('spoluprace.php');
 
     elseif (preg_match('/grand-prix-architektu/', $route)):
         require('gpa.php');
 
+    elseif (preg_match('/grand-prix-architekt-1993/', $route)):
+        require('gpa-detail-1993.php');
+    
+        elseif (preg_match('/grand-prix-architekt-1994/', $route)):
+        require('gpa-detail-1994.php');
+    
+    elseif (preg_match('/grand-prix-architekt-1995/', $route)):
+        require('gpa-detail-1995.php');
+
+    elseif (preg_match('/grand-prix-architekt-1996/', $route)):
+        require('gpa-detail-1996.php');
+
+    elseif (preg_match('/grand-prix-architekt-1997/', $route)):
+        require('gpa-detail-1997.php');
+    
+    elseif (preg_match('/grand-prix-architekt-1998/', $route)):
+        require('gpa-detail-1998.php');
+
+    elseif (preg_match('/grand-prix-architekt-1999/', $route)):
+        require('gpa-detail-1999.php');
+    
+    elseif (preg_match('/grand-prix-architekt-2000/', $route)):
+        require('gpa-detail-2000.php');
+
+    elseif (preg_match('/grand-prix-architekt-2001/', $route)):
+        require('gpa-detail-2001.php');
+
+    elseif (preg_match('/grand-prix-architekt-2002/', $route)):
+        require('gpa-detail-2002.php');
+
+    elseif (preg_match('/grand-prix-architekt-2003/', $route)):
+        require('gpa-detail-2003.php');
+
+    elseif (preg_match('/grand-prix-architekt-2004/', $route)):
+        require('gpa-detail-2004.php');
+
+    elseif (preg_match('/grand-prix-architekt-2005/', $route)):
+        require('gpa-detail-2005.php');
+
+    elseif (preg_match('/grand-prix-architekt-2006/', $route)):
+        require('gpa-detail-2006.php');
+
+    elseif (preg_match('/grand-prix-architekt-2007/', $route)):
+        require('gpa-detail-2007.php');
+
+    elseif (preg_match('/grand-prix-architekt-2008/', $route)):
+        require('gpa-detail-2008.php');
+
+    elseif (preg_match('/grand-prix-architekt-2009/', $route)):
+        require('gpa-detail-2009.php');
+
+    elseif (preg_match('/grand-prix-architekt-2010/', $route)):
+        require('gpa-detail-2010.php');
+
+    elseif (preg_match('/grand-prix-architekt-2011/', $route)):
+        require('gpa-detail-2011.php');
+
+    elseif (preg_match('/grand-prix-architekt-2012/', $route)):
+        require('gpa-detail-2012.php');
+
+    elseif (preg_match('/grand-prix-architekt-2013/', $route)):
+        require('gpa-detail-2013.php');
+
+    elseif (preg_match('/grand-prix-architekt-2014/', $route)):
+        require('gpa-detail-2014.php');
+
+    elseif (preg_match('/grand-prix-architekt-2015/', $route)):
+        require('gpa-detail-2015.php');
+    
+    elseif (preg_match('/grand-prix-architekt-2016/', $route)):
+        require('gpa-detail-2016.php');
+    
+    elseif (preg_match('/grand-prix-architekt-2017/', $route)):
+        require('gpa-detail-2017.php');
+    
+    elseif (preg_match('/grand-prix-architekt-2018/', $route)):
+        require('gpa-detail-2018.php');
+    
+    elseif (preg_match('/grand-prix-architekt-2019/', $route)):
+        require('gpa-detail-2019.php');
+    
     elseif (preg_match('/grand-prix-architekt-2020/', $route)):
         require('gpa-detail-2020.php');
     
-        elseif (preg_match('/grand-prix-architekt-2021/', $route)):
+    elseif (preg_match('/grand-prix-architekt-2021/', $route)):
         require('gpa-detail-2021.php');
 
     elseif (preg_match('/grand-prix-architekt-2022/', $route)):

@@ -46,16 +46,6 @@
 				</div>
 				<div class="partners__row">
 					<div class="partners__col">
-						<span class="partners__subheadline">Mediální partneři</span>
-						<div class="partners__logos">
-							<a href="https://www.remspace.cz/" target="_blank">
-								<img class="logo logo--archinfo" src="<?php echo $baseurl ?>/assets/images/partners/remspace.png" alt="">
-							</a>
-						</div>
-					</div>
-				</div>
-				<div class="partners__row">
-					<div class="partners__col">
 						<span class="partners__subheadline">Odkazy na weby projektů partnera Grand Prix Architektů</span>
 						<div class="partners__logos">
 							<a href="https://sekyragroup.cz/pages/developersky-projekt-praha8-rohan-city-1" target="_blank">

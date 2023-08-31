@@ -171,7 +171,7 @@
 						<div class="gpa__projectImg">
 							<img src="<?php echo $baseurl ?>/assets/images/competition/gpa-2023@2x.png" alt="">
 						</div>
-						<h3 class="gpa__projectName">Národní cena za&nbsp;architekturu 2023</h3>
+						<h3 class="gpa__projectName">Grand Prix Architektů - Národní cena za&nbsp;architekturu 2023</h3>
 						<a class="button button--arrow button--black" href="<?php echo $baseurl ?>/grand-prix-architekt-2023/">
 							Detail ročníku
 							<img class="button__arrow svg" src="<?php echo $baseurl ?>/assets/images/icons/arrow-right-white.svg" alt="">
@@ -181,7 +181,7 @@
 						<div class="gpa__projectImg">
 							<img src="<?php echo $baseurl ?>/assets/images/competition/gpa-2022@2x.png" alt="">
 						</div>
-						<h3 class="gpa__projectName">Národní cena za&nbsp;architekturu 2022</h3>
+						<h3 class="gpa__projectName">Grand Prix Architektů - Národní cena za&nbsp;architekturu 2022</h3>
 						<a class="button button--arrow button--black" href="<?php echo $baseurl ?>/grand-prix-architekt-2022/">
 							Detail ročníku
 							<img class="button__arrow svg" src="<?php echo $baseurl ?>/assets/images/icons/arrow-right-white.svg" alt="">
@@ -191,7 +191,7 @@
 						<div class="gpa__projectImg">
 							<img src="<?php echo $baseurl ?>/assets/images/competition/gpa-2021@2x.png" alt="">
 						</div>
-						<h3 class="gpa__projectName">Národní cena za&nbsp;architekturu 2021</h3>
+						<h3 class="gpa__projectName">Grand Prix Architektů - Národní cena za&nbsp;architekturu 2021</h3>
 						<a class="button button--arrow button--black" href="<?php echo $baseurl ?>/grand-prix-architekt-2021/">
 							Detail ročníku
 							<img class="button__arrow svg" src="<?php echo $baseurl ?>/assets/images/icons/arrow-right-white.svg" alt="">
@@ -201,7 +201,7 @@
 						<div class="gpa__projectImg">
 							<img src="<?php echo $baseurl ?>/assets/images/competition/gpa-2020.png" alt="">
 						</div>
-						<h3 class="gpa__projectName">Národní cena za&nbsp;architekturu 2020</h3>
+						<h3 class="gpa__projectName">Grand Prix Architektů - Národní cena za&nbsp;architekturu 2020</h3>
 						<a class="button button--arrow button--black" href="<?php echo $baseurl ?>/grand-prix-architekt-2020/">
 							Detail ročníku
 							<img class="button__arrow svg" src="<?php echo $baseurl ?>/assets/images/icons/arrow-right-white.svg" alt="">
@@ -211,8 +211,8 @@
 						<div class="gpa__projectImg">
 							<img src="<?php echo $baseurl ?>/assets/images/competition/gpa-2019.png" alt="">
 						</div>
-						<h3 class="gpa__projectName">Národní cena za&nbsp;architekturu 2019</h3>
-						<a class="button button--arrow button--black" href="<?php echo $baseurl ?>/grand-prix-architekt-2020/">
+						<h3 class="gpa__projectName">Grand Prix Architektů - Národní cena za&nbsp;architekturu 2019</h3>
+						<a class="button button--arrow button--black" href="<?php echo $baseurl ?>/grand-prix-architekt-2019/">
 							Detail ročníku
 							<img class="button__arrow svg" src="<?php echo $baseurl ?>/assets/images/icons/arrow-right-white.svg" alt="">
 						</a>
@@ -221,8 +221,251 @@
 						<div class="gpa__projectImg">
 							<img src="<?php echo $baseurl ?>/assets/images/competition/gpa-2018@2x.png" alt="">
 						</div>
-						<h3 class="gpa__projectName">Národní cena za&nbsp;architekturu 2018</h3>
-						<span class="gpa__projectDesc">Podrobnosti připravujeme.</span>
+						<h3 class="gpa__projectName">Grand Prix Architektů - Národní cena za&nbsp;architekturu 2018</h3>
+						<a class="button button--arrow button--black" href="<?php echo $baseurl ?>/grand-prix-architekt-2018/">
+							Detail ročníku
+							<img class="button__arrow svg" src="<?php echo $baseurl ?>/assets/images/icons/arrow-right-white.svg" alt="">
+						</a>
+					</div>
+					<div class="gpa__col">
+						<div class="gpa__projectImg">
+							<img src="<?php echo $baseurl ?>/assets/images/competition/logo-2017.png" alt="">
+						</div>
+						<h3 class="gpa__projectName">Grand Prix Architektů - Národní cena za&nbsp;architekturu 2017</h3>
+						<a class="button button--arrow button--black" href="<?php echo $baseurl ?>/grand-prix-architekt-2017/">
+							Detail ročníku
+							<img class="button__arrow svg" src="<?php echo $baseurl ?>/assets/images/icons/arrow-right-white.svg" alt="">
+						</a>
+					</div>
+					<div class="gpa__col">
+						<div class="gpa__projectImg">
+							<img src="<?php echo $baseurl ?>/assets/images/competition/logo-2016.png" alt="">
+						</div>
+						<h3 class="gpa__projectName">Grand Prix Architektů - Národní cena za&nbsp;architekturu 2016</h3>
+						<a class="button button--arrow button--black" href="<?php echo $baseurl ?>/grand-prix-architekt-2016/">
+							Detail ročníku
+							<img class="button__arrow svg" src="<?php echo $baseurl ?>/assets/images/icons/arrow-right-white.svg" alt="">
+						</a>
+					</div>
+					<div class="gpa__col">
+						<div class="gpa__projectImg">
+							<img src="<?php echo $baseurl ?>/assets/images/competition/logo-2015.png" alt="">
+						</div>
+						<h3 class="gpa__projectName">Grand Prix Architektů - Národní cena za&nbsp;architekturu 2015</h3>
+						<a class="button button--arrow button--black" href="<?php echo $baseurl ?>/grand-prix-architekt-2015/">
+							Detail ročníku
+							<img class="button__arrow svg" src="<?php echo $baseurl ?>/assets/images/icons/arrow-right-white.svg" alt="">
+						</a>
+					</div>
+					<div class="gpa__col">
+						<div class="gpa__projectImg">
+							<img src="<?php echo $baseurl ?>/assets/images/competition/logo-2014.png" alt="">
+						</div>
+						<h3 class="gpa__projectName">Grand Prix Architektů - Národní cena za&nbsp;architekturu 2014</h3>
+						<a class="button button--arrow button--black" href="<?php echo $baseurl ?>/grand-prix-architekt-2014/">
+							Detail ročníku
+							<img class="button__arrow svg" src="<?php echo $baseurl ?>/assets/images/icons/arrow-right-white.svg" alt="">
+						</a>
+					</div>
+					<div class="gpa__col">
+						<div class="gpa__projectImg">
+							<img src="<?php echo $baseurl ?>/assets/images/competition/logo-2013.png" alt="">
+						</div>
+						<h3 class="gpa__projectName">Grand Prix Architektů - Národní cena za&nbsp;architekturu 2013</h3>
+						<a class="button button--arrow button--black" href="<?php echo $baseurl ?>/grand-prix-architekt-2013/">
+							Detail ročníku
+							<img class="button__arrow svg" src="<?php echo $baseurl ?>/assets/images/icons/arrow-right-white.svg" alt="">
+						</a>
+					</div>
+					<div class="gpa__col">
+						<div class="gpa__projectImg">
+							<img src="<?php echo $baseurl ?>/assets/images/competition/logo-2012.png" alt="">
+						</div>
+						<h3 class="gpa__projectName">Grand Prix Architektů - Národní cena za&nbsp;architekturu 2012</h3>
+						<a class="button button--arrow button--black" href="<?php echo $baseurl ?>/grand-prix-architekt-2012/">
+							Detail ročníku
+							<img class="button__arrow svg" src="<?php echo $baseurl ?>/assets/images/icons/arrow-right-white.svg" alt="">
+						</a>
+					</div>
+					<div class="gpa__col">
+						<div class="gpa__projectImg">
+							<img src="<?php echo $baseurl ?>/assets/images/competition/logo-2011.png" alt="">
+						</div>
+						<h3 class="gpa__projectName">Grand Prix Architektů - Národní cena za&nbsp;architekturu 2011</h3>
+						<a class="button button--arrow button--black" href="<?php echo $baseurl ?>/grand-prix-architekt-2011/">
+							Detail ročníku
+							<img class="button__arrow svg" src="<?php echo $baseurl ?>/assets/images/icons/arrow-right-white.svg" alt="">
+						</a>
+					</div>
+					<div class="gpa__col">
+						<div class="gpa__projectImg">
+							<img src="<?php echo $baseurl ?>/assets/images/competition/logo-2010.png" alt="">
+						</div>
+						<h3 class="gpa__projectName">Grand Prix Architektů - Národní cena za&nbsp;architekturu 2010</h3>
+						<a class="button button--arrow button--black" href="<?php echo $baseurl ?>/grand-prix-architekt-2010/">
+							Detail ročníku
+							<img class="button__arrow svg" src="<?php echo $baseurl ?>/assets/images/icons/arrow-right-white.svg" alt="">
+						</a>
+					</div>
+					<div class="gpa__col">
+						<div class="gpa__projectImg">
+							<img src="<?php echo $baseurl ?>/assets/images/competition/logo-2009.png" alt="">
+						</div>
+						<h3 class="gpa__projectName">Grand Prix Architektů - Národní cena za&nbsp;architekturu 2009</h3>
+						<a class="button button--arrow button--black" href="<?php echo $baseurl ?>/grand-prix-architekt-2009/">
+							Detail ročníku
+							<img class="button__arrow svg" src="<?php echo $baseurl ?>/assets/images/icons/arrow-right-white.svg" alt="">
+						</a>
+					</div>
+					<div class="gpa__col">
+						<div class="gpa__projectImg">
+							<img src="<?php echo $baseurl ?>/assets/images/competition/logo-2008.png" alt="">
+						</div>
+						<h3 class="gpa__projectName">Grand Prix Architektů - Národní cena za&nbsp;architekturu 2008</h3>
+						<a class="button button--arrow button--black" href="<?php echo $baseurl ?>/grand-prix-architekt-2008/">
+							Detail ročníku
+							<img class="button__arrow svg" src="<?php echo $baseurl ?>/assets/images/icons/arrow-right-white.svg" alt="">
+						</a>
+					</div>
+					<div class="gpa__col">
+						<div class="gpa__projectImg">
+							<img src="<?php echo $baseurl ?>/assets/images/competition/logo-2007.png" alt="">
+						</div>
+						<h3 class="gpa__projectName">Grand Prix Architektů - Národní cena za&nbsp;architekturu 2007</h3>
+						<a class="button button--arrow button--black" href="<?php echo $baseurl ?>/grand-prix-architekt-2007/">
+							Detail ročníku
+							<img class="button__arrow svg" src="<?php echo $baseurl ?>/assets/images/icons/arrow-right-white.svg" alt="">
+						</a>
+					</div>
+					<div class="gpa__col">
+						<div class="gpa__projectImg">
+							<img src="<?php echo $baseurl ?>/assets/images/competition/logo-2006.png" alt="">
+						</div>
+						<h3 class="gpa__projectName">Grand Prix Obce Architektů - Národní cena za&nbsp;architekturu 2006</h3>
+						<a class="button button--arrow button--black" href="<?php echo $baseurl ?>/grand-prix-architekt-2006/">
+							Detail ročníku
+							<img class="button__arrow svg" src="<?php echo $baseurl ?>/assets/images/icons/arrow-right-white.svg" alt="">
+						</a>
+					</div>
+					<div class="gpa__col">
+						<div class="gpa__projectImg">
+							<img src="<?php echo $baseurl ?>/assets/images/competition/logo-2005.png" alt="">
+						</div>
+						<h3 class="gpa__projectName">Grand Prix Obce Architektů - Národní cena za&nbsp;architekturu 2005</h3>
+						<a class="button button--arrow button--black" href="<?php echo $baseurl ?>/grand-prix-architekt-2005/">
+							Detail ročníku
+							<img class="button__arrow svg" src="<?php echo $baseurl ?>/assets/images/icons/arrow-right-white.svg" alt="">
+						</a>
+					</div>
+					<div class="gpa__col">
+						<div class="gpa__projectImg">
+							<img src="<?php echo $baseurl ?>/assets/images/competition/logo-2004.png" alt="">
+						</div>
+						<h3 class="gpa__projectName">Grand Prix Obce Architektů - Národní cena za&nbsp;architekturu 2004</h3>
+						<a class="button button--arrow button--black" href="<?php echo $baseurl ?>/grand-prix-architekt-2004/">
+							Detail ročníku
+							<img class="button__arrow svg" src="<?php echo $baseurl ?>/assets/images/icons/arrow-right-white.svg" alt="">
+						</a>
+					</div>
+					<div class="gpa__col">
+						<div class="gpa__projectImg">
+							<img src="<?php echo $baseurl ?>/assets/images/competition/logo-2003.png" alt="">
+						</div>
+						<h3 class="gpa__projectName">Grand Prix Obce Architektů 2003</h3>
+						<a class="button button--arrow button--black" href="<?php echo $baseurl ?>/grand-prix-architekt-2003/">
+							Detail ročníku
+							<img class="button__arrow svg" src="<?php echo $baseurl ?>/assets/images/icons/arrow-right-white.svg" alt="">
+						</a>
+					</div>
+					<div class="gpa__col">
+						<div class="gpa__projectImg">
+							<img src="<?php echo $baseurl ?>/assets/images/competition/logo-2002.png" alt="">
+						</div>
+						<h3 class="gpa__projectName">Grand Prix Obce Architektů 2002</h3>
+						<a class="button button--arrow button--black" href="<?php echo $baseurl ?>/grand-prix-architekt-2002/">
+							Detail ročníku
+							<img class="button__arrow svg" src="<?php echo $baseurl ?>/assets/images/icons/arrow-right-white.svg" alt="">
+						</a>
+					</div>
+					<div class="gpa__col">
+						<div class="gpa__projectImg">
+							<img src="<?php echo $baseurl ?>/assets/images/competition/logo-2001.png" alt="">
+						</div>
+						<h3 class="gpa__projectName">Grand Prix Obce Architektů 2001</h3>
+						<a class="button button--arrow button--black" href="<?php echo $baseurl ?>/grand-prix-architekt-2001/">
+							Detail ročníku
+							<img class="button__arrow svg" src="<?php echo $baseurl ?>/assets/images/icons/arrow-right-white.svg" alt="">
+						</a>
+					</div>
+					<div class="gpa__col">
+						<div class="gpa__projectImg">
+							<img src="<?php echo $baseurl ?>/assets/images/competition/logo-2000.png" alt="">
+						</div>
+						<h3 class="gpa__projectName">Grand Prix Obce Architektů 2000</h3>
+						<a class="button button--arrow button--black" href="<?php echo $baseurl ?>/grand-prix-architekt-2000/">
+							Detail ročníku
+							<img class="button__arrow svg" src="<?php echo $baseurl ?>/assets/images/icons/arrow-right-white.svg" alt="">
+						</a>
+					</div>
+					<div class="gpa__col">
+						<div class="gpa__projectImg">
+							<img src="<?php echo $baseurl ?>/assets/images/competition/logo-1999.png" alt="">
+						</div>
+						<h3 class="gpa__projectName">Grand Prix Obce Architektů 1999</h3>
+						<a class="button button--arrow button--black" href="<?php echo $baseurl ?>/grand-prix-architekt-1999/">
+							Detail ročníku
+							<img class="button__arrow svg" src="<?php echo $baseurl ?>/assets/images/icons/arrow-right-white.svg" alt="">
+						</a>
+					</div>
+					<div class="gpa__col">
+						<div class="gpa__projectImg">
+							<img src="<?php echo $baseurl ?>/assets/images/competition/logo-1998.png" alt="">
+						</div>
+						<h3 class="gpa__projectName">Grand Prix Obce Architektů 1998</h3>
+						<a class="button button--arrow button--black" href="<?php echo $baseurl ?>/grand-prix-architekt-1998/">
+							Detail ročníku
+							<img class="button__arrow svg" src="<?php echo $baseurl ?>/assets/images/icons/arrow-right-white.svg" alt="">
+						</a>
+					</div>
+					<div class="gpa__col">
+						<div class="gpa__projectImg">
+							<img src="<?php echo $baseurl ?>/assets/images/competition/logo-1996.png" alt="">
+						</div>
+						<h3 class="gpa__projectName">Grand Prix Obce Architektů 1996</h3>
+						<a class="button button--arrow button--black" href="<?php echo $baseurl ?>/grand-prix-architekt-1996/">
+							Detail ročníku
+							<img class="button__arrow svg" src="<?php echo $baseurl ?>/assets/images/icons/arrow-right-white.svg" alt="">
+						</a>
+					</div>
+					<div class="gpa__col">
+						<div class="gpa__projectImg">
+							<img src="<?php echo $baseurl ?>/assets/images/competition/logo-1995.png" alt="">
+						</div>
+						<h3 class="gpa__projectName">Grand Prix Obce Architektů 1995</h3>
+						<a class="button button--arrow button--black" href="<?php echo $baseurl ?>/grand-prix-architekt-1995/">
+							Detail ročníku
+							<img class="button__arrow svg" src="<?php echo $baseurl ?>/assets/images/icons/arrow-right-white.svg" alt="">
+						</a>
+					</div>
+					<div class="gpa__col">
+						<div class="gpa__projectImg">
+							<img src="<?php echo $baseurl ?>/assets/images/competition/logo-1994.png" alt="">
+						</div>
+						<h3 class="gpa__projectName">Grand Prix Obce Architektů 1994</h3>
+						<a class="button button--arrow button--black" href="<?php echo $baseurl ?>/grand-prix-architekt-1994/">
+							Detail ročníku
+							<img class="button__arrow svg" src="<?php echo $baseurl ?>/assets/images/icons/arrow-right-white.svg" alt="">
+						</a>
+					</div>
+					<div class="gpa__col">
+						<div class="gpa__projectImg">
+							<img src="<?php echo $baseurl ?>/assets/images/competition/logo-1993.png" alt="">
+						</div>
+						<h3 class="gpa__projectName">Grand Prix Obce Architektů 1993</h3>
+						<a class="button button--arrow button--black" href="<?php echo $baseurl ?>/grand-prix-architekt-1993/">
+							Detail ročníku
+							<img class="button__arrow svg" src="<?php echo $baseurl ?>/assets/images/icons/arrow-right-white.svg" alt="">
+						</a>
 					</div>
 				</div>
 			</div>
@@ -332,12 +575,7 @@
 	</div>
 </section>
 
-
-
-
 <?php include('./components/partners/2023.php'); ?>
-
-<?php include('./components/partners/oa-partners.php'); ?>
 
 <section id="footer" class="footer">
 	<?php include('footer.php'); ?>
