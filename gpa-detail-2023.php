@@ -53,25 +53,53 @@
 		<div class="gpa__row">
 			<div class="gpa__col">
 				<p>
-					<strong>Obec architektů vyhlašuje již XXX. Ročník Grand Prix Architektů – Národní cenu za architekturu 2023.</strong>
+					Do letošního jubilejního XXX. ročníku Grand Prix Architektů – Národní ceny za architekturu se <strong>přihlásilo 275 architektonických projektů</strong>. Ve srovnání s loňským rokem došlo opět k navýšení přihlášených realizací.
 				</p>
 			
 				<p>
-					Největší českou architektonickou soutěžní přehlídku o nejlepší architektonický počin, realizovaný v roce 2022 bude tradičně oceňovat pětičlenná nezávislá porota:
+					Nyní probíhá <strong>první kolo hodnocení</strong> projektů, kdy porota vybere <strong>shortlist 50 finalistů / projektů</strong>, které postoupí do finále. 
+				</p>
+
+				<p>
+					Všech 275 přihlášených projektů si můžete prohlédnout <a href="https://grandprix.grandprixarchitektu.cz/rocnik/2023" target="_blank">zde</a>.
+				</p>
+
+				<p>
+					<strong>Druhé kolo porotování</strong> proběhne v rámci 5. ročníku Grand Prix Architektů Festivalu by GROHE v <strong>pondělí 30. 10. 2023 ve Velké dvoraně Veletržního Paláce</strong>, kdy se všech 50 projektů bude prezentovat před porotou. 
+				</p>
+
+				<p>
+					Ještě tentýž večer bude <strong>vyhlášení vítězů XXX. ročníku GPA – Národní ceny za architekturu 2023 ve 20.00 také ve Velké dvoraně Veletržního paláce</strong>.
+				</p>
+				
+				<p>
+					Členové poroty si jako předsedkyni poroty zvolili <strong>Amandu Levete</strong>.
+				</p>
+
+				<p>
+					<i>„Amanda Levete, která je současně předsedkyní poroty, získala za svou práci řadu významných ocenění. A jsem rád, že se nám v rámci jejího pobytu v Praze, podařilo zorganizovat i její přednášku 27. 10. v CAMPu (Centru architektury a městského plánování). Pokračujeme tak v trendu zvyšující se úrovně této největší architektonické přehlídky v České republice.“</i> uvedl Ing. arch. Oleg Haman, předseda Obce architektů
+				</p>
+
+				<p>
+					Složení poroty:
 				</p>
 
 				<ul class="gpa__jury">
 					<li>
 						<strong>Amanda Levete</strong> / Velká Británie <br>
-						– Principal at Studio AL__A <br>
-						– vítězka Stirlingovy ceny, držitelka Jane Drew Prize, komandér Řádu britského impéria
+						– získala ocenění Stirlingova cena, Jane Drew Prize, komandér Řádu britského impéria
+						– Studio <a href="https://www.ala.uk.com/about-us/people/amanda-levete/" target="_blank">AL__A</a>
 					</li>
 
 					<li>
 						<strong>Irakli Eristavi</strong> / Slovensko <br>
 						– <a href="https://zerozero.sk/" target="_blank">studio zerozero</a>
 					</li>
-					
+				</ul>
+			</div>
+
+			<div class="gpa__col">
+				<ul class="list">
 					<li>
 						<strong>Thorbjörn Andersson</strong> / Švédsko <br>
 						– studio Thorbjörn Andersson Landscape Architect <br>
@@ -88,30 +116,20 @@
 						– studio <a href="https://petrstefek.com/munio_portfolio/cv-cz/" target="_blank">Petr Štefek Architect</a>
 					</li>
 				</ul>
-			</div>
-
-			<div class="gpa__col">
-				<p>
-					“Letošní 30. ročník je jubilejní a je pro nás velkou výzvou. Věřím se nám podařilo vytvořit
-					vynikající vyváženou porotu. Může nás jenom těšit, že pro oslovené architekty je účast v 
-					porotě otázkou prestiže. Architektka Amanda Levete, která vedla s Janem Kaplickým světoznámé studio Future Systems, poctí naši architektonickou veřejnost svoji přednáškou v pátek 27.10. od 17 hod v prostorách CAMP. Porota nebude mít jednoduchou práci vzhledem ke stále stoupající úrovni přihlašovaných prací. V prvním elektronickém kole 5 porotců volí nezávisle na sobě a v různém čase pouze ano či ne pro postup. Úroveň je tak vysoká, že mnohdy ani 3 souhlasy nezaručí postup mezi 50 finalistů. Tato vysoká kvalita soutěžní přehlídky posunuje všechny architekty v práci, aby držely krok s dobou a současnými trendy, mne nevyjímaje,” uvedl k vyhlášení XXX. ročníku Oleg Haman, předseda Obce architektů.
-				</p>
-				
-				<p>
-					Termín vyhlášení výsledků Grand Prix Architektů a konání GPA Festivalu by Grohe je 30.10.2023. 
-				</p>
-
-				<p>
-					Projekt musí být dokončen v rozmezí 1. 1. 2022&mdash;31. 3. 2023 a postaven na území České republiky. Pro krajinářská díla je rozmezí 3 roky, tedy od 1. 1. 2020&mdash;31. 3. 2023.
-				</p>
-
-				<p>
-					Přihlašovat své projekty můžete do půlnoci 15. srpna 2023.
-				</p>
+				<p>Počet projektů v soutěži dle kategorií:</p>
+				<ul class="list">
+					<li><strong>Novostavba</strong>: 70 projektů</li>
+					<li><strong> Rodinný dům</strong>: 30 projektů</li>
+					<li><strong> Rekonstrukce</strong>: 54 projektů</li>
+					<li><strong>Interiér</strong>: 70 projektů</li>
+					<li><strong>Krajinářská architektura a&nbsp;zahradní tvorba</strong>: 9 projektů</li>
+					<li><strong>Urbanismus</strong>: 6 projektů</li>
+					<li><strong>Architektonický design, drobná architektura a výtvarné dílo v&nbsp;architektuře</strong>: 34 projektů</li>
+				</ul>
 
 				<div class="buttonRow buttonRow--left">
-					<a href="https://grandprix.grandprixarchitektu.cz/" target="_blank" class="button button--black button--arrow">
-						Přihlašovací formulář
+					<a href="https://grandprix.grandprixarchitektu.cz/rocnik/2023" target="_blank" class="button button--black button--arrow">
+						Všechny projekty
 						<img class="button__arrow svg" src="<?php echo $baseurl ?>/assets/images/icons/arrow-right-white.svg" alt="">
 					</a>
 				</div>
@@ -131,6 +149,9 @@
 	<div class="gpTabs__wrapper wrapper" id="press">
 		<div class="gpTabs__content">
 			<ul class="downloadList">
+				<li class="downloadList__item">
+					<a href="<?php echo $baseurl ?>/ukonceni-prihlasek-2023/">Tisková zpráva 17. 8. 2023 - ukončení přihlášek (PDF)</a>
+				</li>
 				<li class="downloadList__item">
 					<a href="<?php echo $baseurl ?>/prodlouzeni-terminu-prihlaseni-2023/">Tisková zpráva 30. 6. 2023 - prodloužení termínu přihlášení (PDF)</a>
 				</li>	

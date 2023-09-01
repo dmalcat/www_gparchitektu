@@ -202,6 +202,9 @@ $route = str_replace(str_replace("/router.php", "", $_SERVER['PHP_SELF']), "", $
     elseif (preg_match('/prodlouzeni-terminu-prihlaseni-2023/', $route)):
         require('./components/downloads/2023/vyhlaseni-rocniku.php');
 
+    elseif (preg_match('/ukonceni-prihlasek-2023/', $route)):
+        require('./components/downloads/2023/ukonceni-prihlasek.php');
+
 
     endif;
 ?>    

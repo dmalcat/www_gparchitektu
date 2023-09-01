@@ -34,8 +34,30 @@
 							</a>
 						</div>
 						<div class="partners__logos">
+							<a href="https://www.drevostavitel.cz/" target="_blank">
+								<img class="logo logo--archinfo" src="<?php echo $baseurl ?>/assets/images/partners/2023/drevostavitel.png" alt="">
+							</a>	
+							
 							<a href="http://orgmedia.cz/" target="_blank">
 								<img class="logo logo--archinfo" src="<?php echo $baseurl ?>/assets/images/partners/oa/orgmedia.png" alt="">
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="partners__row">
+					<div class="partners__col">
+						<span class="partners__subheadline">Projekt vznikl za finanční podpory</span>
+						<div class="partners__logos">
+							<a href="https://www.mkcr.cz/statni-fond-kultury-cr-cs-42" target="_blank">
+								<img class="logo" src="<?php echo $baseurl ?>/assets/images/partners/2023/sfk.png" alt="">
+							</a>
+						</div>
+					</div>
+					<div class="partners__col">
+						<span class="partners__subheadline">Partner přednášky Amandy Levete</span>
+						<div class="partners__logos">
+							<a href="https://www.saint-gobain.cz/" target="_blank">
+								<img class="logo logo--archinfo" src="<?php echo $baseurl ?>/assets/images/partners/2023/sg.svg" alt="">
 							</a>
 						</div>
 					</div>
