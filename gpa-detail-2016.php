@@ -55,11 +55,9 @@
 			<div class="gpa gpa--projects">
 				<div class="gpa__row gpa__row--projects row">
 					<div class="gpa__col">
-						<!--
 						<div class="gpa__projectImg">
-							<img src="<?php echo $baseurl ?>/assets/images/projects/prestavba-menzy.png" alt="">
+							<img src="<?php echo $baseurl ?>/assets/images/projects/2016/vitez.jpg" alt="">
 						</div>
-						-->
 						<h3 class="gpa__projectName">Národní cena za&nbsp;architekturu 2016</h3>
 						<span class="gpa__projectDesc">
 							<span class="gpa__title"><strong>Název projektu:</strong> Rekonstrukce Bílé věže v Hradci Králové</span>
@@ -69,22 +67,15 @@
 						</span>
 					</div>
 					<div class="gpa__col">
-						<!--
 						<div class="gpa__projectImg">
-							<img src="<?php echo $baseurl ?>/assets/images/projects/viktor-rudis.png" alt="">
+							<img src="<?php echo $baseurl ?>/assets/images/projects/2016/celozivotni-dilo.png" alt="">
 						</div>
-						-->
 						<h3 class="gpa__projectName">Cena za&nbsp;Celoživotní dílo</h3>
 						<span class="gpa__projectDesc">
 							<span>Neuděleno</span>
 						</span>
 					</div>
 					<div class="gpa__col">
-						<!--
-						<div class="gpa__projectImg">
-							<img src="<?php echo $baseurl ?>/assets/images/projects/novostavba.png" alt="">
-						</div>
-						-->
 						<h3 class="gpa__projectName">Novostavba</h3>
 						<span class="gpa__projectDesc">
 							<span class="gpa__title"><strong>Název projektu:</strong> ELI Beamlines - Mezinárodní výzkumné laserové centrum, Dolní Břežany </span>

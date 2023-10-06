@@ -95,9 +95,9 @@
 				<div class="gpa__row row">
 					<div class="gpa__col">
 						<div class="gpa__projectImg">
-							<img src="<?php echo $baseurl ?>/assets/images/projects/prestavba-menzy.png" alt="">
+							<img src="<?php echo $baseurl ?>/assets/images/projects/2021/vitez.jpg" alt="">
 						</div>
-						<h3 class="gpa__projectName">Národní cena za&nbsp;architektura 2021</h3>
+						<h3 class="gpa__projectName">Národní cena za&nbsp;architekturu 2021</h3>
 						<span class="gpa__projectDesc">
 							<span class="gpa__title"><strong>Název projektu:</strong> Fakulta humanitních studií UK – přestavba menzy Koleje 17. listopadu</span>
 							<strong>Autor</strong>: Ladislav Kuba, Tomáš Pilař, Martin Klimecký <br>

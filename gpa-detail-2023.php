@@ -14,8 +14,6 @@
 
 	<?php include('./components/head.php'); ?>
 </head>
-
-
 <body>
 
 <!-- Menu -->
@@ -53,17 +51,36 @@
 		<div class="gpa__row">
 			<div class="gpa__col">
 				<p>
-					Do letošního jubilejního XXX. ročníku Grand Prix Architektů – Národní ceny za architekturu se <strong>přihlásilo 275 architektonických projektů</strong>. Ve srovnání s loňským rokem došlo opět k navýšení přihlášených realizací.
-				</p>
-			
-				<p>
-					Nyní probíhá <strong>první kolo hodnocení</strong> projektů, kdy porota vybere <strong>shortlist 50 finalistů / projektů</strong>, které postoupí do finále. 
+					Obec architektů, pořadatel GPA – Národní ceny za architekturu, na tiskové konferenci 21.9.2023 představila 50 projektů, které postoupily do užšího finále.
 				</p>
 
 				<p>
-					Všech 275 přihlášených projektů si můžete prohlédnout <a href="https://grandprix.grandprixarchitektu.cz/rocnik/2023" target="_blank">zde</a>.
+					Shortlist 50 projektů naleznete <a href="https://grandprix.grandprixarchitektu.cz/rocnik/2023/shortlist" target="_blank">zde</a>. Vybrané projekty byly přihlášeny do těchto kategorií:
 				</p>
 
+				<ul class="list">
+					<li><strong>Novostavba</strong>: 13 projektů</li>
+					<li><strong> Rodinný dům</strong>: 1 projekt</li>
+					<li><strong> Rekonstrukce</strong>: 18 projektů</li>
+					<li><strong>Interiér</strong>: 4 projekty</li>
+					<li><strong>Krajinářská architektura a&nbsp;zahradní tvorba</strong>: 3 projekty</li>
+					<li><strong>Urbanismus</strong>: 3 projekty</li>
+					<li>
+						<strong>Architektonický design, drobná architektura <br>
+						a výtvarné dílo v&nbsp;architektuře</strong>: 8 projektů
+					</li>
+				</ul>
+
+				<p>
+					“Po prvním kole jsou projekty seřazeny ve skupinách podle počtu bodů, které jim udělila porota v 1. kole hodnocení. Ale často finální rozhodnutí poroty toto pořadí ne zcela respektuje a máme příklady, kdy projekt, který měl 5 hlasů po prvním kole, nezískal žádnou cenu. Oproti tomu známe případy, kdy projekt se třemi hlasy (což je minimum pro postup mezi 50 finalistů) získal Grand Prix. Velice důležitým podkladem pro finální rozhodnutí poroty jsou prezentace samotných architektů v průběhu Grand Prix Architektů Festivalu. Všichni finalisté se musí prezentovat, to je podmínka 2. kola rozhodování poroty”
+				</p>
+
+				<p>
+					Všechny projekty budou prezentovány na 5. ročníku Grand Prix Architektů Festivalu by Grohe, který se koná 30. října ve Veletržním paláci od 9.30 do 16.30. Následně proběhne finální hodnocení poroty a večer budou slavnostně předány ocenění.
+				</p>
+			</div>
+
+			<div class="gpa__col">
 				<p>
 					<strong>Druhé kolo porotování</strong> proběhne v rámci 5. ročníku Grand Prix Architektů Festivalu by GROHE v <strong>pondělí 30. 10. 2023 ve Velké dvoraně Veletržního Paláce</strong>, kdy se všech 50 projektů bude prezentovat před porotou. 
 				</p>
@@ -84,7 +101,7 @@
 					Složení poroty:
 				</p>
 
-				<ul class="gpa__jury">
+				<ul class="list">
 					<li>
 						<strong>Amanda Levete</strong> / Velká Británie <br>
 						– získala ocenění Stirlingova cena, Jane Drew Prize, komandér Řádu britského impéria
@@ -95,11 +112,6 @@
 						<strong>Irakli Eristavi</strong> / Slovensko <br>
 						– <a href="https://zerozero.sk/" target="_blank">studio zerozero</a>
 					</li>
-				</ul>
-			</div>
-
-			<div class="gpa__col">
-				<ul class="list">
 					<li>
 						<strong>Thorbjörn Andersson</strong> / Švédsko <br>
 						– studio Thorbjörn Andersson Landscape Architect <br>
@@ -116,17 +128,7 @@
 						– studio <a href="https://petrstefek.com/munio_portfolio/cv-cz/" target="_blank">Petr Štefek Architect</a>
 					</li>
 				</ul>
-				<p>Počet projektů v soutěži dle kategorií:</p>
-				<ul class="list">
-					<li><strong>Novostavba</strong>: 70 projektů</li>
-					<li><strong> Rodinný dům</strong>: 30 projektů</li>
-					<li><strong> Rekonstrukce</strong>: 54 projektů</li>
-					<li><strong>Interiér</strong>: 70 projektů</li>
-					<li><strong>Krajinářská architektura a&nbsp;zahradní tvorba</strong>: 9 projektů</li>
-					<li><strong>Urbanismus</strong>: 6 projektů</li>
-					<li><strong>Architektonický design, drobná architektura a výtvarné dílo v&nbsp;architektuře</strong>: 34 projektů</li>
-				</ul>
-
+				
 				<div class="buttonRow buttonRow--left">
 					<a href="https://grandprix.grandprixarchitektu.cz/rocnik/2023" target="_blank" class="button button--black button--arrow">
 						Všechny projekty
@@ -150,6 +152,9 @@
 		<div class="gpTabs__content">
 			<ul class="downloadList">
 				<li class="downloadList__item">
+					<a href="<?php echo $baseurl ?>/shortlist-2023-pdf/">Tisková zpráva 21. 9. 2023 - shortlist 50 finalistů (PDF)</a>
+				</li>
+				<li class="downloadList__item">
 					<a href="<?php echo $baseurl ?>/ukonceni-prihlasek-2023/">Tisková zpráva 17. 8. 2023 - ukončení přihlášek (PDF)</a>
 				</li>
 				<li class="downloadList__item">
@@ -170,7 +175,14 @@
 	</div>
 	<div class="gpTabs__wrapper wrapper" id="projects">
 		<div class="gpTabs__content">
-			<p>Bude doplněno.</p>
+			<a href="https://grandprix.grandprixarchitektu.cz/rocnik/2023/shortlist" target="_blank" class="button button--black button--arrow">
+				Shortlist
+				<img class="button__arrow svg" src="<?php echo $baseurl ?>/assets/images/icons/arrow-right-white.svg" alt="">
+			</a>
+			<a href="https://grandprix.grandprixarchitektu.cz/rocnik/2023" target="_blank" class="button button--black button--arrow">
+				Všechny projekty
+				<img class="button__arrow svg" src="<?php echo $baseurl ?>/assets/images/icons/arrow-right-white.svg" alt="">
+			</a>
 		</div>
 	</div>
 </section>

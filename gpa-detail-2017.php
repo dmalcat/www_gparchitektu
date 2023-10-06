@@ -55,11 +55,9 @@
 			<div class="gpa gpa--projects">
 				<div class="gpa__row gpa__row--projects row">
 					<div class="gpa__col">
-						<!--
 						<div class="gpa__projectImg">
-							<img src="<?php echo $baseurl ?>/assets/images/projects/prestavba-menzy.png" alt="">
+							<img src="<?php echo $baseurl ?>/assets/images/projects/2017/vitez.jpg" alt="">
 						</div>
-						-->
 						<h3 class="gpa__projectName">Národní cena za&nbsp;architekturu 2017</h3>
 						<span class="gpa__projectDesc">
 							<span class="gpa__title"><strong>Název projektu:</strong> Showroom kancelářské firmy MY DVA group</span>
@@ -69,11 +67,9 @@
 						</span>
 					</div>
 					<div class="gpa__col">
-						<!--
 						<div class="gpa__projectImg">
-							<img src="<?php echo $baseurl ?>/assets/images/projects/viktor-rudis.png" alt="">
+							<img src="<?php echo $baseurl ?>/assets/images/projects/2017/celozivotni-dilo.jpg" alt="">
 						</div>
-						-->
 						<h3 class="gpa__projectName">Cena za&nbsp;Celoživotní dílo</h3>
 						<span class="gpa__projectDesc">
 							<span class="gpa__title">Tuto cenu uděluje Rada Obce architektů.</span>

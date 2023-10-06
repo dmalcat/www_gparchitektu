@@ -59,6 +59,9 @@
 							<a href="https://www.saint-gobain.cz/" target="_blank">
 								<img class="logo logo--archinfo" src="<?php echo $baseurl ?>/assets/images/partners/2023/sg.svg" alt="">
 							</a>
+							<a href="https://www.halla.cz/" target="_blank">
+								<img class="logo logo--archinfo" src="<?php echo $baseurl ?>/assets/images/partners/2023/halla.png" alt="">
+							</a>
 						</div>
 					</div>
 				</div>
