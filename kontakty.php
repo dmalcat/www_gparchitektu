@@ -65,6 +65,12 @@
 					</span>
 				</div>
 
+                <div class="contact__wrap">
+					<span class="contact__bankaccount">
+                        <a href="https://www.csas.cz/cs/transparentni-ucty#/000000-6535353379/Ing.-Arch.-Oleg-Haman" target="_blank">Transparentní účet</a> č. 000000-6535353379/0800
+                    </span>
+                </div>
+
 				<p class="contact__legal">
 					Spolek vedený u Městského soudu v Praze, spisová značka L 607.
 				</p>

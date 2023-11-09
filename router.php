@@ -174,6 +174,18 @@ $route = str_replace(str_replace("/router.php", "", $_SERVER['PHP_SELF']), "", $
     elseif (preg_match('/galerie-2022-porota-v-praze/', $route)):
         require('./components/galleries/2022/porota.php');
 
+    elseif (preg_match('/galerie-2023-galavecer-fotokoutek/', $route)):
+        require('./components/galleries/2023/fotokoutek.php');
+    
+    elseif (preg_match('/galerie-2023-festival/', $route)):
+        require('./components/galleries/2023/festival.php');
+    
+    elseif (preg_match('/galerie-2023-galavecer/', $route)):
+        require('./components/galleries/2023/galavecer.php');
+    
+    elseif (preg_match('/galerie-2023-prednaska-amandy-levete/', $route)):
+        require('./components/galleries/2023/prednaska.php');
+
     // PDFs
     elseif (preg_match('/katalog-pdf/', $route)):
         require('./components/downloads/catalog-pdf.php');
@@ -207,6 +219,9 @@ $route = str_replace(str_replace("/router.php", "", $_SERVER['PHP_SELF']), "", $
     
     elseif (preg_match('/shortlist-2023-pdf/', $route)):
         require('./components/downloads/2023/shortlist.php');
+    
+    elseif (preg_match('/vysledky-2023-pdf/', $route)):
+        require('./components/downloads/2023/vysledky.php');
 
 
     endif;
