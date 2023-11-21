@@ -105,6 +105,12 @@
 				width: 100%;
 			}
 		}
+
+		&:nth-child(odd) {
+			.news__col--img {
+				order: -1;
+			}
+		}
 	}
 
 	.news__col--copy {

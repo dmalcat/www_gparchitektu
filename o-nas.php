@@ -89,7 +89,7 @@
                         <ul class="list">
                         <li>Gold Medal</li>
                         <li>Auguste Perret Prize (Karel Hub&aacute;ček 1969)</li>
-                        <li>Jean Tschumi Prize</li>
+                        <li>Jean Tschumi Prize (Vladimír Šlapeta 2023)</li>
                         <li>Robert Matthew Prize</li>
                         <li>Vassilis Sgoutas Prize</li>
                     </ul>

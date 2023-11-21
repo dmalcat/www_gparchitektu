@@ -405,7 +405,7 @@
 							<strong>Ateliér</strong>: ORA (originální regionální architektura) <br>
 							<strong>Cena:</strong> Diplom
 						</span>
-						<a class="button button--black button--arrow button--arrow" href="https://grandprix.grandprixarchitektu.cz/rocnik/2023/shortlist/102">
+						<a class="button button--black button--arrow button--arrow" href="https://grandprix.grandprixarchitektu.cz/admin/event/3/project/1026">
 							Detail projektu
 							<img class="button__arrow svg" src="<?php echo $baseurl ?>/assets/images/icons/arrow-right-white.svg" alt="">
 						</a>
@@ -606,18 +606,6 @@
 		<div class="gpTabs__content">
 			<div class="gallery">
 				<div class="gallery__group">
-					<a class="gallery__link" href="<?php echo $baseurl ?>/galerie-2023-prednaska-amandy-levete/">
-						<span class="gallery__image">
-							<img src="<?php echo $baseurl ?>/assets/images/gallery/2023/prednaska-amandy-levete/thumb/gallery-30.jpeg" alt="">
-							<span class="gallery__overlay">
-								<span class="button button--yellow">Zobrazit galerii</span>
-							</span>
-						</span>
-						<h2>
-							<strong>Přednáška</strong> <br>
-							Amandy Levete
-						</h2>
-					</a>
 					<a class="gallery__link" href="<?php echo $baseurl ?>/galerie-2023-galavecer/">
 						<span class="gallery__image">
 							<img src="<?php echo $baseurl ?>/assets/images/gallery/2023/galavecer/thumb/gallery-194.jpeg" alt="">
@@ -651,6 +639,18 @@
 						</span>
 						<h2>
 							<strong>Festival</strong> <br>
+						</h2>
+					</a>
+					<a class="gallery__link" href="<?php echo $baseurl ?>/galerie-2023-prednaska-amandy-levete/">
+						<span class="gallery__image">
+							<img src="<?php echo $baseurl ?>/assets/images/gallery/2023/prednaska-amandy-levete/thumb/gallery-1.jpeg" alt="">
+							<span class="gallery__overlay">
+								<span class="button button--yellow">Zobrazit galerii</span>
+							</span>
+						</span>
+						<h2>
+							<strong>Přednáška</strong> <br>
+							Amandy Levete
 						</h2>
 					</a>
 				</div>

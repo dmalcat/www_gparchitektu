@@ -119,6 +119,16 @@
             <h3>Čestní členové</h3>
             <div class="members__list">
                 <div class="members__item">
+                    <h3>2023</h3>
+                    <ul class="list">
+                        <li>Amanda Levete (Velká Británie)</li>
+                        <li>Irakli Eristavi (Slovensko)</li>
+                        <li>Thorbjörn Andersson (Švédsko)</li>
+                        <li>Balázs Bognár (Japonsko)</li>
+                        <li>Petr Štefek (Česko)</li>
+                    </ul>
+                </div>
+                <div class="members__item">
                     <h3>2022</h3>
                     <ul class="list">
                         <li>Jean-Pierre Carniaux (Francie)</li>

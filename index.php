@@ -126,70 +126,47 @@
 <section class="news news--hp">
 	<div class="news__wrapper wrapper">
 		<h1 class="text-center">Poslední novinky</h1>
-		<div class="news__row">
+		
 		<?php
-			
 			include 'conn.php';
 
 			// Create connection
 			$conn = new mysqli($servername, $username, $password, $dbname);
 			$conn->set_charset('utf8');
-
 			// Check connection
 			if ($conn->connect_error) {
 				die("Connection failed: " . $conn->connect_error);
 			}
-			$sql = "SELECT * FROM oa_clanky WHERE status='1' ORDER BY id DESC LIMIT 1";
+			$sql = "SELECT * FROM oa_clanky WHERE status='1' ORDER BY id DESC LIMIT 2";
+
 			$result = $conn->query($sql);
 
-
-			if ($result->num_rows > 0) {                                     
+			if ($result->num_rows > 0) {
 				// output data of each row
 				while($row = $result->fetch_assoc()) {
-					$id = $row['id'];   
+					$id = $row['id'];
 					$title = $row['title'];
 					$content = $row['content'];
 					$datum= $row['date'];
 					$photo= $row['main_img'];
 
+
 					$cisty_text = strip_tags($content);
-					
 
-					$pole = explode(" ",$cisty_text);
-					
-				}
+					if (substr_count($cisty_text, " ") > 30) {
+						$pole = explode(" ",$cisty_text);
 
-					for ($i=0;$i<140;$i++) {
-						$pole2[$i]=$pole[$i];
-					};
+						for ($i=0;$i<30;$i++):
 
-					$text = implode(" ",$pole2);
-					
-					function substrwords($text, $maxchar, $end='...') {
-						if (strlen($text) > $maxchar || $text == '') {
-							$words = preg_split('/\s/', $text);
-							$output = '';
-							$i      = 0;
-							while (1) {
-								$length = strlen($output)+strlen($words[$i]);
-								if ($length > $maxchar) {
-									break;
-								} 
-								else {
-									$output .= " " . $words[$i];
-									++$i;
-								}
-							}
-							$output .= $end;
-						} 
-						else {
-							$output = $text;
-						}
-						return $output;
+							$pole2[$i]=$pole[$i];
+
+
+						endfor;
+
+						$text = implode(" ",$pole2);
+					} else {
+						$text = $cisty_text;
 					}
-
-					$text = substrwords($text, 400);
-
 					//vytvoření odkazu
 					$string = $title;
 					$string = str_replace("+", " ", $string);
@@ -204,23 +181,22 @@
 						. '[:Separator:] > \'-\''
 					)
 						->transliterate( $string );
-						$slug; // namnet-pa-bildtavlingen
+					$slug; // namnet-pa-bildtavlingen
 
 
 					$odkaz = "$slug";
 
-
-					
-					echo "      
+					echo "
+					<div class='news__row'>               
 						<div class='news__col news__col--copy'>
 							<h2>$title</h2>
-
+			
 							<img class='news__img news__img--mobile' src='./uploads/images/$photo' alt=''>
 							
 							<p>
 								$text
 							</p>
-
+			
 							<div class='buttonRow buttonRow--left'>
 								<a href='$baseurl/novinka/$id-$odkaz' class='button button--black button--arrow'>
 									Číst dále
@@ -228,20 +204,27 @@
 								</a>
 							</div>
 						</div>
-							
+						
 						<div class='news__col news__col--img'>
 							<img class='news__img news__img--desktop' src='$baseurl/uploads/images/$photo' alt=''>
 						</div>
-					";
-				}
+					</div>
+				";
+			}
+
+			} 
+			else {}
 
 			$conn->close();
-			
 
 			?>
-
-				
-			
+	
+			<div class="news__row">
+				<a href="<?php echo $baseurl ?>/novinky/gpa" class='button button--black button--arrow'>
+					Všechny novinky
+					<img class="button__arrow svg" src="<?php echo $baseurl ?>/assets/images/icons/arrow-right-white.svg" alt="">
+				</a>
+			</div>
 	</div>
 </section>
 
